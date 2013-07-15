@@ -1,0 +1,34 @@
+id	protocol	alias	grade	season	desc
+1	H	01H			14 Months
+2	H	02H			18 Months
+3	H	03H			22 Months
+4	H	04H			26 Months
+5	H	05H			30 Months
+6	H	06H			34 Months
+7	H	07H			38 Months
+8	H	08H			42 Months
+9	H	09H			46 Months
+10	H	10H			50 Months
+11	H	11H			54 Months
+12	H	12H			58 Months
+13	L	PS_1	PS	FALL	Preschool, Fall
+14	L	PS_2	PS	WINTER	Preschool, Winter
+15	L	PS_3	PS	SPRING	Preschool, Spring
+16	L	KG_1	KG	FALL	Kindergarten, Fall
+17	L	KG_2	KG	WINTER	Kindergarten, Winter
+18	L	KG_3	KG	SPRING	Kindergarten, Spring
+19	L	1G_1	1G	FALL	First Grade, Fall
+20	L	1G_2	1G	WINTER	First Grade, Winter
+21	L	1G_3	1G	SPRING	First Grade, Spring
+22	L	2G_1	2G	FALL	Second Grade, Fall
+23	L	2G_2	2G	WINTER	Second Grade, Winter
+24	L	2G_3	2G	SPRING	Second Grade, Spring
+25	L	3G_1	3G	FALL	Third Grade, Fall
+26	L	3G_2	3G	WINTER	Third Grade, Winter
+27	L	3G_3	3G	SPRING	Third Grade, Spring
+28	L	4G_1	4G	FALL	Fourth Grade, Fall
+29	L	4G_2	4G	WINTER	Fourth Grade, Winter
+30	L	4G_3	4G	SPRING	Fourth Grade, Spring
+31	L	5G_1	5G	FALL	Fifth Grade, Fall
+32	L	5G_2	5G	WINTER	Fifth Grade, Winter
+33	L	5G_3	5G	SPRING	Fifth Grade, Spring

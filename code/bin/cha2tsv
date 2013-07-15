@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+'''cha2tsv - convert CHAT files to TSV files with tiers as columns.'''
+
+import sys
+from chat.file import Reader
+
+Reader(sys.argv[1]).pprint('id', 'speaker', 'utt', 'mor', 'syn')

@@ -1,0 +1,31 @@
+export LDP="$HOME/ldp"
+
+export REPO="$LDP/morphosyntax/"
+export CLAN="$REPO/clan/"
+export CLAN_LEX=$CLAN/lib/english/all.cut
+
+export LDP_DATA="$LDP/data"
+export LDP_CODE="$LDP/code"
+export LDP_DOCS="$LDP/docs"
+export LDP_LIB="$LDP_CODE/lib/python"
+export LDP_BIN="$LDP/code/bin"
+export LDP_DB="$LDP_DATA/ldp.db"
+
+export PATH="$PATH:$CLAN/bin:$REPO/bin:$CODE/bin"
+
+export DS_INSERTS=/Volumes/Datashare/Project*2/Home*Visits/Transcripts/Supplemented/Gesture*Coded*Erica*/Inserts/
+export P3_DS_INSERTS=/Volumes/Datashare/Project*3/Home*Visits/Transcripts/Supplemented/Gesture*Coded*Erica*/Inserts/
+
+LIB=$REPO/lib/perl
+PERLLIB=.:$LIB:$PERLLIB
+export PERLLIB
+
+PYTHONPATH=.:$REPO/lib/python/
+export PYTHONPATH
+
+alias ls="ls -a"
+alias flag="grasper"
+alias commitlex='cd $CLAN/lib/english/lex/; svn commit -m"Made changes to various lex files"; cd -'
+alias grasp="$CLAN/bin/grasp -m $CLAN/lib/megrasp.mod"
+
+all -quiet up&

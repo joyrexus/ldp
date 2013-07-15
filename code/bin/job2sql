@@ -1,0 +1,18 @@
+#!/usr/bin/env python 
+'''
+Convert an LDP job  file to a set of SQL update statements.
+
+'''
+
+import sys, argparse
+from ldp.jobs import BatchJobFile
+
+parser = argparse.ArgumentParser(description=__doc__)
+
+parser.add_argument('--table', default='utterances')
+parser.add_argument('files', nargs='+')
+
+args = parser.parse_args()
+
+for file in args.files:
+    print BatchJobFile(file).sql_updates('utterances')

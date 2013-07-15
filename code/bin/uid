@@ -1,0 +1,50 @@
+#!/usr/bin/env python 
+'''
+Generate a unique primary key ID based on a combination of 
+subject, session, and row (optionally) IDs.
+
+'''
+
+epilog = '''
+
+Note that one can use positional args instead of named args.
+Just be sure to specify the positional args in the appropriate 
+order: subject session [row]
+
+examples:
+
+  $ uid --subj 22 --sess 33 --row 44
+  10223300044
+
+  $ uid 22 33 44
+  10223300044
+
+  $ uid --subj 22 --sess 33
+  102233
+
+  $ uid 22 33
+  102233
+
+'''
+import argparse
+from ldp.util import PrimaryKey
+
+parser = argparse.ArgumentParser(description=__doc__, epilog=epilog, 
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+
+parser.add_argument('--subj', type=int)
+parser.add_argument('--sess', type=int)
+parser.add_argument('--row', type=int)
+parser.add_argument('args', nargs='*', type=int)
+
+args = parser.parse_args()
+
+if args.help:
+    print 'Oh, hi!'
+
+pk = PrimaryKey()
+
+if args.subj and args.sess:
+    print pk(args.subj, args.sess, args.row)
+else:
+    print pk(*args.args)

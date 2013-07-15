@@ -1,0 +1,2278 @@
+{
+    "id": 2,
+    "kind": "BatchSuspectSubstring",
+    "issue": "spelling corrections",
+    "author": "sbehr",
+    "created": "2011-07-15",
+    "editors": [],
+    "dataset": {
+        "environ": "LDP_DB", 
+        "version": [2, 41],
+        "table": "utterances"
+    },
+    "tags": [],
+    "notes": ["Correct spelling errors to conform to standard dictionary spellings and transcription conventions."],
+    "examples": [
+        {"old": "aachoo", "new": "achoo"},
+        {"old": "winshield", "new": "windshield"}
+    ],
+    "edits": [],
+    "omits": [],
+    "tasks": {
+        "aachoo": {
+            "suspect": "aachoo",
+            "units": [
+            {
+                "id": 10280900951, 
+                "column": "p_utts", 
+                "value": "oh aachoo."
+            }
+            ],
+            "suggestions": ["achoo"] 
+        },
+        "oustide": {
+            "suspect": "oustide",
+            "units": [
+            {
+                "id": 10990700878, 
+                "column": "p_utts", 
+                "value": "you can go oustide but you're not going to play on the computer until your room is clean."
+            }
+            ], 
+            "suggestions": ["outside"]
+        }, 
+        "speghetti": {
+            "suspect": "speghetti",
+            "units": [
+            {
+                "id": 10460301128, 
+                "column": "p_utts", 
+                "value": "\"my favorite food is applesauce and speghetti mushed together\""
+            }, 
+            {
+                "id": 10940301287, 
+                "column": "p_utts", 
+                "value": "you're eating speghetti for dinner by the way."
+            }
+            ], 
+            "suggestions": [
+            "spaghetti"
+            ]
+        }, 
+        "whiney": {
+            "suspect": "whiney",
+            "units": [
+            {
+                "id": 11320401009, 
+                "column": "p_utts", 
+                "value": "you're pretty whiney."
+            }, 
+            {
+                "id": 11530100344, 
+                "column": "p_utts", 
+                "value": "but please -- don't be so whiney."
+            }
+            ], 
+            "suggestions": [
+            "whiny"
+            ]
+        }, 
+        "hairbursh": {
+            "suspect": "hairbursh",
+            "units": [
+            {
+                "id": 11020400400, 
+                "column": "p_utts", 
+                "value": "\"h@l is for hairbursh.\""
+            }
+            ], 
+            "suggestions": [
+            "hairbrush"
+            ]
+        }, 
+        "lollypop": {
+            "suspect": "lollypop",
+            "units": [
+            {
+                "id": 10500401328, 
+                "column": "p_utts", 
+                "value": "a lollypop."
+            }, 
+            {
+                "id": 10660400795, 
+                "column": "p_utts", 
+                "value": "she already right off the bat -- got the lollypop."
+            }, 
+            {
+                "id": 10660400796, 
+                "column": "p_utts", 
+                "value": "we got to find the lollypop."
+            }, 
+            {
+                "id": 10660400799, 
+                "column": "p_utts", 
+                "value": "there's the lollypop way up there."
+            }, 
+            {
+                "id": 10731001045, 
+                "column": "p_utts", 
+                "value": "here, I'll give you a small Dum_Dum lollypop."
+            }, 
+            {
+                "id": 10731001109, 
+                "column": "p_utts", 
+                "value": "mom, Dad gave me a lollypop."
+            }, 
+            {
+                "id": 11000500652, 
+                "column": "p_utts", 
+                "value": "you have a pink lollypop?"
+            }, 
+            {
+                "id": 11320801342, 
+                "column": "p_utts", 
+                "value": "a lollypop!"
+            }, 
+            {
+                "id": 11320801432, 
+                "column": "p_utts", 
+                "value": "Jack you have your own pop -- lollypop Honey."
+            }, 
+            {
+                "id": 11320801441, 
+                "column": "p_utts", 
+                "value": "is that lollypop all over your face?"
+            }, 
+            {
+                "id": 11320801503, 
+                "column": "p_utts", 
+                "value": "take your lollypop out of your mouth."
+            }, 
+            {
+                "id": 11320801519, 
+                "column": "p_utts", 
+                "value": "but Jack is eating a lollypop."
+            }, 
+            {
+                "id": 11320801520, 
+                "column": "p_utts", 
+                "value": "would you like a lollypop?"
+            }, 
+            {
+                "id": 11320801524, 
+                "column": "p_utts", 
+                "value": "you don't have a lollypop?"
+            }, 
+            {
+                "id": 11320801526, 
+                "column": "p_utts", 
+                "value": "well we've got to get you a lollypop."
+            }, 
+            {
+                "id": 11570501803, 
+                "column": "p_utts", 
+                "value": "a lollypop?"
+            }, 
+            {
+                "id": 11570501804, 
+                "column": "p_utts", 
+                "value": "you can't have a lollypop for lunch."
+            }, 
+            {
+                "id": 11590701239, 
+                "column": "p_utts", 
+                "value": "El if you really go I have a lollypop."
+            }, 
+            {
+                "id": 11590701252, 
+                "column": "p_utts", 
+                "value": "if you keep trying I've got a lollypop for you."
+            }
+            ], 
+            "suggestions": [
+            "lollipop"
+            ]
+        }, 
+        "coocoo": {
+            "suspect": "coocoo",
+            "units": [
+            {
+                "id": 10510900728, 
+                "column": "p_utts", 
+                "value": "are you going coocoo?"
+            }, 
+            {
+                "id": 10510900730, 
+                "column": "p_utts", 
+                "value": "you're going coocoo on her!"
+            }, 
+            {
+                "id": 10510900733, 
+                "column": "p_utts", 
+                "value": "he always gets so coocoo."
+            }
+            ], 
+            "suggestions": [
+            "cuckoo"
+            ]
+        }, 
+        "sissie": {
+            "suspect": "sissie",
+            "units": [
+            {
+                "id": 11190101480, 
+                "column": "p_utts", 
+                "value": "is that sissie?"
+            }, 
+            {
+                "id": 11190101481, 
+                "column": "p_utts", 
+                "value": "sissie."
+            }, 
+            {
+                "id": 11190101482, 
+                "column": "p_utts", 
+                "value": "what sissie doing?"
+            }, 
+            {
+                "id": 11190101483, 
+                "column": "p_utts", 
+                "value": "I think sissie woke up."
+            }
+            ], 
+            "suggestions": [
+            "sissy"
+            ]
+        }, 
+        "oney": {
+            "suspect": "oney",
+            "units": [
+            {
+                "id": 10851001082, 
+                "column": "p_utts", 
+                "value": "you're boney."
+            }, 
+            {
+                "id": 10851001125, 
+                "column": "p_utts", 
+                "value": "you're boney!"
+            }, 
+            {
+                "id": 10851001136, 
+                "column": "p_utts", 
+                "value": "your tailbone is so boney!"
+            }, 
+            {
+                "id": 11320700463, 
+                "column": "p_utts", 
+                "value": "ow, you're boney."
+            }, 
+            {
+                "id": 11320700465, 
+                "column": "p_utts", 
+                "value": "you're boney."
+            }
+            ], 
+            "suggestions": [
+            "bony"
+            ]
+        }, 
+        "touchie": {
+            "suspect": "touchie",
+            "units": [
+            {
+                "id": 11480301388, 
+                "column": "p_utts", 
+                "value": "no touchie."
+            }
+            ], 
+            "suggestions": [
+            "touchy"
+            ]
+        }, 
+        "chocolatey": {
+            "suspect": "chocolatey",
+            "units": [
+            {
+                "id": 10480600816, 
+                "column": "p_utts", 
+                "value": "it's very chocolatey?"
+            }
+            ], 
+            "suggestions": [
+            "chocolaty"
+            ]
+        }, 
+        "lullabye": {
+            "suspect": "lullabye",
+            "units": [
+            {
+                "id": 10540200543, 
+                "column": "p_utts", 
+                "value": "\"baby bear will softly sigh as daddy sings a lullabye.\""
+            }
+            ], 
+            "suggestions": [
+            "lullaby"
+            ]
+        }, 
+        "freindship": {
+            "suspect": "freindship",
+            "units": [
+            {
+                "id": 11270900978, 
+                "column": "p_utts", 
+                "value": "mom was just trying to figure out why our freindship cards weren't working."
+            }
+            ], 
+            "suggestions": [
+            "friendship"
+            ]
+        }, 
+        "summersault": {
+            "suspect": "summersault",
+            "units": [
+            {
+                "id": 10220901476, 
+                "column": "p_utts", 
+                "value": "a summersault?"
+            }, 
+            {
+                "id": 10320700451, 
+                "column": "p_utts", 
+                "value": "a summersault?"
+            }, 
+            {
+                "id": 11470200324, 
+                "column": "p_utts", 
+                "value": "are you doing a summersault?"
+            }
+            ], 
+            "suggestions": [
+            "somersault"
+            ]
+        }, 
+        "kittie": {
+            "suspect": "kittie",
+            "units": [
+            {
+                "id": 10300500513, 
+                "column": "p_utts", 
+                "value": "Nitenite to kittie."
+            }, 
+            {
+                "id": 10350501487, 
+                "column": "p_utts", 
+                "value": "they're only supposed to eat kittie food."
+            }, 
+            {
+                "id": 10420100228, 
+                "column": "p_utts", 
+                "value": "Aww, kittie."
+            }, 
+            {
+                "id": 10420100234, 
+                "column": "p_utts", 
+                "value": "I thought you don't like that kittie."
+            }, 
+            {
+                "id": 10420100235, 
+                "column": "p_utts", 
+                "value": "oh kittie's mad at you now."
+            }, 
+            {
+                "id": 10420100237, 
+                "column": "p_utts", 
+                "value": "Andrew, the kittie's going to bite you."
+            }, 
+            {
+                "id": 10420100272, 
+                "column": "p_utts", 
+                "value": "daddy's got kittie, Bubba."
+            }, 
+            {
+                "id": 10420100627, 
+                "column": "p_utts", 
+                "value": "grab the, hit the kittie Bubba."
+            }, 
+            {
+                "id": 10420100629, 
+                "column": "p_utts", 
+                "value": "tell kittie no."
+            }, 
+            {
+                "id": 10420100630, 
+                "column": "p_utts", 
+                "value": "no kittie no."
+            }, 
+            {
+                "id": 10420100636, 
+                "column": "p_utts", 
+                "value": "tell kittie no!"
+            }, 
+            {
+                "id": 10420100637, 
+                "column": "p_utts", 
+                "value": "tell kittie no."
+            }, 
+            {
+                "id": 10420100638, 
+                "column": "p_utts", 
+                "value": "say no kittie!"
+            }, 
+            {
+                "id": 10420100639, 
+                "column": "p_utts", 
+                "value": "bad kittie."
+            }, 
+            {
+                "id": 10420100676, 
+                "column": "p_utts", 
+                "value": "big kittie."
+            }, 
+            {
+                "id": 10420100677, 
+                "column": "p_utts", 
+                "value": "big kittie."
+            }, 
+            {
+                "id": 10420100696, 
+                "column": "p_utts", 
+                "value": "big kittie."
+            }, 
+            {
+                "id": 10450400602, 
+                "column": "p_utts", 
+                "value": "where's the kittie?"
+            }, 
+            {
+                "id": 10450400648, 
+                "column": "p_utts", 
+                "value": "here's a kittie."
+            }, 
+            {
+                "id": 10930301301, 
+                "column": "p_utts", 
+                "value": "let Ryan do the other kittie."
+            }, 
+            {
+                "id": 10930301303, 
+                "column": "p_utts", 
+                "value": "there is another kittie."
+            }, 
+            {
+                "id": 10930301413, 
+                "column": "p_utts", 
+                "value": "the kittie just jumped off."
+            }, 
+            {
+                "id": 11320301162, 
+                "column": "p_utts", 
+                "value": "do you want to play with the kittie instead?"
+            }, 
+            {
+                "id": 11320301163, 
+                "column": "p_utts", 
+                "value": "let's go play with the kittie."
+            }, 
+            {
+                "id": 11320301279, 
+                "column": "p_utts", 
+                "value": "that is a kittie toy."
+            }, 
+            {
+                "id": 11320301280, 
+                "column": "p_utts", 
+                "value": "where is that kittie cat?"
+            }, 
+            {
+                "id": 11320301282, 
+                "column": "p_utts", 
+                "value": "where is the kittie?"
+            }, 
+            {
+                "id": 11320301367, 
+                "column": "p_utts", 
+                "value": "\"oh, this is a kittie toy.\""
+            }, 
+            {
+                "id": 11320301368, 
+                "column": "p_utts", 
+                "value": "that is a kittie toy."
+            }, 
+            {
+                "id": 11320301463, 
+                "column": "p_utts", 
+                "value": "there is the kittie cat."
+            }, 
+            {
+                "id": 11320301464, 
+                "column": "p_utts", 
+                "value": "there is kittie."
+            }, 
+            {
+                "id": 11320301470, 
+                "column": "p_utts", 
+                "value": "does kittie want to play?"
+            }, 
+            {
+                "id": 11320301568, 
+                "column": "p_utts", 
+                "value": "is -- can kittie get in there with you?"
+            }, 
+            {
+                "id": 11320301569, 
+                "column": "p_utts", 
+                "value": "can kittie come in?"
+            }, 
+            {
+                "id": 11320301574, 
+                "column": "p_utts", 
+                "value": "does kittie want to come?"
+            }, 
+            {
+                "id": 11320301584, 
+                "column": "p_utts", 
+                "value": "come on in kittie."
+            }, 
+            {
+                "id": 11320301586, 
+                "column": "p_utts", 
+                "value": "it is Kaitlyn and the kittie cat."
+            }, 
+            {
+                "id": 11320301589, 
+                "column": "p_utts", 
+                "value": "say kittie."
+            }, 
+            {
+                "id": 11320301602, 
+                "column": "p_utts", 
+                "value": "there is the kittie."
+            }, 
+            {
+                "id": 11320301650, 
+                "column": "p_utts", 
+                "value": "are you getting kittie?"
+            }, 
+            {
+                "id": 11350400529, 
+                "column": "p_utts", 
+                "value": "what if kittie eats the Play_Doh?"
+            }
+            ], 
+            "suggestions": [
+            "kitty"
+            ]
+        }, 
+        "whos": {
+            "suspect": "whos",
+            "units": [
+            {
+                "id": 10930200936, 
+                "column": "p_utts", 
+                "value": "whos' there?"
+            }, 
+            {
+                "id": 10930200991, 
+                "column": "p_utts", 
+                "value": "whos' there?"
+            }
+            ], 
+            "suggestions": [
+            "who's"
+            ]
+        }, 
+        "winshield": {
+            "suspect": "winshield",
+            "units": [
+            {
+                "id": 10790100713, 
+                "column": "p_utts", 
+                "value": "is that where the winshield wipers were?"
+            }
+            ], 
+            "suggestions": [
+            "windshield"
+            ]
+        }, 
+        "lollypops": {
+            "suspect": "lollypops",
+            "units": [
+            {
+                "id": 10660401246, 
+                "column": "p_utts", 
+                "value": "no, that's lollypops."
+            }, 
+            {
+                "id": 10731001086, 
+                "column": "p_utts", 
+                "value": "I'll give you one of the little Dum_Dum lollypops."
+            }
+            ], 
+            "suggestions": [
+            "lollipops"
+            ]
+        }, 
+        "internet": {
+            "suspect": "internet",
+            "units": [
+            {
+                "id": 10880800839, 
+                "column": "p_utts", 
+                "value": "I'm -- finishing up checking the internet, ok?"
+            }, 
+            {
+                "id": 11080500659, 
+                "column": "p_utts", 
+                "value": "you know we can probably search for it on internet."
+            }, 
+            {
+                "id": 11080501279, 
+                "column": "p_utts", 
+                "value": "you want to -- look at internet or anything?"
+            }
+            ], 
+            "suggestions": [
+            "internet"
+            ]
+        }, 
+        "pteranodon": {
+            "suspect": "pteranodon",
+            "units": [
+            {
+                "id": 10270500993, 
+                "column": "p_utts", 
+                "value": "it's called a -- pteranodon -- pteranodon."
+            }, 
+            {
+                "id": 10850301731, 
+                "column": "p_utts", 
+                "value": "look at the -- pterodon -- pteranodon."
+            }
+            ], 
+            "suggestions": [
+            "pteranodon"
+            ]
+        }, 
+        "shakie": {
+            "suspect": "shakie",
+            "units": [
+            {
+                "id": 10780901349, 
+                "column": "p_utts", 
+                "value": "it's a shakie, Sis --"
+            }
+            ], 
+            "suggestions": [
+            "shaky"
+            ]
+        }, 
+        "rosey": {
+            "suspect": "rosey",
+            "units": [
+            {
+                "id": 10440100001, 
+                "column": "p_utts", 
+                "value": "uh, nosey rosey."
+            }
+            ], 
+            "suggestions": [
+            "rosy"
+            ]
+        }, 
+        "thingie": {
+            "suspect": "thingie",
+            "units": [
+            {
+                "id": 11270900375, 
+                "column": "p_utts", 
+                "value": "we got to push it on top of that thingie."
+            }
+            ], 
+            "suggestions": [
+            "thingy"
+            ]
+        }, 
+        "barbeque": {
+            "suspect": "barbeque",
+            "units": [
+            {
+                "id": 10380400082, 
+                "column": "p_utts", 
+                "value": "you used to like barbeque sauce."
+            }, 
+            {
+                "id": 10380500631, 
+                "column": "p_utts", 
+                "value": "it's -- close to barbeque sauce."
+            }, 
+            {
+                "id": 10391001062, 
+                "column": "p_utts", 
+                "value": "barbeque sauce?"
+            }, 
+            {
+                "id": 10430500475, 
+                "column": "p_utts", 
+                "value": "oh, returning the barbeque."
+            }, 
+            {
+                "id": 10430500480, 
+                "column": "p_utts", 
+                "value": "here comes the barbeque."
+            }, 
+            {
+                "id": 10460400406, 
+                "column": "p_utts", 
+                "value": "you're not getting -- you don't need barbeque sauce."
+            }, 
+            {
+                "id": 10480900223, 
+                "column": "p_utts", 
+                "value": "barbeque sauce."
+            }, 
+            {
+                "id": 10580200946, 
+                "column": "p_utts", 
+                "value": "that's the barbeque."
+            }, 
+            {
+                "id": 10580200947, 
+                "column": "p_utts", 
+                "value": "barbeque?"
+            }, 
+            {
+                "id": 10580200948, 
+                "column": "p_utts", 
+                "value": "barbeque!"
+            }, 
+            {
+                "id": 10580200949, 
+                "column": "p_utts", 
+                "value": "barbeque!"
+            }, 
+            {
+                "id": 10681000403, 
+                "column": "p_utts", 
+                "value": "### real barbeque turkey legs."
+            }, 
+            {
+                "id": 10820901018, 
+                "column": "p_utts", 
+                "value": "that we barbeque with."
+            }, 
+            {
+                "id": 10820901729, 
+                "column": "p_utts", 
+                "value": "barbeque some stuff."
+            }, 
+            {
+                "id": 10820901802, 
+                "column": "p_utts", 
+                "value": "whoo good -- looking barbeque!"
+            }, 
+            {
+                "id": 10820901807, 
+                "column": "p_utts", 
+                "value": "that's some good barbeque."
+            }, 
+            {
+                "id": 10820901810, 
+                "column": "p_utts", 
+                "value": "and some barbeque corn too?"
+            }, 
+            {
+                "id": 11050700325, 
+                "column": "p_utts", 
+                "value": "the baby's out of the barbeque."
+            }, 
+            {
+                "id": 11050900560, 
+                "column": "p_utts", 
+                "value": "we'll make this on the barbeque ###"
+            }
+            ], 
+            "suggestions": [
+            "barbecue"
+            ]
+        }, 
+        "greatful": {
+            "suspect": "greatful",
+            "units": [
+            {
+                "id": 10660901259, 
+                "column": "p_utts", 
+                "value": "makes you feel greatful don't it?"
+            }
+            ], 
+            "suggestions": [
+            "grateful"
+            ]
+        }, 
+        "geez": {
+            "suspect": "geez",
+            "units": [
+            {
+                "id": 10250803378, 
+                "column": "p_utts", 
+                "value": "oh geez, see?"
+            }, 
+            {
+                "id": 10270201403, 
+                "column": "p_utts", 
+                "value": "oh, geez."
+            }, 
+            {
+                "id": 10380200696, 
+                "column": "p_utts", 
+                "value": "oh geez+o+pete"
+            }, 
+            {
+                "id": 10380200724, 
+                "column": "p_utts", 
+                "value": "oh, geez."
+            }, 
+            {
+                "id": 10380200859, 
+                "column": "p_utts", 
+                "value": "oh geez, I got a red pepper on it."
+            }, 
+            {
+                "id": 10380300824, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10380400788, 
+                "column": "p_utts", 
+                "value": "oh geez, Gracie!"
+            }, 
+            {
+                "id": 10380401068, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10610200154, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10850200977, 
+                "column": "p_utts", 
+                "value": "oh geez Jordan."
+            }, 
+            {
+                "id": 10850301500, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10850302048, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10850602182, 
+                "column": "p_utts", 
+                "value": "oh geez, Jordan."
+            }, 
+            {
+                "id": 10850800998, 
+                "column": "p_utts", 
+                "value": "aw geez."
+            }, 
+            {
+                "id": 10850801569, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 10870800863, 
+                "column": "p_utts", 
+                "value": "oh, geez."
+            }, 
+            {
+                "id": 11050901148, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 11270400047, 
+                "column": "p_utts", 
+                "value": "oh geez, that one."
+            }, 
+            {
+                "id": 11270500139, 
+                "column": "p_utts", 
+                "value": "ah, geez."
+            }, 
+            {
+                "id": 11270701718, 
+                "column": "p_utts", 
+                "value": "aw geez."
+            }, 
+            {
+                "id": 11320300951, 
+                "column": "p_utts", 
+                "value": "well geez."
+            }, 
+            {
+                "id": 11590300388, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 11590600020, 
+                "column": "p_utts", 
+                "value": "oh, geez."
+            }, 
+            {
+                "id": 11590600114, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 11590600115, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 11590600187, 
+                "column": "p_utts", 
+                "value": "oh geez, where's the other brace?"
+            }, 
+            {
+                "id": 11590600905, 
+                "column": "p_utts", 
+                "value": "oh geez, what happened to this part?"
+            }, 
+            {
+                "id": 11590601119, 
+                "column": "p_utts", 
+                "value": "oh geez."
+            }, 
+            {
+                "id": 11590601678, 
+                "column": "p_utts", 
+                "value": "oh, geez."
+            }
+            ], 
+            "suggestions": [
+            "jeez"
+            ]
+        }, 
+        "cumquat": {
+            "suspect": "cumquat",
+            "units": [
+            {
+                "id": 10750902860, 
+                "column": "p_utts", 
+                "value": "cumquat."
+            }, 
+            {
+                "id": 10750902865, 
+                "column": "p_utts", 
+                "value": "cumquat -- cumquat."
+            }, 
+            {
+                "id": 10750902868, 
+                "column": "p_utts", 
+                "value": "cumquat does not start with s@l."
+            }
+            ], 
+            "suggestions": [
+            "kumquat"
+            ]
+        }, 
+        "flittered": {
+            "suspect": "flittered",
+            "units": [
+            {
+                "id": 10750901762, 
+                "column": "p_utts", 
+                "value": "\"then from the sky a butterfly flittered.\""
+            }
+            ], 
+            "suggestions": [
+            "flittered"
+            ]
+        }, 
+        "rocolli": {
+            "suspect": "rocolli",
+            "units": [
+            {
+                "id": 10300500965, 
+                "column": "p_utts", 
+                "value": "\"brocolli stew?\""
+            }
+            ], 
+            "suggestions": [
+            "broccoli"
+            ]
+        }, 
+        "rhinocerous": {
+            "suspect": "rhinocerous",
+            "units": [
+            {
+                "id": 10320700821, 
+                "column": "p_utts", 
+                "value": "that's a rhinocerous."
+            }, 
+            {
+                "id": 10881000293, 
+                "column": "p_utts", 
+                "value": "how come you don't play with the rhinocerous?"
+            }, 
+            {
+                "id": 10881000439, 
+                "column": "p_utts", 
+                "value": "it's a rhinocerous float!"
+            }
+            ], 
+            "suggestions": [
+            "rhinoceros"
+            ]
+        }, 
+        "saumersalt": {
+            "suspect": "saumersalt",
+            "units": [
+            {
+                "id": 11150600924, 
+                "column": "p_utts", 
+                "value": "\"she is doing a saumersalt, OK?\""
+            }
+            ], 
+            "suggestions": [
+            "somersault"
+            ]
+        }, 
+        "dominos": {
+            "suspect": "dominos",
+            "units": [
+            {
+                "id": 11490200303, 
+                "column": "p_utts", 
+                "value": "got dominos?"
+            }
+            ], 
+            "suggestions": [
+            "dominoes"
+            ]
+        }, 
+        "dalmation": {
+            "suspect": "dalmation",
+            "units": [
+            {
+                "id": 11400601137, 
+                "column": "p_utts", 
+                "value": "this is Domino -- the dalmation."
+            }, 
+            {
+                "id": 11400601671, 
+                "column": "p_utts", 
+                "value": "\"oh, I get to take the dalmation home.\""
+            }, 
+            {
+                "id": 11470401579, 
+                "column": "p_utts", 
+                "value": "she is the one in the dalmation movie that takes all the dogs."
+            }
+            ], 
+            "suggestions": [
+            "dalmatian"
+            ]
+        }, 
+        "buggie": {
+            "suspect": "buggie",
+            "units": [
+            {
+                "id": 10661000162, 
+                "column": "p_utts", 
+                "value": "let me see your buggie."
+            }, 
+            {
+                "id": 10661000203, 
+                "column": "p_utts", 
+                "value": "I'm going to try to fix your buggie, Honey."
+            }, 
+            {
+                "id": 10661000298, 
+                "column": "p_utts", 
+                "value": "### buggie ###"
+            }
+            ], 
+            "suggestions": [
+            "buggy"
+            ]
+        }, 
+        "teepees": {
+            "suspect": "teepees",
+            "units": [
+            {
+                "id": 10660900749, 
+                "column": "p_utts", 
+                "value": "that's teepees."
+            }
+            ], 
+            "suggestions": [
+            "tepees"
+            ]
+        }, 
+        "embarassed": {
+            "suspect": "embarassed",
+            "units": [
+            {
+                "id": 10730901072, 
+                "column": "p_utts", 
+                "value": "you're the one who's going to be embarassed."
+            }
+            ], 
+            "suggestions": [
+            "embarrassed"
+            ]
+        }, 
+        "tickley": {
+            "suspect": "tickley",
+            "units": [
+            {
+                "id": 10500100554, 
+                "column": "p_utts", 
+                "value": "tickley, tickle."
+            }
+            ], 
+            "suggestions": [
+            "tickly"
+            ]
+        }, 
+        "pattie": {
+            "suspect": "pattie",
+            "units": [
+            {
+                "id": 10840901173, 
+                "column": "p_utts", 
+                "value": "you're going to eat crabby pattie and a hot dog?"
+            }, 
+            {
+                "id": 10840901185, 
+                "column": "p_utts", 
+                "value": "oh eat the crabby pattie?"
+            }, 
+            {
+                "id": 11470401071, 
+                "column": "p_utts", 
+                "value": "put a Spongebob crabby pattie on your kitchen thing?"
+            }
+            ], 
+            "suggestions": [
+            "patty"
+            ]
+        }, 
+        "tassle": {
+            "suspect": "tassle",
+            "units": [
+            {
+                "id": 10910100006, 
+                "column": "p_utts", 
+                "value": "that's a pretty tassle on there, huh?"
+            }, 
+            {
+                "id": 10940300301, 
+                "column": "p_utts", 
+                "value": "that is a tassle."
+            }
+            ], 
+            "suggestions": [
+            "tassel"
+            ]
+        }, 
+        "allright": {
+            "suspect": "allright",
+            "units": [
+            {
+                "id": 10590600663, 
+                "column": "p_utts", 
+                "value": "allright Makayla."
+            }, 
+            {
+                "id": 10790800174, 
+                "column": "p_utts", 
+                "value": "allright Sam, I'm going to have to get water inside because I have to figure out the hose out here."
+            }, 
+            {
+                "id": 10850502054, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 10850502056, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 10850502095, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11240300163, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400700012, 
+                "column": "p_utts", 
+                "value": "allright, are you going to help me set the letters up?"
+            }, 
+            {
+                "id": 11400700165, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400700494, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400700543, 
+                "column": "p_utts", 
+                "value": "allright, we'll help you."
+            }, 
+            {
+                "id": 11400700563, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400700825, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400700898, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400701732, 
+                "column": "p_utts", 
+                "value": "give me five, allright."
+            }, 
+            {
+                "id": 11400701776, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400701816, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11400702262, 
+                "column": "p_utts", 
+                "value": "allright, does Goofy want these shoes?"
+            }, 
+            {
+                "id": 11470400163, 
+                "column": "p_utts", 
+                "value": "\"allright, come here, Willie.\""
+            }, 
+            {
+                "id": 11470400164, 
+                "column": "p_utts", 
+                "value": "\"allright, Will, come over here.\""
+            }, 
+            {
+                "id": 11470400365, 
+                "column": "p_utts", 
+                "value": "\"allright, let's get some ocean stamps, and you know what we might have to do if Will wants to -- \""
+            }, 
+            {
+                "id": 11470400582, 
+                "column": "p_utts", 
+                "value": "\"allright, you know what, I'm just going to get a kleenex.\""
+            }, 
+            {
+                "id": 11470400744, 
+                "column": "p_utts", 
+                "value": "\"allright, here, if you want to glue something.\""
+            }, 
+            {
+                "id": 11470400965, 
+                "column": "p_utts", 
+                "value": "allright well why --"
+            }, 
+            {
+                "id": 11470500093, 
+                "column": "p_utts", 
+                "value": "\"allright, show Sarah how you do it.\""
+            }, 
+            {
+                "id": 11470500105, 
+                "column": "p_utts", 
+                "value": "\"allright, let's -- \""
+            }, 
+            {
+                "id": 11470500168, 
+                "column": "p_utts", 
+                "value": "\"allright, put it over here.\""
+            }, 
+            {
+                "id": 11470500182, 
+                "column": "p_utts", 
+                "value": "\"allright, put it with your stuff.\""
+            }, 
+            {
+                "id": 11470500192, 
+                "column": "p_utts", 
+                "value": "\"allright, let's see if we see another square.\""
+            }, 
+            {
+                "id": 11470500339, 
+                "column": "p_utts", 
+                "value": "\"allright, let's -- \""
+            }, 
+            {
+                "id": 11470500343, 
+                "column": "p_utts", 
+                "value": "\"allright, come on.\""
+            }, 
+            {
+                "id": 11470500417, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470500561, 
+                "column": "p_utts", 
+                "value": "\"allright, well let's cut some things out to glue on, Ok?\""
+            }, 
+            {
+                "id": 11470500614, 
+                "column": "p_utts", 
+                "value": "\"allright, we got to do one on top of it, then.\""
+            }, 
+            {
+                "id": 11470500838, 
+                "column": "p_utts", 
+                "value": "\"allright, here is your choice -- \""
+            }, 
+            {
+                "id": 11470500878, 
+                "column": "p_utts", 
+                "value": "\"allright, let me -- \""
+            }, 
+            {
+                "id": 11470500879, 
+                "column": "p_utts", 
+                "value": "\"allright, well let's clean up this.\""
+            }, 
+            {
+                "id": 11470500918, 
+                "column": "p_utts", 
+                "value": "\"allright, let me go get your Duck_Duck_Goose game.\""
+            }, 
+            {
+                "id": 11470500922, 
+                "column": "p_utts", 
+                "value": "\"allright, let me go get it.\""
+            }, 
+            {
+                "id": 11470500934, 
+                "column": "p_utts", 
+                "value": "\"allright, come sit down.\""
+            }, 
+            {
+                "id": 11470501004, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470501041, 
+                "column": "p_utts", 
+                "value": "\"allright, your turn.\""
+            }, 
+            {
+                "id": 11470501218, 
+                "column": "p_utts", 
+                "value": "\"allright, I'll give you a couple more.\""
+            }, 
+            {
+                "id": 11470501381, 
+                "column": "p_utts", 
+                "value": "\"allright, well let's finish -- let's finish cleaning up the ducks.\""
+            }, 
+            {
+                "id": 11470501415, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470501567, 
+                "column": "p_utts", 
+                "value": "\"allright, go ahead.\""
+            }, 
+            {
+                "id": 11470501601, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470501805, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470501875, 
+                "column": "p_utts", 
+                "value": "\"allright, you spin.\""
+            }, 
+            {
+                "id": 11470600282, 
+                "column": "p_utts", 
+                "value": "\"allright, do your Zoe quick.\""
+            }, 
+            {
+                "id": 11470600288, 
+                "column": "p_utts", 
+                "value": "\"allright, you do it.\""
+            }, 
+            {
+                "id": 11470600323, 
+                "column": "p_utts", 
+                "value": "you allright?"
+            }, 
+            {
+                "id": 11470600367, 
+                "column": "p_utts", 
+                "value": "\"allright, let's see if we have any pink paper.\""
+            }, 
+            {
+                "id": 11470600975, 
+                "column": "p_utts", 
+                "value": "\"allright, I'll be out in one minute, Ok?\""
+            }, 
+            {
+                "id": 11470601111, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470601124, 
+                "column": "p_utts", 
+                "value": "\"allright, now show me.\""
+            }, 
+            {
+                "id": 11470601182, 
+                "column": "p_utts", 
+                "value": "\"allright, if you see some, I'll clean it up, but usually we -- we're pretty good about cleaning it up.\""
+            }, 
+            {
+                "id": 11470601306, 
+                "column": "p_utts", 
+                "value": "\"allright, we can try a couple.\""
+            }, 
+            {
+                "id": 11470601314, 
+                "column": "p_utts", 
+                "value": "\"allright, let me do one.\""
+            }, 
+            {
+                "id": 11470700009, 
+                "column": "p_utts", 
+                "value": "allright, let's bring these two in the playroom."
+            }, 
+            {
+                "id": 11470700013, 
+                "column": "p_utts", 
+                "value": "allright, guys."
+            }, 
+            {
+                "id": 11470700023, 
+                "column": "p_utts", 
+                "value": "allright, Will, come sit here."
+            }, 
+            {
+                "id": 11470700027, 
+                "column": "p_utts", 
+                "value": "allright, hold on."
+            }, 
+            {
+                "id": 11470700042, 
+                "column": "p_utts", 
+                "value": "allright, hold on."
+            }, 
+            {
+                "id": 11470700183, 
+                "column": "p_utts", 
+                "value": "allright, go."
+            }, 
+            {
+                "id": 11470700234, 
+                "column": "p_utts", 
+                "value": "allright, go ahead."
+            }, 
+            {
+                "id": 11470700251, 
+                "column": "p_utts", 
+                "value": "allright, let's clean this up."
+            }, 
+            {
+                "id": 11470700298, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470700311, 
+                "column": "p_utts", 
+                "value": "allright, I'm going to go first."
+            }, 
+            {
+                "id": 11470700322, 
+                "column": "p_utts", 
+                "value": "allright, Will, your turn."
+            }, 
+            {
+                "id": 11470700339, 
+                "column": "p_utts", 
+                "value": "allright, go ahead, Jack."
+            }, 
+            {
+                "id": 11470700346, 
+                "column": "p_utts", 
+                "value": "allright, well then wait for the dolphin on the next one."
+            }, 
+            {
+                "id": 11470700356, 
+                "column": "p_utts", 
+                "value": "allright, your turn."
+            }, 
+            {
+                "id": 11470700391, 
+                "column": "p_utts", 
+                "value": "allright, are you ready?"
+            }, 
+            {
+                "id": 11470700419, 
+                "column": "p_utts", 
+                "value": "allright, find a boat."
+            }, 
+            {
+                "id": 11470700428, 
+                "column": "p_utts", 
+                "value": "allright, now ### --"
+            }, 
+            {
+                "id": 11470700468, 
+                "column": "p_utts", 
+                "value": "allright, hang it up."
+            }, 
+            {
+                "id": 11470700485, 
+                "column": "p_utts", 
+                "value": "allright, go ahead, Jack."
+            }, 
+            {
+                "id": 11470700517, 
+                "column": "p_utts", 
+                "value": "allright, Will's turn again."
+            }, 
+            {
+                "id": 11470700565, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470700575, 
+                "column": "p_utts", 
+                "value": "allright, well let me -- let me put this away, and then I --"
+            }, 
+            {
+                "id": 11470700584, 
+                "column": "p_utts", 
+                "value": "allright, come show me."
+            }, 
+            {
+                "id": 11470700647, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470700654, 
+                "column": "p_utts", 
+                "value": "allright, you find your picture."
+            }, 
+            {
+                "id": 11470700671, 
+                "column": "p_utts", 
+                "value": "allright, well let's do this, Will."
+            }, 
+            {
+                "id": 11470700680, 
+                "column": "p_utts", 
+                "value": "allright, hold on."
+            }, 
+            {
+                "id": 11470700708, 
+                "column": "p_utts", 
+                "value": "allright, well hold on, let's --"
+            }, 
+            {
+                "id": 11470700781, 
+                "column": "p_utts", 
+                "value": "allright, come on and have your lunch."
+            }, 
+            {
+                "id": 11470700820, 
+                "column": "p_utts", 
+                "value": "allright, go back to your spot and have some lunch please."
+            }, 
+            {
+                "id": 11470701351, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470701368, 
+                "column": "p_utts", 
+                "value": "allright, well let's just kind of scoot this stuff out of the way."
+            }, 
+            {
+                "id": 11470701422, 
+                "column": "p_utts", 
+                "value": "allright, let's put the markers on the table."
+            }, 
+            {
+                "id": 11470701496, 
+                "column": "p_utts", 
+                "value": "allright, let's put some glue."
+            }, 
+            {
+                "id": 11470701508, 
+                "column": "p_utts", 
+                "value": "allright, let's put some glue on the back."
+            }, 
+            {
+                "id": 11470800395, 
+                "column": "p_utts", 
+                "value": "yeah, that's allright."
+            }, 
+            {
+                "id": 11470800453, 
+                "column": "p_utts", 
+                "value": "allright, sounds good."
+            }, 
+            {
+                "id": 11470800589, 
+                "column": "p_utts", 
+                "value": "allright, Spongebob, let's see your --"
+            }, 
+            {
+                "id": 11470800641, 
+                "column": "p_utts", 
+                "value": "allright, come here, Spongebob."
+            }, 
+            {
+                "id": 11470800770, 
+                "column": "p_utts", 
+                "value": "allright, I want to be Patrick."
+            }, 
+            {
+                "id": 11470800780, 
+                "column": "p_utts", 
+                "value": "allright, press it down."
+            }, 
+            {
+                "id": 11470800802, 
+                "column": "p_utts", 
+                "value": "allright, can I go first, or you're going to go first?"
+            }, 
+            {
+                "id": 11470800913, 
+                "column": "p_utts", 
+                "value": "allright --"
+            }, 
+            {
+                "id": 11470800924, 
+                "column": "p_utts", 
+                "value": "allright, hi."
+            }, 
+            {
+                "id": 11470801092, 
+                "column": "p_utts", 
+                "value": "allright, do you have to go potty, though?"
+            }, 
+            {
+                "id": 11470801099, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470801127, 
+                "column": "p_utts", 
+                "value": "allright, we got to mix up the cards."
+            }, 
+            {
+                "id": 11470801138, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470801196, 
+                "column": "p_utts", 
+                "value": "allright, go ahead."
+            }, 
+            {
+                "id": 11470801486, 
+                "column": "p_utts", 
+                "value": "allright, well put all the guys down, and then we'll play Zingo."
+            }, 
+            {
+                "id": 11470801594, 
+                "column": "p_utts", 
+                "value": "allright, I'm going to pick, then."
+            }, 
+            {
+                "id": 11470801628, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470801685, 
+                "column": "p_utts", 
+                "value": "allright, go ahead."
+            }, 
+            {
+                "id": 11470801737, 
+                "column": "p_utts", 
+                "value": "allright, hat and ###"
+            }, 
+            {
+                "id": 11470801845, 
+                "column": "p_utts", 
+                "value": "allright, hold on."
+            }, 
+            {
+                "id": 11470801873, 
+                "column": "p_utts", 
+                "value": "allright, Willie, are you going to be the first one to call it off, or Jack?"
+            }, 
+            {
+                "id": 11470801877, 
+                "column": "p_utts", 
+                "value": "allright, what side are we on, Will, yellow or red?"
+            }, 
+            {
+                "id": 11470801902, 
+                "column": "p_utts", 
+                "value": "allright, go ahead, Willie."
+            }, 
+            {
+                "id": 11470801986, 
+                "column": "p_utts", 
+                "value": "allright, so Willie, let's see what you have left."
+            }, 
+            {
+                "id": 11470801990, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11470801991, 
+                "column": "p_utts", 
+                "value": "allright, let's look at it."
+            }, 
+            {
+                "id": 11470801998, 
+                "column": "p_utts", 
+                "value": "allright, go ahead, Will."
+            }, 
+            {
+                "id": 11470802040, 
+                "column": "p_utts", 
+                "value": "allright, hold on."
+            }, 
+            {
+                "id": 11470802059, 
+                "column": "p_utts", 
+                "value": "allright, heart and apple for Will."
+            }, 
+            {
+                "id": 11470802066, 
+                "column": "p_utts", 
+                "value": "allright, are you ready?"
+            }, 
+            {
+                "id": 11470802074, 
+                "column": "p_utts", 
+                "value": "allright, go ahead in the kitchen guys, because Jack, you got to eat before school, and Will you got to eat."
+            }, 
+            {
+                "id": 11470802144, 
+                "column": "p_utts", 
+                "value": "allright, guys."
+            }, 
+            {
+                "id": 11470802158, 
+                "column": "p_utts", 
+                "value": "allright, well, Jack is having his lunch."
+            }, 
+            {
+                "id": 11490500039, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500093, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500118, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500223, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500445, 
+                "column": "p_utts", 
+                "value": "\"allright, Julie.\""
+            }, 
+            {
+                "id": 11490500464, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500597, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500641, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490500802, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490501074, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600058, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600103, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600124, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600141, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600221, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600299, 
+                "column": "p_utts", 
+                "value": "you allright?"
+            }, 
+            {
+                "id": 11490600490, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600528, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600540, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600701, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600787, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600855, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11490600940, 
+                "column": "p_utts", 
+                "value": "you allright?"
+            }, 
+            {
+                "id": 11490600957, 
+                "column": "p_utts", 
+                "value": "allright!"
+            }, 
+            {
+                "id": 11490601368, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520300167, 
+                "column": "p_utts", 
+                "value": "\"allright, yes.\""
+            }, 
+            {
+                "id": 11520400017, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520400643, 
+                "column": "p_utts", 
+                "value": "allright, Mar."
+            }, 
+            {
+                "id": 11520400767, 
+                "column": "p_utts", 
+                "value": "allright, well."
+            }, 
+            {
+                "id": 11520500516, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520500937, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520501063, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520600651, 
+                "column": "p_utts", 
+                "value": "allright, you want to sit on the floor and I'll read the book to you?"
+            }, 
+            {
+                "id": 11520600661, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520601360, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11520601587, 
+                "column": "p_utts", 
+                "value": "allright, you'll get butter."
+            }, 
+            {
+                "id": 11520601769, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11580200474, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11580200477, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11580200483, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11580200527, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11580300780, 
+                "column": "p_utts", 
+                "value": "cleaning up, allright."
+            }, 
+            {
+                "id": 11600300834, 
+                "column": "p_utts", 
+                "value": "\"allright, good.\""
+            }, 
+            {
+                "id": 11600300921, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11600300971, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11600301297, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11600301593, 
+                "column": "p_utts", 
+                "value": "\"ok, allright.\""
+            }, 
+            {
+                "id": 11640100043, 
+                "column": "p_utts", 
+                "value": "I'm sure that he'll be allright with that."
+            }, 
+            {
+                "id": 11640100049, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640100337, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640100364, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640100394, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640200070, 
+                "column": "p_utts", 
+                "value": "allright -- Ok."
+            }, 
+            {
+                "id": 11640200073, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640200228, 
+                "column": "p_utts", 
+                "value": "that's allright."
+            }, 
+            {
+                "id": 11640200341, 
+                "column": "p_utts", 
+                "value": "allright."
+            }, 
+            {
+                "id": 11640300395, 
+                "column": "p_utts", 
+                "value": "it's allright."
+            }, 
+            {
+                "id": 11640300748, 
+                "column": "p_utts", 
+                "value": "allright."
+            }
+            ], 
+            "suggestions": [
+            "alright"
+            ]
+        }, 
+        "slimey": {
+            "suspect": "slimey",
+            "units": [
+            {
+                "id": 10800600623, 
+                "column": "p_utts", 
+                "value": "got slimey nose."
+            }
+            ], 
+            "suggestions": [
+            "slimy"
+            ]
+        }, 
+        "geeze": {
+            "suspect": "geeze",
+            "units": [
+            {
+                "id": 10511001094, 
+                "column": "p_utts", 
+                "value": "geeze."
+            }, 
+            {
+                "id": 11001000011, 
+                "column": "p_utts", 
+                "value": "geeze."
+            }
+            ], 
+            "suggestions": [
+            "jeez"
+            ]
+        }, 
+        "monumentalism": {
+            "suspect": "monumentalism",
+            "units": [
+            {
+                "id": 11080701651, 
+                "column": "p_utts", 
+                "value": "alright, say monumentalism."
+            }
+            ], 
+            "suggestions": [
+            "monumentalism"
+            ]
+        }, 
+        "sh": {
+            "suspect": "sh",
+            "units": [
+            {
+                "id": 10250100457, 
+                "column": "p_utts", 
+                "value": "Sh, sh, sh, sh"
+            }, 
+            {
+                "id": 10470200469, 
+                "column": "p_utts", 
+                "value": "ok, I got to get sh -- I got to get Caroline's puzzle."
+            }, 
+            {
+                "id": 10510200623, 
+                "column": "p_utts", 
+                "value": "give it a sh -- Give it a chance."
+            }, 
+            {
+                "id": 10881000861, 
+                "column": "p_utts", 
+                "value": "sh!"
+            }, 
+            {
+                "id": 10920501818, 
+                "column": "p_utts", 
+                "value": "shh, shh, shh, sh."
+            }, 
+            {
+                "id": 11050100369, 
+                "column": "p_utts", 
+                "value": "Sh sh sh."
+            }, 
+            {
+                "id": 11050100383, 
+                "column": "p_utts", 
+                "value": "Sh sh sh."
+            }, 
+            {
+                "id": 11060100521, 
+                "column": "p_utts", 
+                "value": "we'll go upstairs and get your sh"
+            }, 
+            {
+                "id": 11090200276, 
+                "column": "p_utts", 
+                "value": "I'll sh --"
+            }
+            ], 
+            "suggestions": [
+            "shh"
+            ]
+        }, 
+        "tuff": {
+            "suspect": "tuff",
+            "units": [
+            {
+                "id": 11440600035, 
+                "column": "p_utts", 
+                "value": "we're missing some tuff here."
+            }
+            ], 
+            "suggestions": [
+            "tough"
+            ]
+        }, 
+        "theres": {
+            "suspect": "theres",
+            "units": [
+            {
+                "id": 11320500343, 
+                "column": "p_utts", 
+                "value": "theres' your kitchen."
+            }
+            ], 
+            "suggestions": [
+            "there's"
+            ]
+        }, 
+        "mulitask": {
+            "suspect": "mulitask",
+            "units": [
+            {
+                "id": 10540301285, 
+                "column": "p_utts", 
+                "value": "\"then dad learned to mulitask.\""
+            }
+            ], 
+            "suggestions": [
+            "multitask"
+            ]
+        }, 
+        "finnished": {
+            "suspect": "finnished",
+            "units": [
+            {
+                "id": 10890900358, 
+                "column": "p_utts", 
+                "value": "you finnished now?"
+            }, 
+            {
+                "id": 10890900413, 
+                "column": "p_utts", 
+                "value": "he's going to leave when he's finnished working."
+            }, 
+            {
+                "id": 11030901136, 
+                "column": "p_utts", 
+                "value": "he must have finnished his pizza huh?"
+            }
+            ], 
+            "suggestions": [
+            "finished"
+            ]
+        }
+    }
+}

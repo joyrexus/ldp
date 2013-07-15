@@ -1,0 +1,6 @@
+dog
+cat
+mouse
+foo bar baz
+alpha|beta
+biz

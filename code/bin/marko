@@ -1,0 +1,39 @@
+#!/usr/bin/env coffee 
+fs = require 'fs'
+
+
+help = '''
+
+  marko [options] FILES
+
+  options:
+
+    -h  --help        show help
+    -r  --run         run fenced code
+    -t  --toc         generate table of contents
+    -c  --css [file]  include style sheet
+    -o  --out [dir]   output dir
+  
+'''
+
+{render} = require 'marko'
+argv = require('optimist')
+  .boolean(['h', 'r', 't'])
+  .alias('h', 'help')
+  .alias('r', 'run')
+  .alias('t', 'toc')
+  .alias('c', 'css')
+  .alias('o', 'out')
+  .argv
+
+print = console.log
+print help if argv.help
+
+for file in argv._
+  result = render(file, argv.run, argv.css)
+  if argv.out
+    path = "#{argv.out}/#{file.replace('md', 'html')}"
+    fs.writeFileSync path, result
+    print "#{file} -> #{path}"
+  else
+    print result

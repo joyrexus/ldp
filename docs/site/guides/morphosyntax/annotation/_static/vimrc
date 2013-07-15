@@ -1,0 +1,442 @@
+" SHORTCUTS FOR MOVING AROUND THE SCREEN
+
+" Find next match and center in screen
+:map n nzz
+" Find previous match and center in screen
+:map N Nzz
+" Move the page down
+:map e <C-e>
+" Move the page up
+:map E <C-y>
+" Move the cursor to the end of the line
+:map - $
+" Move to the next word
+:map w W
+" Move to the previous word
+:map b B
+
+" Save the file
+:map mw :w
+
+" Switch between split windows
+:map mn <C-w><C-w>
+
+" SHORTCUTS FOR CLEANING UP RAW CHAT FILES
+
+" --------------------------------------------------------------
+" Affix an & to the beginning of each instance of
+" oh, uh, um, ooh, ah, and xxx.
+" --------------------------------------------------------------
+:map `c :%s/\([a-zA-Z+]\)\@<!\(ooh\\|ah\\|oh\\|uh\\|um\\|xxx\)\([a-zA-Z+]\)\@!/\&\2/g
+
+" --------------------------------------------------------------
+" Find instances of lower-case mom, dad, etc. and 
+" capitalize them if they are not preceded by a
+" determiner.
+" --------------------------------------------------------------
+:map `m :%s/\(\(his\\|her\\|my\\|your\\|our\\|their\\|a\\|the\)\@<![^a-zA-Z+]\)\@<=\(mommy\\|daddy\\|mom\\|dad\\|mama\\|dada\\|papa\\|nana\\|grandma\\|grandpa\)\([a-zA-Z+]\)\@!/\u\3/gc
+
+" --------------------------------------------------------------
+" Find instances of capitalized Mom, Dad, etc. and 
+" lower-case them if they are preceded by a determiner.
+" --------------------------------------------------------------
+:map `d :%s/\(\(his\\|her\\|my\\|your\\|our\\|their\\|a\\|the\)\@<=[^a-zA-Z+]\)\@<=\(Mommy\\|Daddy\\|Mom\\|Dad\\|Mama\\|Dada\\|Papa\\|Nana\\|Grandma\\|Grandpa\)\([a-zA-Z+]\)\@!/\l\3/gc
+
+" --------------------------------------------------------------
+" Search for common errors in raw CHAT files.  These patterns
+" may to be considered closely and possibly changed before the
+" automatic syntax parser is run.
+" --------------------------------------------------------------
+:map `v /\(is got\\|what if\\|kind of\\|sort of\\|a lot\\|of course\\|at all\\|at least\\|all right\\|as well\\|because of\\|instead of\\|except for\\|in case\\|[A-Z][^\t ]* [A-Z]\\|[\.!?-][^\.]\+[\.!?+]\\|\t \\|[^a-zI]'\\|let us\\|\[\\|@l@l\\|i@l\\|a@l\\|hey+you\\|[A-Z][a-zA-Z+_]\+'[a-zA-Z]*[+_]\\|\*[^.!?]*\n\\|+[^a-zA-Z.]\\|thank you\\|bless you\\|excuse you\\|excuse me\\|pretty please\\|you're welcome\\|how about\\|what about\\|how come\)
+
+" --------------------------------------------------------------
+" Search for commas that are not preceded or followed by
+" the most common fill words.  This is mainly good for finding
+" disfluencies in early transcripts, but conventions were
+" adopted for marking disfluencies.
+" --------------------------------------------------------------
+:map `, :%s/\(oh\\|uh\\|um\\|ooh\\|ah\\|yes\\|no\\|okay\)\@<!, \(huh\\|okay\\|too\)\@!//n
+
+
+" --------------------------------------------------------------
+" Search for words that are repeated.  Only finds single words
+" repetitions.  To find repeated phrases, use the dis command.
+" --------------------------------------------------------------
+:map tn /\(\<[a-zA-Z+_']\+\>\)[^a-zA-Z+_']\+\(&xxx\)\?[^a-zA-Z+_']*\1\>
+
+
+" SHORTCUTS FOR MOR/PST FILES CONTAINING AMBIGUOUS POS CODES
+
+" --------------------------------------------------------------
+" Search for ambiguous POS codes in vi by typing /\^ and then
+" hitting enter.  While your cursor is over the ambiguous entries,
+" press one of the following shortcuts to disambiguate.
+" --------------------------------------------------------------
+:map tt f^dWi <C-C>F^ldB		" Selects the code that is directly under the cursor
+:map t, WBf^dWi~v\|be&3S <C-C>		" If the first option is the bare word with no clitic,
+					" changes it to pos|word~v|be&3S
+:map ta WBf^dWi~aux\|be&3S <C-C>	" If the first option is the bare word with no clitic,
+					" changes it to pos|word~aux|be&3S
+
+" SHORTCUTS FOR CORRECTING SYNTAX CODES
+
+" Count the number of lines with one or more flags
+:map mct :%s/\(=\n\)\@<!====.*====//n
+
+" Search for the next flag
+:map == /\(=\n\)\@<!====.*====
+
+" Position your cursor on the first line of flags and type
+" the key combination ck to remove all flags for that utterance
+:map <silent> ck :call DelFlags()
+
+" Searches for common tag phrases.  Use this after you have
+" finished correcting syntax to find likely tag phrases.
+:map `t /\(\tlook\\|\twait\\|\tsee\\|\tremember\\|\tyou know\\|come on\\|hold on\\|remember \?\\|I think \.\\|I guess \.\\|ROOT.*ROOT\)
+
+" Type the key combination after \"<silent>\" to change the GR to the first argument of GrPosChange
+" For instance, typing ms would change 1|2|JCT to 1|2|SUBJ
+" Try it now:
+" 1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|XCOMP 6|5|JCT 7|6|POBJ 8|3|PUNCT
+:map <silent> ma :call GrPosChange("AUX", "aux")
+:map <silent> mb :call GrPosChange("POBJ", "")
+" mc is used for several finite clausal GRs.  See below.
+:map <silent> md :call GrPosChange("DET", "")
+:map <silent> me :call GrPosChange("PRED", "")
+:map <silent> mf :call GrPosChange("COORD", "")
+:map <silent> mg :call GrPosChange("TAG", "")
+" mh is used for a mark in the DelFlags function.  Do not map mh to anything.
+:map <silent> mi :call GrPosChange("INF", "")
+:map <silent> mj :call GrPosChange("JCT", "")
+" mk is used for (DET|INF)-GR.  See below.
+:map <silent> ml :call GrPosChange("LOC", "")
+:map <silent> mm :call GrPosChange("MOD", "")
+" mn is used to switch between split windows.  Do not map mn to anything.
+:map <silent> mo :call GrPosChange("OBJ", "")
+:map <silent> mp :call GrPosChange("PTL", "ptl")
+:map <silent> mq :call GrPosChange("QUANT", "")
+:map <silent> mr :call RootChange("ROOT")
+:map <silent> ms :call GrPosChange("SUBJ", "")
+:map <silent> mt :call GrPosChange("SRL", "")
+:map <silent> mu :call GrPosChange("ENUM", "")
+:map <silent> mv :call GrPosChange("VOC", "")
+" mw is used to save the file.  Do not map mw to anything
+" mx is used for several non-finite clausal GRs.  See below.
+" my is used for a mark in the DelFlags function.  Do not map my to anything.
+:map <silent> mz :call GrPosChange("CPZR", "")
+:map <silent> m2 :call GrPosChange("OBJ2", "")
+
+:map <silent> mco :call GrPosChange("COMP", "")
+:map <silent> mcc :call GrPosChange("COM", "")
+:map <silent> mcm :call GrPosChange("CMOD", "")
+:map <silent> mce :call GrPosChange("CPRED", "")
+:map <silent> mcj :call GrPosChange("CJCT", "")
+:map <silent> mcs :call GrPosChange("CSUBJ", "")
+:map <silent> mcn :call GrPosChange("NEG", "")
+
+:map <silent> mxo :call GrPosChange("XCOMP", "")
+:map <silent> mxm :call GrPosChange("XMOD", "")
+:map <silent> mxe :call GrPosChange("XPRED", "")
+:map <silent> mxj :call GrPosChange("XJCT", "")
+:map <silent> mxs :call GrPosChange("XSUBJ", "")
+
+:map <silent> mkds :call GrPosChange("DET-SUBJ", "")
+:map <silent> mkdo :call GrPosChange("DET-OBJ", "")
+:map <silent> mkdp :call GrPosChange("DET-POBJ", "")
+:map <silent> mkdb :call GrPosChange("DET-POBJ", "")
+:map <silent> mkde :call GrPosChange("DET-PRED", "")
+
+:map <silent> mkar :call RootChange("AUX-ROOT")
+:map <silent> mkac :call GrPosChange("AUX-COMP", "aux")
+:map <silent> mkaj :call GrPosChange("AUX-CJCT", "aux")
+
+:map <silent> mkir :call RootChange("INF-ROOT")
+:map <silent> mkic :call GrPosChange("INF-COMP", "")
+:map <silent> mkix :call GrPosChange("INF-XCOMP", "")
+:map <silent> mkij :call GrPosChange("INF-CJCT", "")
+
+" Changes headword to 6
+:map m; WB2f\|hr6
+
+" Changes headword to word number of ROOT
+:map <silent> m, :call RootNum()
+
+" Decrements the dependency number
+:map <silent> m. :call Dec()
+
+" Increments the dependency number
+:map <silent> m/ :call Inc()
+
+
+" SHORTCUTS FOR CORRECTING PART-OF-SPEECH CODES
+
+" List of key mappings to change part-of-speech codes.
+" The key combination following <silent> will change the
+" part-of-speech of the current word to the first argument
+" of ChangePos().  If there is a second argument for that
+" mapping, any suffix of the current word will be changed
+" to the second argument
+
+:map <silent> c; :call ChangePos("co:voc", "", "")
+:map <silent> c, :call ChangePos("v", "3S", "PL")
+:map <silent> cav :call ChangePos("adv", "", "")
+:map <silent> caj :call ChangePos("adj", "", "")
+" cb is unmapped
+:map <silent> cco :call ChangePos("co", "", "")
+:map <silent> ccn :call ChangePos("neg", "", "")
+:map <silent> cd :call ChangePos("det:num", "", "")
+:map <silent> ce :call PosUttChange("quote", "q")
+:map <silent> cf :call ChangePos("part", "PERF", "")
+:map <silent> cg :call ChangePos("n:gerund", "GERUND", "")
+:map <silent> ch :call ChangePos("pro:wh", "", "")
+:map <silent> ci :call ChangePos("adv:int", "", "")
+" cj is unmapped
+" ck is used to delete all flags for an utterance.  Do not map ck to anything.
+:map <silent> cl :call ChangePos("ptl", "", "")
+:map <silent> cm :call ChangePos("pro:dem", "", "")
+:map <silent> cn :call ChangePos("n", "PL", "3S")
+:map <silent> co :call ChangePos("pro:poss:det", "", "")
+:map <silent> cp :call ChangePos("prep", "", "")
+:map <silent> cq :call ChangePos("qn", "", "")
+:map <silent> cr :call ChangePos("pro:indef", "", "")
+:map <silent> cs :call ChangePos("conj:subor", "", "")
+:map <silent> ct :call ChangePos("pro:exist", "", "")
+:map <silent> cu :call ChangePos("part", "PROG", "")
+:map <silent> cv :call ChangePos("adv:loc", "", "")
+" cw is unmapped, but is very useful for replacing words.  Do not map cw to anything.
+:map <silent> cx :call ChangePos("aux", "", "")
+" cy is unmapped
+" Removes the &ZERO suffix
+:map cz WhdFZhx
+
+
+
+" FUNCTION DEFINITIONS
+
+" Changes the current word to ROOT.  If words are dependent on the original ROOT, changes their dependency
+" from the old ROOT to the new ROOT (unless the word was a DET, MOD, QUANT, or INF to the old ROOT word).
+" Finally, places cursor over the GR of the old ROOT for immediate manual correction
+:fun RootChange(pos)
+:let @x = @/
+:if (match(a:pos, "AUX") != -1)
+:call GrPosChange("AUX", "aux")
+:endif
+:if (match(a:pos, "INF") != -1)
+:call GrPosChange("INF", "inf")
+:endif
+:normal WBvf|h"ay
+:normal WBvWhh"by
+:if (match(@b, '0|'.a:pos) != -1)
+:return 0
+:endif
+:if (match(getline("."), "ROOT") == -1)
+:call cursor(line("."), 1)
+:call setline(line("."), substitute(getline("."), @b, @a."|0|".a:pos, ""))
+:call search("ROOT", "", line("."))
+:return 0
+:endif
+:call cursor(line("."), 1)
+:call search("ROOT", "c", line("."))
+:normal WBvf|h"cy
+:normal WBvWhh"dy
+:call cursor(line("."), 1)
+:call setline(line("."), substitute(getline("."), @b, @a."|0|".a:pos, ""))
+:call cursor(line("."), 1)
+:call setline(line("."), substitute(getline("."), @d, @c."|".@a."|ROOT", ""))
+:call cursor(line("."), 1)
+:call setline(line("."), substitute(getline("."), "|".@c.'|\(DET\|MOD\|QUANT\|INF\|COORD\|NEG\|SRL\)\@!', "|".@a."|", "g"))
+:call cursor(line("."), 1)
+:call search("[^|]".@c."|", "c", line("."))
+:normal 2f|l
+:let @/ = @x
+:endfun
+
+" Replaces the headword dependency number of the current word with that of the ROOT
+:fun RootNum()
+:let @x = @/
+:if (match(getline("."), "ROOT") == -1)
+:echo "Syntax tier does not contain a ROOT"
+:return 0
+:endif
+:normal WBv2f|"ay
+:call cursor(line("."), 1)
+:call search("ROOT", "", line("."))
+:normal WBvf|h"by
+:call cursor(line("."), 1)
+:call search(@a, "", line("."))
+:normal WBf|"bpldf|i|
+:let @/ = @x
+:endfun
+
+" Finds the part-of-speech field of the current word and replaces it with a:pos.  Also replaces the suffix
+" with the a:suff argument (call with the argument "" if you don't want to replace the suffix).  If a:rep
+" is not empty, the suffix of the word must match a:rep in order to be replaced by a:suff.
+:fun ChangePos(pos, suff, rep)
+:let @x = @/
+:let @a = a:pos
+:normal mh
+:if (match(getline("."), '%mor:') == -1)
+:normal WBvf|h"jy
+:call cursor(line("."), 1)
+:while (match(getline("."), '%mor:') == -1)
+:if (line(".") == 1)
+:return
+:endif
+:normal k
+:endwhile
+:normal W
+:let i = 1
+:while (i < @j)
+:call search("\\( \\|\\~\\|POS\\)", "e", line("."))
+:normal l
+:let i = i + 1
+:endwhile
+:normal l
+:endif
+:call search("[\t~ ]", "bc")
+:normal lvWhh"by
+:if ((match(@b, "|to$") != -1) && (match(@a, "adv:int") != -1))
+:let @a = "inf"
+:endif
+:if ((match(@b, "|too$") != -1) && (match(@a, "prep") != -1))
+:let @a = "post"
+:endif
+:if ((match(@b, "|\\(that\\|who\\|which\\)") != -1) && (match(@a, "pro:indef") != -1))
+:let @a = "rel"
+:endif
+:if ((match(@b, "|\\(own\\|her\\)$") != -1) && (match(@a, "prep") != -1))
+:let @a = "pro"
+:endif
+:if ((match(@b, "\\(day\\|night\\|ever\\|after\\|tomorrow\\|time\\|then\\)$") != -1) && (match(@a, "adv:loc") != -1))
+:let @a = "adv:tem"
+:endif
+:if ((match(@b, "\\(what\\|which\\)$") != -1) && (match(@a, "det:num") != -1))
+:let @a = "det:wh"
+:endif
+:if ((match(@b, "\\(that\\|these\\|those\\|this\\|the\\)$") != -1) && (match(@a, "det:num") != -1))
+:let @a = "det"
+:endif
+:call search("[\t~ ]", "bc")
+:normal "apldf|i|
+:if (strlen(a:suff) > 0)
+:if (match(@b, "[\-&]".a:rep) != -1)
+:let @c = a:suff." "
+:call search("[\-&]", "")
+:normal ldWh"cph
+:endif
+:if (a:suff == "PROG" || a:suff == "GERUND")
+:if (match(@b, "ing$") != -1)
+:if (match(@b, "ving$") != -1 || match(@b, "ining$") != -1)
+:let @c = "e-".a:suff
+:else
+:let @c = "-".a:suff
+:endif
+:normal WFixxxh"cp
+:endif
+:endif
+:endif
+:let @/ = @x
+:normal `hWF|
+:endfun
+
+" Delete all of the flags for the current utterance (starting from the line that the cursor is on)
+:fun DelFlags()
+:normal mh
+:call cursor(line("."), 1)
+:while(match(getline("."), "====.*====") != -1)
+:normal my
+:normal j
+:endwhile
+:call cursor(line("."), 1)
+:'h,'y d
+:endfun
+
+:fun PosUttChange(pos, suff)
+:let @m = '@'.a:suff
+:call ChangePos(a:pos, "", "")
+:normal mh
+:let z = col("'h")
+:let j = 1
+:while (match(getline("."), "\\( \\|\\~\\|\\t\\|POS\\)", 0, j+1) < z)
+:let j = j + 1
+:endwhile
+:echo j
+:call cursor(line("."), 1)
+:while (match(getline("."), '*...:') == -1)
+:if (line(".") == 1)
+:return
+:endif
+:normal k
+:endwhile
+" :normal W
+:let i = 1
+:while (i <= j)
+:call search("[\t ']\\(\&\\)\\@!", "e", line("."))
+:normal l
+:let i = i + 1
+:endwhile
+:normal l
+:call search("[^a-zA-Z+_]", "", line("."))
+:normal Bv
+:call search("[^a-zA-Z+_]", "", line("."))
+:normal h"ny
+:call search("[^a-zA-Z+_]", "", line("."))
+:normal "mP
+:call cursor(line("."), 1)
+:normal `hldWi 
+:normal "nP
+:endfun
+
+
+:fun GrPosChange(gr, pos)
+:let @l = "|".a:gr
+:let @m = a:pos
+:normal WhdF|h"lp
+:if (a:gr == "OBJ")
+:if (@" == "|POBJ")
+:normal WBf|lWhh
+:endif
+:endif
+:if (strlen(a:pos) == 0)
+:return
+:endif
+:normal WBvf|h"jy
+:normal WBvWhh"ky
+:call cursor(line("."), 1)
+:while (match(getline("."), '%mor:') == -1)
+:if (line(".") == 1)
+:return
+:endif
+:normal k
+:endwhile
+:normal W
+:let i = 1
+:while (i < @j)
+:call search("\\( \\|\\~\\|POS\\)", "e", line("."))
+:normal l
+:let i = i + 1
+:endwhile
+:normal l
+:call ChangePos(a:pos, "", "")
+:call cursor(line("."), 1)
+:while (match(getline("."), '%syn:') == -1)
+:if (line(".") == line("$"))
+:return
+:endif
+:normal j
+:endwhile
+:call search(@k, "c", line("."))
+:normal 2f|
+:endfun
+
+:fun Inc()
+:call search(" ", "c", line("."))
+:call search("[0-9]|", "b", line("."))
+:normal 
+:endfun
+
+:fun Dec()
+:call search(" ", "c", line("."))
+:call search("[0-9]|", "b", line("."))
+:normal 
+:endfun

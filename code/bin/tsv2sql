@@ -1,0 +1,23 @@
+#!/usr/bin/env python 
+'''
+Convert a TSV file to a set of SQL insert or update statements.
+
+'''
+import argparse
+from datastore.table import Reader
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--mode', choices=('insert', 'update'), default='update')
+parser.add_argument('--table', default='utterances')
+parser.add_argument('files', nargs='+')
+
+args = parser.parse_args()
+
+for file in args.files:
+    r = Reader(file)
+    if args.mode == 'insert':
+        print r.batch_insert_sql(table=args.table)
+    elif args.mode == 'update':
+        print r.batch_update_sql(table=args.table)
+    else:
+        parser.print_help()

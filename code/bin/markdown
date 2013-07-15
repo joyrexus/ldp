@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+"""
+Usage:
+
+    markdown --help
+    markdown source.txt > destination.html
+
+"""
+from markdown.__main__ import run
+run()

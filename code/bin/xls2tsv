@@ -1,0 +1,84 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''xls2tsv - print the contents of a worksheet from an excel workbook.'''
+
+import sys
+import xlrd
+import optparse
+
+parser = optparse.OptionParser()
+
+parser.add_option('--sheet', 
+                  default='Sheet1', 
+                  help='name of worksheet to be printed')
+parser.add_option('--sheetnames', 
+                  default=False, 
+                  action='store_true', 
+                  help='print all sheets in Excel file')
+
+opts, files = parser.parse_args()
+
+if opts.sheetnames:
+    '''Print names of worksheets in file(s)'''
+    if len(files) == 0:
+        sys.exit('Need to specify input file(s)')
+    else:
+        for file in files:
+            try:
+                wb = xlrd.open_workbook(file)
+                print "\n".join(wb.sheet_names())
+            except:
+                sys.exit('bailed on ' + file)
+else:
+    import re
+
+    dash_pt = re.compile(u"[–—]", re.UNICODE)
+    apostro_pt = re.compile(u"’", re.UNICODE)
+    apostro_t_pt = re.compile(u"稚", re.UNICODE)
+    ae_apostro_pt = re.compile(u"Æ", re.UNICODE)
+    grave_e_pt = re.compile(u"é", re.UNICODE)
+    umlaut_e_pt = re.compile(u"ë", re.UNICODE)
+    cap_a_pt = re.compile(u"â", re.UNICODE)
+    phi_e_pt = re.compile(u"Φ", re.UNICODE)
+    rho_a_pt = re.compile(u"Γ", re.UNICODE)
+    theta_e_pt = re.compile(u"Θ", re.UNICODE)
+    unknown_pt = re.compile(u"╟", re.UNICODE)
+
+    def asciify(string):
+        '''Replace any non-ascii chars with appropriate chars.'''
+        try:
+            return str(string)
+        except UnicodeEncodeError:
+            string = dash_pt.sub("–", string)
+            string = apostro_pt.sub("'", string)
+            string = apostro_t_pt.sub("'t", string)
+            string = ae_apostro_pt.sub("'", string)
+            string = grave_e_pt.sub("e", string)
+            string = umlaut_e_pt.sub("e", string)
+            string = cap_a_pt.sub("a", string)
+            string = phi_e_pt.sub("e", string)
+            string = rho_a_pt.sub("a", string)
+            string = theta_e_pt.sub("e", string)
+            string = unknown_pt.sub("", string)
+            return string.encode('utf-8', 'replace')
+
+    if len(files) == 0:
+        sys.exit('Need to specify input file(s)')
+    else:
+        for file in files:
+            try:
+                wb = xlrd.open_workbook(file)
+            except:
+                sys.exit('bailed on ' + file)
+            try:
+                sheet = wb.sheet_by_name(opts.sheet)
+            except:
+                sys.exit("could not open worksheet " + opts.sheet + " in " + file)
+            for row in range(sheet.nrows):
+                values = [asciify(i) for i in sheet.row_values(row)]
+                try:
+                    print "\t".join(values)
+                except:
+                    sys.exit("non-ascii values in " + file)
+

@@ -1,0 +1,11 @@
+{#
+    basic/localtoc.html
+    ~~~~~~~~~~~~~~~~~~~
+
+    Sphinx sidebar template: local table of contents.
+
+#}
+{%- if display_toc %}
+  <h3><a href="{{ pathto(master_doc) }}">{{ _('Outline') }}</a></h3>
+  {{ toc }}
+{%- endif %}

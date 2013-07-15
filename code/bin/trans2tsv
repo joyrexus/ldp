@@ -1,0 +1,36 @@
+#!/usr/bin/env python 
+'''
+trans2tsv - convert incoming transcript TSV files to a single TSV data file.
+
+This utility adds four additional colunns to the set of conventional columns
+found in incoming transcripts, viz.:
+
+* id (unique row ID)
+* subject
+* session
+* row
+* last_update (current timestamp)
+
+The resulting TSV batch file can then be used to update the canonical dataset
+using the ``tsv2sql`` utility.
+
+'''
+import sys
+import argparse
+from ldp.convert import Transcript
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--noheader', action='store_true')
+parser.add_argument('files', nargs='+')
+
+args = parser.parse_args()
+
+header = False if args.noheader else True
+
+for file in args.files:
+    trans = Transcript(file)
+    if header: 
+        print "\t".join(trans.header())
+        header = False                  # only print header once
+    for row in trans: 
+        print "\t".join(str(x) for x in row)

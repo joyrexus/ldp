@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Move files with specified pattern in first line to target dir.
+
+USAGE="Usage: $0 PATTERN FILES... DIR"
+
+if [ "$#" == "0" ]; then
+    echo "$USAGE"
+    exit 1
+fi
+
+PATTERN=$1
+TARGET_DIR=${!#}
+
+shift
+
+for i in "$@"
+    do 
+        if [ -f $i ] && [ `perl -ne'print 1 if /'$PATTERN'/; close ARGV' $i` ]
+        then
+            echo "Moving $i to $TARGET_DIR"
+            mv $i $TARGET_DIR
+        fi
+    done

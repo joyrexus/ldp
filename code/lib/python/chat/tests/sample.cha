@@ -1,0 +1,58 @@
+@UTF8
+@Begin
+@Languages:	en
+@Participants:	CHI Child, MOT Mother, FAT Father
+@ID:	en|sample|CHI| | | | |Child| |
+@ID:	en|sample|MOT| | | | |Mother| |
+@ID:	en|sample|FAT| | | | |Father| |
+@Location:	location
+@Warning:	warning
+@Coder:	coder
+*CHI:	huh ?
+%mor:	co|huh ?
+%syn:	1|0|ROOT 2|1|PUNCT 
+%gld:	1|0|ROOT 2|1|PUNCT 
+%row:	1
+*MOT:	show her your toys .
+%mor:	v|show pro|her pro:poss:det|your n|toy-PL .
+%syn:	1|0|ROOT 2|1|OBJ 3|4|MOD 4|1|OBJ2 5|1|PUNCT 
+%gld:	1|0|ROOT 2|1|OBJ 3|4|DET 4|1|OBJ2 5|1|PUNCT 
+%row:	2
+*MOT:	# xxx you put up yesterday ?
+%mor:	pro|you v|put&ZERO ptl|up adv:tem|yesterday ?
+%syn:	1|2|SUBJ 2|0|ROOT 3|2|PTL 4|2|JCT 5|2|PUNCT 
+%gld:	1|2|SUBJ 2|0|ROOT 3|2|PTL 4|2|JCT 5|2|PUNCT 
+%row:	3
+*MOT:	let's go look .
+%mor:	aux|let's v|go v|look .
+%syn:	1|3|AUX 2|3|SRL 3|0|ROOT 4|3|PUNCT 
+%gld:	1|3|AUX 2|3|SRL 3|0|ROOT 4|3|PUNCT 
+%row:	4
+*MOT:	show her your play+room .
+%mor:	v|show pro|her pro:poss:det|your n|+n|play+n|room .
+%syn:	1|0|ROOT 2|1|OBJ 3|4|MOD 4|1|OBJ2 5|1|PUNCT 
+%gld:	1|0|ROOT 2|1|OBJ 3|4|DET 4|1|OBJ2 5|1|PUNCT 
+%row:	5
+*MOT:	say, these are your toys .
+%mor:	v|say pro:dem|these v|be&PRES pro:poss:det|your n|toy-PL .
+%syn:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|5|MOD 5|3|PRED 6|1|PUNCT 
+%gld:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|DET 5|3|PRED 6|1|PUNCT 
+%row:	6
+*MOT:	just finish the curve .
+%mor:	adv:int|just v|finish det|the n|curve .
+%syn:	1|2|JCT 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT 
+%gld:	1|2|JCT 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT 
+%row:	7
+*MOT:	this one has to come out .
+%mor:	det|this pro:indef|one aux|have&3S inf|to v|come adv:loc|out .
+%syn:	1|2|DET 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|JCT 7|5|PUNCT 
+%gld:	1|2|DET 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|JCT 7|5|PUNCT 
+%row:	8
+*MOT:	I think +...
+%row:	9
+*MOT:	I think we need some +...
+%mor:	pro|I v|think pro|we v|need pro:indef|some +...
+%syn:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|OBJ 6|2|PUNCT 
+%gld:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|OBJ 6|2|PUNCT 
+%row:	12
+@End

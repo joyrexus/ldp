@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+'''
+md2html - convert a markdown file to html
+
+Dependencies: markdown module (pip install Markdown)
+
+Usage: 
+    md2html file.md > file.html
+    md2html file.md | browser
+
+'''
+import sys
+from markdown import Markdown
+
+css_url = "http://joy.uchicago.edu/~jvoigt/static/css/readme.css"
+
+md = Markdown(extensions=['toc'], 
+              extension_configs={'title': "Summary", 'anchorlink': True})
+
+prefix = '''<!DOCTYPE html>
+<meta charset="utf-8">
+<style>@import url({0});</style>
+<body>'''.format(css_url)
+
+suffix = '''</body></html>'''
+
+text = open(sys.argv[1]).read()
+html = md.convert(text)
+
+print '\n'.join([prefix, html, suffix])

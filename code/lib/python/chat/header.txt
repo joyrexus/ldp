@@ -1,0 +1,10 @@
+@UTF8
+@Begin
+@Languages:	en
+@Participants:	CHI Child, MOT Mother, FAT Father
+@ID:	en|sample|CHI| | | | |Child| |
+@ID:	en|sample|MOT| | | | |Mother| |
+@ID:	en|sample|FAT| | | | |Father| |
+@Location:	location
+@Warning:	warning
+@Coder:	coder

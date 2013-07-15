@@ -1,0 +1,113 @@
+Vocabulary (aka Vocab Comp): LDP-developed measure of C’s early vocabulary 
+comprehension.  C must point to the picture matching E’s oral prompt. 
+ 
+Syntax (aka Syntax Comp): LDP-developed measure of C’s early syntax comprehension.  C must point to the picture matching E’s oral prompt. 
+ 
+MacArthur Words & Gestures (aka CDI.g): Normed parent-response questionnaire.  
+Estimates a 14-month-old C’s vocabulary production. 
+ 
+Toy Session: At each home visit 01H through 10H, all Cs receive a common set of toys (changes depending on age) and interact with the experimenter in the interest of eliciting spontaneous speech. 
+ 
+MacArthur Words & Sentences (aka CDI.s): Normed parent-response questionnaire. 
+Estimates the vocabulary production skills of Cs aged 18 through 30 months. 
+ 
+PPVT (aka Peabody Vocab): Normed measure of C’s vocabulary comprehension.  C 
+must choose which of four pictures matches E’s verbal prompt 
+ 
+Verbal Number Matching: LDP-developed measure of C’s ability to match spoken 
+number words to pictures of number sets. 
+ 
+Counting Task: LDP-developed measure of C’s ability to count correctly to 10 while pointing at a series of 10 dots, and also C’s ability to state that the set contains 10 total dots after counting. 
+ 
+Digit Span Task: LDP-developed measure of C’s working memory capacity; C must 
+repeat increasingly long strings of orally presented numbers (e.g. 1, 2.  3, 4, 2.  2, 4, 5, 1.  etc...). 
+ 
+GAPS Sentence Repetition: C must correctly repeat the sentences of an orally presented story one at a time. 
+ 
+GAPS Nonword Repetition: C must correctly repeat a series of orally presented 
+nonwords one at a time. 
+ 
+Typical Day Questionnaire: Parent-response questionnaire – quantifies estimated time spent with child, time spent doing certain activities, etc... for each day of the week around the 46 month time point. 
+ 
+Tweety Discourse Task: C watches a short Tweety and Sylvester cartoon and is recorded describing what happened in the story. 
+ 
+Mental Rotation* (together with the following 3* tasks, aka the Spatial Battery): C is shown 2 abstract shapes and is asked what they would look like if “put together”; C must mentally rotate and combine the 2 shapes to choose the correct target from several foils. 
+ 
+Spatial Analogies*: C must decide which spatial configuration of abstract shapes goes best with the prompt.  e.g. (  ) goes better with < > than it does with ^ ^ or O O 
+ 
+Spatial Term Comprehension*: C must choose a picture which best matches a spoken 
+spatial term, like under, shorter, etc... 
+ 
+WPPSI Block Design*: C must use blocks with red, white, and red/white faces to quickly and correctly assemble increasingly complex red and white patterns to create an exact replication of a target picture using 2, 3 or 4 blocks. 
+ 
+Theory of Mind: C responds to a series of questions about scenarios involving theory of mind (like understanding that a third party would not know that a cereal box contained rocks, even though C learned this by looking into the box). 
+ 
+CTOPP Elision: Normed measure of C’s ability to remove a particular phoneme from a word.  e.g. “say powder without saying /d/”  correct response = “power” 
+ 
+CTOPP Sound Matching: Normed measure of C’s ability to distinguish word-initial and word-final phonemes; C must choose which word begins or ends with the same sound as the prompt word.  e.g. “which word ends with the same sound as gum? goat, nut, or farm?” 
+ 
+CTOPP Nonword Repetition: Normed measure of C’s phonetic memory; C must 
+correctly repeat increasingly phonetically complex syllable strings (nonwords) 
+ 
+Woodcock-Johnson Letter-Word Identification: C must correctly read aloud printed 
+letters and words. (e.g. c, q, cat, there etc...) 
+ 
+Woodcock-Johnson Word Attack: C must correctly read aloud printed phonemes and 
+nonwords.  (e.g. /n/, /k/, ib, nat etc...) 
+ 
+CELF Recalling Sentences: Normed measure of C’s ability to correctly repeat 
+increasingly syntactically complex sentences. 
+ 
+CELF Formulated Sentences: Normed measure of C’s ability to use a given function 
+word (like after, however, although, etc...) in a grammatically correct sentence that is semantically relevant to a given picture. 
+ 
+WPPSI  Matrix Reasoning: Normed measure of C’s ability to discriminate categories and patterns nonverbally.  C must choose which of several pictures “goes best with” the prompt. 
+ 
+ECLS Questionnaire: Parent-response questionnaire – contains literacy- and activity- related questions like “how many children’s books do you have in your home”, “how often do you read to/with your child”, “how often do you play puzzles with your child”, etc... 
+ 
+Spontaneous Speech: Video-taped interaction between C and E for 20 or 30 minutes, Es were told to elicit the most complex speech possible from C.  Sometimes common toy sets were used, sometimes M was present.  Starting with the Fall 2008 visit, a set of common prompts for RAs was developed, like “what’s your favorite thing about school”, “what did you do for your birthday”, “have you gone on any special trips lately”, etc... 
+ 
+Stein Story Stems: C must verbally create a story based on an oral prompt like “Once there was a girl named Alice who lived in a house by the ocean”. 
+ 
+Nonverbal Math: C must use tokens to solve subtraction and addition problems presented by E using tokens and a box to hide them from view.  e.g. E places 3 tokens on a mat, covers them with a box, then slides 2 more tokens into the box, and C is asked to place the same number of tokens that are hidden under the box onto his own mat. 
+ 
+Maus Stories: C watches a cartoon, watches a storyteller, listens to an audio story, or reads a story in which a mouse and his friends problem-solve and attain goals in various scenarios.  C must then retell the story and answer comprehension questions. 
+ 
+Conservation Task: C answers classic Piagetian conservation questions about volume, number and length. 
+ 
+Verbal Math: C is asked simple subtraction and addition story problems.  e.g. “what is five apples take away two apples?” 
+ 
+Multimodal Task (aka Tom and Jerry task): C watches a short video about Jerry the mouse and a baby woodpecker, then retells the story and answers orally administered comprehension questions. 
+ 
+Frog Story: C looks silently at each page of a picture storybook, then starts at the beginning, going page by page, telling “the story” to E.  (books by Mercer Mayer) 
+ 
+TEMA: Normed measure of various number and math skills. 
+ 
+Number Line: C looks at a visual number line (0 to 100 or 0 to 1,000) and places a pencil mark along the line to show where he/she thinks the prompt number belongs. 
+ 
+Letter Name Task: C says the name of each printed letter (random order). 
+ 
+Letter Sound Task: C says the sound that each printed letter makes (random order). 
+ 
+Invented Spelling: C is verbally given increasingly complex words and told to write the spelling of each word however he/she would like (Rebecca Treiman’s work). 
+ 
+Math Vignettes: C watches a series of cartoons containing specific numbers of 
+participants and events (like 5 balls, each bouncing 3 times), and must retell what happened. 
+ 
+Woodcock-Johnson Passage Comprehension: Normed measure of C’s understanding of semantic meaning.  C must read increasingly complex sentences and passages (not aloud) and verbally supply missing information. 
+ 
+K-ABC Spatial Memory: Normed measure of C’s spatial working memory.  C must recall placement of stimuli in increasingly complex arrays. 
+ 
+Nonsymbolic Math: LDP-developed measure of C’s ability to perform calculations on and comparisons of increasingly large non-symbolic number sets (tokens, no written numbers).  C must observe an addition or subtraction event, hold the total in memory, and compare its magnitude to another set of tokens. 
+ 
+Symbolic Math: LDP-developed measure of C’s ability to perform calculations on and comparisons of increasingly large symbolic number sets (written numbers, no tokens). C must observe an addition or subtraction event, hold the total in memory, and compare its magnitude to another symbolic set representation. 
+ 
+WISC-III Digit Span: Normed measure of C’s working memory capacity; C must repeat increasingly long orally presented strings of numbers both in the same order and in the reverse order of presentation. 
+ 
+Woodcock-Johnson Applied Problems: Normed measure of C’s elementary-level arithmetic skills.  C completes a written worksheet of addition, subtraction, multiplication and division problems. 
+ 
+K-ABC Triangles: C must use yellow and blue triangle pieces to quickly and correctly assemble increasingly complex patterns to create an exact replication of a target picture using up to 9 pieces. 
+ 
+Gates-MacGinitie: Normed classroom-style test of passage comprehension.  C must read several passages (not aloud) and answer written comprehension questions. 
+ 
+Trait Beliefs Questionnaire: Orally presented questionnaire with Likert scales and yes/no questions to gauge C’s beliefs about the stability of traits. 

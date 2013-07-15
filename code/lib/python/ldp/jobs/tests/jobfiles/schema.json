@@ -1,0 +1,69 @@
+{
+  "id": 2, 
+  "kind": "BatchSuspectSubstring", 
+  "issue": "ISSUE DESCRIPTION", 
+  "author": "AUTHOR NAME", 
+  "created": "2011-07-15", 
+  "dataset": {
+    "table": "utterances", 
+    "version": [2, 41], 
+    "environ": "LDP_DB"
+  }, 
+  "notes": ["NOTE1", "NOTE2"], 
+  "tags": ["TAG1", "TAG2", "TAG3"],
+  "editors": [
+    {
+      "date": "2011-08-11 15:35:22.811578", 
+      "name": "jvoigt"
+    }
+  ], 
+  "examples": [
+    {"new": "achoo", "old": "aachoo"}, 
+    {"new": "windshield", "old": "winshield"}
+  ], 
+  "omits": [], 
+  "edits": [
+    {
+      "suspect": "sh", 
+      "prior_value": "I'll sh --", 
+      "suggestions": ["shh"], 
+      "id": 11090200276, 
+      "column": "p_utts", 
+      "value": "I'll shh --",
+      "tags": []
+    }, 
+    {
+      "suspect": "sh", 
+      "prior_value": "we'll go upstairs and get your sh", 
+      "suggestions": ["shh"], 
+      "id": 11060100521, 
+      "column": "p_utts", 
+      "value": "we'll go upstairs and get your shh",
+      "tags": []
+    } 
+  ], 
+  "tasks": {
+    "speghetti": {
+      "units": [
+        {
+          "suspect": "speghetti", 
+          "tags": [], 
+          "suggestions": ["spaghetti"], 
+          "id": 10460301128, 
+          "column": "p_utts", 
+          "value": "\"my favorite food is applesauce and speghetti mushed together\""
+        }, 
+        {
+          "suspect": "speghetti", 
+          "tags": [], 
+          "suggestions": ["spaghetti"], 
+          "id": 10940301287, 
+          "column": "p_utts", 
+          "value": "you're eating speghetti for dinner by the way."
+        }
+      ], 
+      "suspect": "speghetti", 
+      "suggestions": ["spaghetti"]
+    } 
+  } 
+}
