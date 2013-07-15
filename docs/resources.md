@@ -16,8 +16,6 @@ The [Psych Dept website](http://psychology.uchicago.edu/people/faculty/levine/la
 
 In addition to these sites, the [LDP web portal](https://ldp.uchicago.edu/portal/) is a password protected site used for internal admistration and workflow tracking.
 
-For an overview of the LDP's main resources for research and how to access them, see [this gist](https://gist.github.com/joyrexus/97371bcb93ab7b7a5958).
-
 
 ## Servers
 
