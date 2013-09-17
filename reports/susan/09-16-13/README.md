@@ -1,15 +1,31 @@
 # README
 
-Kristi (on behalf of Susan Levine) is requesting a summary report of child gesture counts based on the [lrb](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html) column from sessions 5 and 8 of the home visits.
+Kristi (on behalf of Susan Levine) is requesting a summary report of child gesture counts based on the [LRB](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html) column from sessions 5 and 8 of the home visits.
 
 
-## Report
+## Reports
 
-See [report]().
+The first report (`summary-1.xls`) provides summary counts of each of the [LRB codes](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html) found as values in the **LRB** column.
 
-## Format
+The second report (`summary-2.xls`) provides summary counts of each of the [LRB codes](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html) and their co-occurence with the [gesture type codes](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/g_type.html) found in the **G_TYPE** column.
 
-See 
+The third report (`summary-3.xls`) provides summary counts of each of the [LRB codes](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html) and their co-occurence with the [gesture-speech relation codes](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/gs_rel.html) found in the **GS_REL** column.
+
+
+## LRB Codes
+
+The valid **LRB** codes are listed below. See the [transcript column
+specification](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/) for
+an overview of the valid codes for the other gesture columns.
+
+    CODE  MEANING
+    L     Left hand
+    R     Right hand
+    B     Both hands
+    H     Head
+    LF    Left foot
+    RF    Right foot
+    W     Whole body
 
 
 ## Columns

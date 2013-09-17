@@ -19,6 +19,7 @@ A.  Summary table of handedness of gestures at 05H and 08H
 22.08H	  %	0.53125	0.390625	6.25E-2	0						
 
 B. Table of gestures by hand and by type											
+
 		R		L 		B		WB		TOTAL	
 	Gesture Type	Raw	% 	Raw	%	Raw	%	Raw	%	Raw	%
 22.05H	  Deictic	223	0.97807017543859653	36	0.92307692307692313	8	1	0		267	0.97090909090909094
