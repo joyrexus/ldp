@@ -14,16 +14,13 @@ The third report (`summary-3.xls`) provides summary counts of each of the [LRB c
 
 ## LRB Codes
 
-The valid **LRB** codes are listed below. See the [transcript column
-specification](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/) for
-an overview of the valid codes for the other gesture columns.
+The **LRB** codes here counted are listed below. Other **LRB** codes were
+omitted.  See the [transcript column specification](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/) for an overview of the valid codes for the other gesture columns.
 
     CODE  MEANING
-    L     Left hand (or foot)
-    R     Right hand (or foot)
+    L     Left hand
+    R     Right hand
     B     Both hands
-    H     Head
-    W     Whole body
 
 
 ## Notes
@@ -34,13 +31,7 @@ latter two reports) were eliminated from the counts.  For example, if the
 and `R` code totals were only incremented by one (instead of by 2 for the `L`
 code total and 3 for the `R` code total).
 
-* `WB` codes were counted as `W` codes. (`WB` is not a valid code.  
-  We're assuming transcribers intended to code these as `W`, the code 
-  for "whole body".)
-
-* `LF` codes were counted as `L` and `RF` as `R` codes.  That is, instead of
-  having separate coding categories for "left hand" and "left foot", there's
-  simple a "left" category.
+As noted above, only the `L`, `R`, and `B` codes were counted.
 
 
 ---

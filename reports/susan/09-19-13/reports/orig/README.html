@@ -183,21 +183,31 @@ sup, sub {
 <p>The second report (<code>summary-2.xls</code>) provides summary counts of each of the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html">LRB codes</a> and their co-occurence with the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/g_type.html">gesture type codes</a> found in the <strong>G_TYPE</strong> column.</p>
 <p>The third report (<code>summary-3.xls</code>) provides summary counts of each of the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/lrb.html">LRB codes</a> and their co-occurence with the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/gs_rel.html">gesture-speech relation codes</a> found in the <strong>GS_REL</strong> column.</p>
 <h2>LRB Codes</h2>
-<p>The <strong>LRB</strong> codes here counted are listed below. Other <strong>LRB</strong> codes were
-omitted.  See the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/">transcript column specification</a> for an overview of the valid codes for the other gesture columns.</p>
+<p>The valid <strong>LRB</strong> codes are listed below. See the <a href="http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/">transcript column
+specification</a> for
+an overview of the valid codes for the other gesture columns.</p>
 <pre><code>CODE  MEANING
-L     Left hand
-R     Right hand
-B     Both hands</code></pre>
+L     Left hand (or foot)
+R     Right hand (or foot)
+B     Both hands
+H     Head
+W     Whole body</code></pre>
 <h2>Notes</h2>
 <ul>
-<li>As requested, repeated gesture codes (or gesture code combinations for the
+<li><p>As requested, repeated gesture codes (or gesture code combinations for the
 latter two reports) were eliminated from the counts.  For example, if the
 <strong>LRB</strong> codes for a given utterance consisted of <code>L+L+R+R+R</code>, both the <code>L</code> code
 and <code>R</code> code totals were only incremented by one (instead of by 2 for the <code>L</code>
-code total and 3 for the <code>R</code> code total).</li>
+code total and 3 for the <code>R</code> code total.</p>
+</li>
+<li><p><code>WB</code> codes were counted as <code>W</code> codes. (<code>WB</code> is not a valid code.<br>We&#39;re assuming transcribers intended to code these as <code>W</code>, the code 
+for &quot;whole body&quot;.)</p>
+</li>
+<li><p><code>LF</code> codes were counted as <code>L</code> and <code>RF</code> as <code>R</code> codes.  That is, instead of
+having separate coding categories for &quot;left hand&quot; and &quot;left foot&quot;, there&#39;s
+simple a &quot;left&quot; category.</p>
+</li>
 </ul>
-<p>As noted above, only the <code>L</code>, <code>R</code>, and <code>B</code> codes were counted.</p>
 <hr>
 <pre><code>From: Kristi Schonwald &lt;kschonwa@uchicago.edu&gt;
 Subject: data request
