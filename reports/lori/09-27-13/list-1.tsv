@@ -4500,7 +4500,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 106	7	752	P	three.
 106	7	753	C	I three.
 106	7	754	P	you're three.
-106	7	760	P	it says "Draw a circle around the group showing three things."
+106	7	760	P	it says \"Draw a circle around the group showing three things.\"
 106	7	761	P	which one has three?
 106	7	763	P	is that three here?
 106	7	765	P	is that three there?
