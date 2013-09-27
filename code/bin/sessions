@@ -1,0 +1,11 @@
+#!/usr/bin/env coffee 
+#
+# sessions - list LDP home sessions and their corresponding months
+#
+require 'tinycolor'
+
+console.log "MONTH\tSESSION".underline
+for i in [1 .. 12]
+  month = "#{14 + 4 * (i - 1)}".magenta
+  sess = "#{i}".white
+  console.log "#{month}\t#{sess}"
