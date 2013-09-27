@@ -134,8 +134,8 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 22	5	2249	C	nines,
 22	5	2251	P	eight arms?
 22	5	2253	C	eight arms.
-22	6	129	C	" -- four more -- "
-22	6	130	P	" -- four feet."
+22	6	129	C	' -- four more -- '
+22	6	130	P	' -- four feet.'
 22	6	241	P	give me five!
 22	6	596	P	two.
 22	6	634	P	it says ages three and up.
@@ -145,8 +145,8 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 22	6	1162	C	two.
 22	6	1196	C	these are two bats.
 22	6	1197	C	yeah, there's two bats.
-22	6	1524	P	"baby elephants drink their Mother's milk until they're about two years old."
-22	6	1527	P	"when they are about four months old, they being to eat some plants too."
+22	6	1524	P	'baby elephants drink their Mother's milk until they're about two years old.'
+22	6	1527	P	'when they are about four months old, they being to eat some plants too.'
 22	6	1718	P	where's the number seven?
 22	6	1722	P	where's four?
 22	6	1723	P	touch four.
@@ -306,11 +306,11 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 24	6	1281	C	three.
 24	6	1368	P	oh, it needs three batteries.
 24	6	1369	C	three batteries?
-24	6	2003	P	"five ugly monsters."
-24	6	2009	P	"four ugly monsters jumping on the bed."
-24	6	2009	C	"four ugly monsters jumping on the bed."
-24	6	2014	P	"three ugly monsters jumping on the bed."
-24	6	2018	P	"two ugly monsters jumping on the bed."
+24	6	2003	P	'five ugly monsters.'
+24	6	2009	P	'four ugly monsters jumping on the bed.'
+24	6	2009	C	'four ugly monsters jumping on the bed.'
+24	6	2014	P	'three ugly monsters jumping on the bed.'
+24	6	2018	P	'two ugly monsters jumping on the bed.'
 24	7	104	P	pick two more.
 24	7	152	P	do you remember when we painted and we added two colors together?
 24	7	160	P	we mixed two colors together.
@@ -539,29 +539,29 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 27	5	1930	P	mommy said four songs and we did four songs.
 27	5	1989	C	two books.
 27	5	1990	P	two books, ok.
-27	5	2061	P	"'trying to sing without one of us would be like driving on three tires,' Anthony said."
-27	5	2358	P	"five little monkeys wake up with the sun."
-27	5	2360	P	"five little monkeys tip+toe past mommy sleeping."
-27	5	2374	P	"two cups of flour -- three teaspoons of baking powder."
-27	5	2390	P	"five little monkeys check on mommy."
-27	5	2397	P	"add four eggs."
-27	5	2398	P	"four little monkeys each get some eggs."
-27	5	2399	P	"I have two eggs."
+27	5	2061	P	''trying to sing without one of us would be like driving on three tires,' Anthony said.'
+27	5	2358	P	'five little monkeys wake up with the sun.'
+27	5	2360	P	'five little monkeys tip+toe past mommy sleeping.'
+27	5	2374	P	'two cups of flour -- three teaspoons of baking powder.'
+27	5	2390	P	'five little monkeys check on mommy.'
+27	5	2397	P	'add four eggs.'
+27	5	2398	P	'four little monkeys each get some eggs.'
+27	5	2399	P	'I have two eggs.'
 27	5	2399	C	two eggs.
 27	5	2400	C	two eggs.
-27	5	2401	P	"I have two eggs."
-27	5	2402	P	"I have three eggs."
+27	5	2401	P	'I have two eggs.'
+27	5	2402	P	'I have three eggs.'
 27	5	2403	C	three eggs.
 27	5	2405	C	three eggs.
-27	5	2406	P	" -- three eggs."
-27	5	2423	P	"five little monkeys check on mommy again."
-27	5	2446	P	"five little monkeys start to make a present."
-27	5	2488	P	"five little monkeys race past mommy sleeping."
-27	5	2533	P	"so five little monkeys and two firemen frost the cake."
+27	5	2406	P	' -- three eggs.'
+27	5	2423	P	'five little monkeys check on mommy again.'
+27	5	2446	P	'five little monkeys start to make a present.'
+27	5	2488	P	'five little monkeys race past mommy sleeping.'
+27	5	2533	P	'so five little monkeys and two firemen frost the cake.'
 27	5	2542	P	one, two --
-27	5	2558	P	"five little monkeys and two firemen sing to mommy very very very loudly."
-27	5	2564	P	"'oh no!' say five little monkeys."
-27	5	2574	P	"five little monkeys, two firemen, and mommy think -- "
+27	5	2558	P	'five little monkeys and two firemen sing to mommy very very very loudly.'
+27	5	2564	P	''oh no!' say five little monkeys.'
+27	5	2574	P	'five little monkeys, two firemen, and mommy think -- '
 27	6	68	P	let's start with these six.
 27	6	69	P	are there six?
 27	6	71	C	one, two, three, four, five.
@@ -831,24 +831,24 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 29	7	2033	P	slide five?
 29	7	2251	P	you have five bunnies?
 30	5	719	C	two -- two apples.
-30	5	720	P	"two apples."
+30	5	720	P	'two apples.'
 30	5	721	C	three boats.
-30	5	722	P	"three boats."
+30	5	722	P	'three boats.'
 30	5	723	C	four cars.
-30	5	724	P	"four cars."
+30	5	724	P	'four cars.'
 30	5	725	C	five ###
-30	5	726	P	"five kittens."
+30	5	726	P	'five kittens.'
 30	5	730	C	six cupcakes.
-30	5	731	P	"six cupcakes."
+30	5	731	P	'six cupcakes.'
 30	5	732	C	seven hats.
-30	5	733	P	"seven hats."
+30	5	733	P	'seven hats.'
 30	5	734	C	eight birds.
-30	5	735	P	"eight birds"
+30	5	735	P	'eight birds'
 30	5	736	C	nine --
 30	5	740	C	nine fish.
-30	5	741	P	"nine fish."
+30	5	741	P	'nine fish.'
 30	5	743	C	and ten balloons.
-30	5	744	P	"and ten balloons."
+30	5	744	P	'and ten balloons.'
 30	5	749	C	two apples.
 30	5	750	P	two apples.
 30	5	752	C	three boats.
@@ -876,9 +876,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 30	5	788	P	five.
 30	5	789	C	five -- five fingers.
 30	5	790	P	five fingers.
-30	5	1020	P	"I'm not two people, am I?"
+30	5	1020	P	'I'm not two people, am I?'
 30	5	1176	P	this is going to be a hard six weeks for all of us.
-30	5	1195	P	"we need to hire a babysitter, I think, for six weeks so we can -- we can get you going on some toys."
+30	5	1195	P	'we need to hire a babysitter, I think, for six weeks so we can -- we can get you going on some toys.'
 30	5	1323	P	five.
 30	6	123	C	two.
 30	6	124	C	three.
@@ -890,30 +890,30 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 30	6	130	C	nine.
 30	6	131	C	ten.
 30	6	136	C	ten!
-30	6	142	P	"yes, that will take two hands."
-30	6	355	P	"two -- "
-30	6	358	C	"three boats."
-30	6	359	P	"three boats."
-30	6	360	C	"four cars."
-30	6	361	P	"four cars."
-30	6	362	C	"five kittens."
-30	6	363	P	"five kittens."
-30	6	364	C	"six cupcakes."
-30	6	365	P	"six cupcakes."
-30	6	369	P	"seven -- "
-30	6	372	C	"eight birds."
-30	6	373	P	"eight birds."
-30	6	374	C	"nine fish."
-30	6	375	P	"nine fish."
-30	6	376	C	"and ten balloons."
-30	6	377	P	"and ten balloons."
-30	6	380	P	"two."
-30	6	381	P	"three."
-30	6	382	P	"four."
-30	6	383	C	"five."
-30	6	384	C	"six."
-30	6	385	C	"seven."
-30	6	386	C	"eight nine ten."
+30	6	142	P	'yes, that will take two hands.'
+30	6	355	P	'two -- '
+30	6	358	C	'three boats.'
+30	6	359	P	'three boats.'
+30	6	360	C	'four cars.'
+30	6	361	P	'four cars.'
+30	6	362	C	'five kittens.'
+30	6	363	P	'five kittens.'
+30	6	364	C	'six cupcakes.'
+30	6	365	P	'six cupcakes.'
+30	6	369	P	'seven -- '
+30	6	372	C	'eight birds.'
+30	6	373	P	'eight birds.'
+30	6	374	C	'nine fish.'
+30	6	375	P	'nine fish.'
+30	6	376	C	'and ten balloons.'
+30	6	377	P	'and ten balloons.'
+30	6	380	P	'two.'
+30	6	381	P	'three.'
+30	6	382	P	'four.'
+30	6	383	C	'five.'
+30	6	384	C	'six.'
+30	6	385	C	'seven.'
+30	6	386	C	'eight nine ten.'
 30	6	485	C	first put six in.
 30	6	486	C	six in.
 30	6	487	P	you putting the six in?
@@ -927,7 +927,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 30	6	662	C	five.
 30	6	663	P	five.
 30	6	666	P	that is nine zero five.
-30	6	1078	P	"you got two more, honey."
+30	6	1078	P	'you got two more, honey.'
 30	6	1079	P	two more.
 30	7	85	C	seven.
 30	7	86	P	seven?
@@ -956,24 +956,24 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 30	7	556	C	two.
 30	7	557	P	two?
 30	7	558	C	two.
-30	7	938	P	"five little ladybugs sleeping by the shore."
+30	7	938	P	'five little ladybugs sleeping by the shore.'
 30	7	943	C	four.
 30	7	945	P	four!
-30	7	946	P	"four little ladybugs climbing up a -- "
+30	7	946	P	'four little ladybugs climbing up a -- '
 30	7	953	C	three.
 30	7	955	C	three.
 30	7	958	P	three.
 30	7	959	C	Sydney did three.
-30	7	960	P	"three little ladybugs drinking up the dew."
+30	7	960	P	'three little ladybugs drinking up the dew.'
 30	7	967	C	two.
 30	7	969	C	two.
 30	7	971	P	two.
-30	7	973	P	"we have two little ladybugs basking in the sun."
+30	7	973	P	'we have two little ladybugs basking in the sun.'
 30	7	1042	C	two.
 30	7	1044	C	two.
 30	7	1045	C	two.
 30	7	1046	P	two.
-30	7	1061	P	"three men in a tub and who do you think they be?"
+30	7	1061	P	'three men in a tub and who do you think they be?'
 30	7	1079	C	Naves all three.
 30	7	1080	P	Naves all three.
 30	7	1121	C	two.
@@ -1069,7 +1069,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 34	6	363	P	can you hold on with two hands please?
 34	6	841	P	### two.
 34	6	932	P	he should have two ears.
-34	7	137	P	"firefighters can climb to the top of an eight story building on that ladder, said the fire chief."
+34	7	137	P	'firefighters can climb to the top of an eight story building on that ladder, said the fire chief.'
 34	7	325	P	you're going to draw with two?
 34	7	659	P	two stars.
 34	7	804	P	I get to wear two?
@@ -1087,33 +1087,33 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 34	7	1457	P	three.
 35	5	72	P	two hands maybe.
 35	5	598	P	there is two forks.
-35	5	973	C	"Actually, I have two."
-35	5	974	P	"Actually, you have two?"
+35	5	973	C	'Actually, I have two.'
+35	5	974	P	'Actually, you have two?'
 35	5	1393	P	two hands for that big one.
 35	5	1412	C	he get two?
 35	5	1413	P	I don't think he can wear two.
 35	6	29	P	which ones do you want to play with because you have two of them.
 35	6	165	P	Actually we need two Es.
 35	6	167	P	can you find two Es?
-35	6	302	P	"Actually, you need two more letters for Meghan 's name."
-35	6	327	P	"because I know there was -- there is more than two of everything, I thought."
-35	6	729	C	"one, two, three, four,."
+35	6	302	P	'Actually, you need two more letters for Meghan 's name.'
+35	6	327	P	'because I know there was -- there is more than two of everything, I thought.'
+35	6	729	C	'one, two, three, four,.'
 35	6	1326	P	you pick those two up.
-35	6	1397	P	"oh, I got two oranges."
+35	6	1397	P	'oh, I got two oranges.'
 35	6	1399	P	two.
 35	6	1400	P	you got two blues.
 35	6	1402	P	two greens.
 35	6	1403	P	how about sticking with two greens?
 35	6	1405	P	move your guy two greens.
 35	6	1406	C	two.
-35	6	1425	P	"ooh, two purples for me."
+35	6	1425	P	'ooh, two purples for me.'
 35	6	1427	P	two.
 35	6	1434	C	two!
 35	6	1436	P	two orange ones!
 35	6	1440	C	two.
-35	6	1442	C	"one, two three."
+35	6	1442	C	'one, two three.'
 35	6	1455	C	three four five.
-35	6	1457	P	"no, I don't think it was three four five."
+35	6	1457	P	'no, I don't think it was three four five.'
 35	6	1462	P	count two purples.
 35	6	1472	P	two red ones.
 35	6	1478	P	oh two yellows.
@@ -1221,7 +1221,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 37	7	1031	P	well he's gone for five days total.
 37	7	1080	P	this is two more bites.
 37	7	1081	P	two more bites.
-37	7	1365	P	"five more minutes mama, Roo called."
+37	7	1365	P	'five more minutes mama, Roo called.'
 37	7	1375	C	two.
 37	7	1376	C	three.
 37	7	1377	C	four.
@@ -1246,9 +1246,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 37	7	1621	C	eight.
 37	7	1622	C	nine.
 37	7	1623	C	ten.
-37	7	1639	P	"when the three friends got to Rabbit's house, they oohed and ahhed at the wonderful smells swirling through the kitchen."
-37	7	1668	P	"next the three friends visited Eeyore in the thistle patch."
-37	7	1726	P	"then the two friends made everyone in the hundred acre wood their very own award."
+37	7	1639	P	'when the three friends got to Rabbit's house, they oohed and ahhed at the wonderful smells swirling through the kitchen.'
+37	7	1668	P	'next the three friends visited Eeyore in the thistle patch.'
+37	7	1726	P	'then the two friends made everyone in the hundred acre wood their very own award.'
 38	5	198	C	one, two, three, four -- five, six, seven, eight, nine, ten!
 38	5	550	C	one, two, three!
 38	5	832	P	you have three bites of delicious -- chicken.
@@ -1258,9 +1258,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 38	6	134	P	two more bites.
 38	6	222	P	find two stuffed animals and put them in that bucket.
 38	6	1407	P	I wonder why they send us two things at once.
-38	6	1530	P	"she took two steps and bumped into the lamp."
-38	6	1531	P	"she took three more steps and bumped into Arthur."
-38	6	1536	P	"DW took two steps and bumped into Buster."
+38	6	1530	P	'she took two steps and bumped into the lamp.'
+38	6	1531	P	'she took three more steps and bumped into Arthur.'
+38	6	1536	P	'DW took two steps and bumped into Buster.'
 39	6	131	C	one, two, three, kick.
 39	6	197	C	one, two, three jump.
 39	6	300	C	I want two mommy.
@@ -1377,21 +1377,21 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 40	7	2402	P	ten little ladybugs sitting on a fence.
 40	7	2405	C	ten
 40	7	2407	C	four.
-40	7	2409	P	"ten little ladybugs sitting on a vine."
+40	7	2409	P	'ten little ladybugs sitting on a vine.'
 40	7	2410	P	nine, ok.
 40	7	2411	P	and along came a butter+fly and then there were nine.
-40	7	2412	P	"nine little ladybugs ### on a cake."
-40	7	2414	P	"eight!"
-40	7	2415	P	"eight little ladybugs looking up to heaven."
-40	7	2417	P	"seven."
-40	7	2418	P	"seven little ladybugs resting on sticks."
-40	7	2420	P	"six."
-40	7	2421	P	"six little ladybugs flying near a hive"
+40	7	2412	P	'nine little ladybugs ### on a cake.'
+40	7	2414	P	'eight!'
+40	7	2415	P	'eight little ladybugs looking up to heaven.'
+40	7	2417	P	'seven.'
+40	7	2418	P	'seven little ladybugs resting on sticks.'
+40	7	2420	P	'six.'
+40	7	2421	P	'six little ladybugs flying near a hive'
 40	7	2422	P	along came a bumble+bee and then there were five.
 40	7	2423	C	five.
-40	7	2424	P	"five little ladybugs sleeping by the shore."
-40	7	2425	P	"along came a fish, and then there were four."
-40	7	2426	P	"four little ladybugs."
+40	7	2424	P	'five little ladybugs sleeping by the shore.'
+40	7	2425	P	'along came a fish, and then there were four.'
+40	7	2426	P	'four little ladybugs.'
 42	5	340	P	yeah, that's what Stephie has, but that's number five.
 42	5	835	P	yeah, you got four of them.
 42	5	1282	P	them two are going to play together.
@@ -1483,7 +1483,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 43	6	1765	P	two.
 43	6	1766	P	three four five six.
 43	6	1774	C	nine o+clock.
-43	7	335	P	"we have been together for seven years."
+43	7	335	P	'we have been together for seven years.'
 43	7	336	P	one two three four five.
 43	7	337	P	six seven.
 43	7	338	P	seven years.
@@ -1496,9 +1496,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 43	7	375	C	eight.
 43	7	376	C	nine.
 43	7	377	C	ten.
-43	7	395	P	"then, three parachutes will open to slow me down."
-43	7	413	P	"I'm carrying six tools to help me study Titan."
-43	7	469	P	"we have been together for seven years."
+43	7	395	P	'then, three parachutes will open to slow me down.'
+43	7	413	P	'I'm carrying six tools to help me study Titan.'
+43	7	469	P	'we have been together for seven years.'
 43	7	470	P	can you count to seven?
 43	7	472	C	two.
 43	7	473	C	three.
@@ -1511,16 +1511,16 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 43	7	480	P	and two fingers over here.
 43	7	481	P	that's seven.
 43	7	482	P	seven.
-43	7	509	P	"we have been together for seven years."
-43	7	552	P	"then, three parachutes will open to slow me down."
-43	7	558	P	"I'm carrying six tools to help me study Titan."
-43	7	591	P	"we have been together for seven years."
-43	7	653	P	"then, three parachutes will open to slow me down."
-43	7	670	P	"I'm carrying six tools to help me study Titan."
-43	7	800	P	"four things happen to planes when they fly."
-43	7	801	P	"these four things are called the four forces of flight."
+43	7	509	P	'we have been together for seven years.'
+43	7	552	P	'then, three parachutes will open to slow me down.'
+43	7	558	P	'I'm carrying six tools to help me study Titan.'
+43	7	591	P	'we have been together for seven years.'
+43	7	653	P	'then, three parachutes will open to slow me down.'
+43	7	670	P	'I'm carrying six tools to help me study Titan.'
+43	7	800	P	'four things happen to planes when they fly.'
+43	7	801	P	'these four things are called the four forces of flight.'
 43	7	807	P	the -- it's just showing you what the four things are.
-43	7	808	P	"the four forces of flight are lift, weight, thrust, and drag."
+43	7	808	P	'the four forces of flight are lift, weight, thrust, and drag.'
 43	7	966	P	you want -- level one, level two, or level three?
 43	7	968	C	I -- I want -- I want level two.
 43	7	1062	C	### three.
@@ -1655,7 +1655,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	5	80	P	three.
 46	5	84	P	four.
 46	5	85	C	five.
-46	5	86	P	"no, four."
+46	5	86	P	'no, four.'
 46	5	87	P	five.
 46	5	88	C	six.
 46	5	89	P	six.
@@ -1664,7 +1664,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	5	92	P	nine.
 46	5	93	P	can you say nine?
 46	5	94	P	ten!
-46	5	115	P	"look, Mom got two cards."
+46	5	115	P	'look, Mom got two cards.'
 46	5	372	C	two.
 46	5	373	P	three.
 46	5	532	P	just those three.
@@ -1692,23 +1692,23 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	5	999	P	give me five.
 46	5	1026	P	two.
 46	5	1027	P	three!
-46	5	1028	P	"one, two three!"
+46	5	1028	P	'one, two three!'
 46	5	1105	P	high five.
 46	5	1106	P	high five.
-46	5	1242	P	"one, two three!"
-46	5	1245	P	"one, two three!"
+46	5	1242	P	'one, two three!'
+46	5	1245	P	'one, two three!'
 46	5	1251	C	two.
 46	5	1252	P	two.
 46	5	1253	P	three.
 46	5	1363	C	three.
 46	5	1364	P	say three.
-46	5	1367	C	"one, two, three!"
+46	5	1367	C	'one, two, three!'
 46	5	1368	C	one two!
 46	5	1369	C	one two!
 46	5	1370	P	you got to say three.
-46	5	1467	C	"one, two."
+46	5	1467	C	'one, two.'
 46	5	1506	C	one two three.
-46	5	1508	C	"two,"
+46	5	1508	C	'two,'
 46	5	1510	C	two.
 46	5	1511	P	three!
 46	5	1515	C	two.
@@ -1716,21 +1716,21 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	5	1518	P	two.
 46	5	1519	C	three!
 46	5	1522	C	two.
-46	5	1524	P	"two,."
-46	5	1525	C	"one two,"
+46	5	1524	P	'two,.'
+46	5	1525	C	'one two,'
 46	5	1527	P	two.
 46	5	1532	P	two.
 46	5	1533	C	two.
 46	5	1540	P	two.
-46	5	1541	C	"two,"
+46	5	1541	C	'two,'
 46	5	1545	P	two.
 46	5	1546	C	three!
 46	5	1551	C	one two!
-46	5	1554	C	"one, two, three!"
+46	5	1554	C	'one, two, three!'
 46	5	1598	C	one two three!
 46	5	1602	C	two.
 46	5	1613	P	one two three!
-46	5	1615	C	"one, two -- "
+46	5	1615	C	'one, two -- '
 46	5	1617	C	three!
 46	5	1620	C	one two --
 46	5	1661	C	two.
@@ -1741,17 +1741,17 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	5	1781	P	one two.
 46	5	1794	P	three of them are done so let's put them back.
 46	5	1831	C	two.
-46	6	65	P	"ok, you got two more."
+46	6	65	P	'ok, you got two more.'
 46	6	66	C	two more.
 46	6	107	P	give me five.
 46	6	109	P	give me five.
 46	6	110	P	give me five.
 46	6	165	P	give me five.
-46	6	339	P	"wow, you're doing two at a time."
+46	6	339	P	'wow, you're doing two at a time.'
 46	6	359	P	you were sitting on two of them.
 46	6	470	P	are you six?
 46	6	476	P	are you two?
-46	6	477	P	"Cameron, are you two?"
+46	6	477	P	'Cameron, are you two?'
 46	6	480	P	you got to put the two in there.
 46	6	485	C	two.
 46	6	486	C	three.
@@ -1772,7 +1772,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	6	505	C	two.
 46	6	506	C	three.
 46	6	507	P	four.
-46	6	573	P	"no, you don't mix the two."
+46	6	573	P	'no, you don't mix the two.'
 46	6	680	C	two.
 46	6	681	P	three.
 46	6	682	C	five.
@@ -1786,11 +1786,11 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 46	6	699	P	high five.
 46	6	711	P	give me five.
 46	6	899	P	two.
-46	6	1027	P	"ah, two more."
+46	6	1027	P	'ah, two more.'
 46	6	1046	P	we've already done this like three times.
 46	6	1310	C	two.
 46	6	1311	P	three.
-46	6	1313	P	"one, two."
+46	6	1313	P	'one, two.'
 46	6	1320	C	two.
 46	6	1332	P	two.
 46	6	1346	C	two.
@@ -1946,11 +1946,11 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 48	5	1604	C	two.
 48	5	1605	P	three.
 48	5	1639	P	two.
-48	5	1715	P	"three four knock at the door."
-48	5	1716	P	"five six pick up sticks."
-48	5	1717	P	"seven eight lay them straight."
-48	5	1718	P	"nine ten a good fat hen."
-48	5	1725	P	"he found a crooked six pence across a crooked style."
+48	5	1715	P	'three four knock at the door.'
+48	5	1716	P	'five six pick up sticks.'
+48	5	1717	P	'seven eight lay them straight.'
+48	5	1718	P	'nine ten a good fat hen.'
+48	5	1725	P	'he found a crooked six pence across a crooked style.'
 48	5	1804	P	two.
 48	5	1805	P	three.
 48	5	1806	P	four.
@@ -2024,12 +2024,12 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 48	7	663	C	nine.
 48	7	664	P	nine.
 48	7	667	C	on -- the nine.
-48	7	1025	P	"he did not see the two little yellow ducklings either."
+48	7	1025	P	'he did not see the two little yellow ducklings either.'
 48	7	1074	C	one two.
 48	7	1076	P	one, two.
 48	7	1079	C	two.
 48	7	1081	P	two.
-48	7	1131	P	"and following along in their footprints were four little yellow ducklings."
+48	7	1131	P	'and following along in their footprints were four little yellow ducklings.'
 48	7	1132	P	four ducklings.
 48	7	1136	C	two.
 48	7	1137	C	three.
@@ -2039,10 +2039,10 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 48	7	1142	P	three.
 48	7	1143	C	four?
 48	7	1144	P	four.
-48	7	1219	P	"the four friends bounced -- "
-48	7	1222	P	"the four friends bounced -- "
-48	7	1228	P	"the four friends bounced -- "
-48	7	1297	P	"then out waddled one, then two, then three, then four, then five little yellow ducklings!"
+48	7	1219	P	'the four friends bounced -- '
+48	7	1222	P	'the four friends bounced -- '
+48	7	1228	P	'the four friends bounced -- '
+48	7	1297	P	'then out waddled one, then two, then three, then four, then five little yellow ducklings!'
 48	7	1299	C	two.
 48	7	1300	C	three.
 48	7	1301	C	four.
@@ -2148,7 +2148,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 50	6	225	P	two more to go.
 50	6	247	P	one, two, three.
 50	6	248	P	two.
-50	6	270	P	"three mice can't see without their glasses."
+50	6	270	P	'three mice can't see without their glasses.'
 50	6	280	P	two.
 50	6	281	P	three, four.
 50	6	430	C	two duckies.
@@ -2169,9 +2169,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 50	7	741	P	three.
 50	7	1051	C	ok eight.
 50	7	1054	C	and eight.
-51	5	287	P	"three men in a tub."
-51	5	290	P	"so turn them out and ### -- all three."
-51	5	302	P	"he called for his pipe and he called for his bowl and he called for his fiddlers three."
+51	5	287	P	'three men in a tub.'
+51	5	290	P	'so turn them out and ### -- all three.'
+51	5	302	P	'he called for his pipe and he called for his bowl and he called for his fiddlers three.'
 51	5	456	C	two.
 51	5	458	C	three.
 51	5	460	C	four.
@@ -2595,7 +2595,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 62	7	919	C	there's two.
 62	7	921	P	one two three.
 62	7	1488	P	those two.
-62	7	1548	P	"I couldn't tell you of his size, for all I saw were two big eyes."
+62	7	1548	P	'I couldn't tell you of his size, for all I saw were two big eyes.'
 62	7	1705	P	one and three fourths --
 62	7	1714	P	two cups of cold milk.
 62	7	1725	P	two cups.
@@ -3499,8 +3499,8 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 81	5	301	C	### there's two sideses.
 81	5	302	C	there two sideses.
 81	5	303	P	two side and two sides?
-81	5	462	P	"three hungry mice."
-81	5	464	P	"three."
+81	5	462	P	'three hungry mice.'
+81	5	464	P	'three.'
 81	5	465	C	three.
 81	5	504	C	with two sides.
 81	5	505	C	it has two sides.
@@ -3685,7 +3685,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 82	7	415	C	I won't need no two lights.
 82	7	418	C	only that ### two light.
 82	7	1246	C	one, two, three.
-82	7	1475	P	"what to my wondering eyes should appear, but a miniature sleigh and eight tiney reindeers."
+82	7	1475	P	'what to my wondering eyes should appear, but a miniature sleigh and eight tiney reindeers.'
 82	7	1503	P	this is why all three year olds need naps!
 82	7	2002	C	one, two, three go!
 82	7	2004	C	one two three whoa!
@@ -4078,9 +4078,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 92	6	1769	P	one two three.
 92	6	1871	P	ooh, I have two toys.
 92	6	2461	P	one two three.
-92	6	2970	P	"Little_Cloud changed into two trees."
+92	6	2970	P	'Little_Cloud changed into two trees.'
 92	6	2975	P	two trees.
-92	6	3159	P	"there are nine of these planets that circle the sun."
+92	6	3159	P	'there are nine of these planets that circle the sun.'
 92	6	3173	C	and Two.
 92	6	3174	P	Thing_One and Two are right there.
 92	7	287	P	you got two pieces here.
@@ -4110,7 +4110,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 93	5	212	C	three.
 93	5	213	C	that a three?
 93	5	222	C	they're two of them.
-93	6	271	P	"Ryan, there should be two spoons over there, Ok?"
+93	6	271	P	'Ryan, there should be two spoons over there, Ok?'
 93	6	295	C	I use it for two minutes.
 93	6	299	C	I -- I will use this thing for two minutes.
 93	6	325	C	I going to get three turns.
@@ -4139,15 +4139,15 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 94	5	184	P	two cookies?
 94	5	215	C	two.
 94	5	216	C	three.
-94	5	217	C	"four, five, six."
-94	5	579	P	"oh, there is two more cups here."
+94	5	217	C	'four, five, six.'
+94	5	579	P	'oh, there is two more cups here.'
 94	5	650	P	one spoon or two?
-94	5	1027	P	"oh Ok, now we're talking about two different things."
+94	5	1027	P	'oh Ok, now we're talking about two different things.'
 94	5	1096	P	two.
 94	5	1282	P	can you use two hands to try to help?
-94	5	1346	C	"one, two, three."
-94	5	1347	P	"one, two, three?"
-94	5	1348	P	"one, two, three, four, five?"
+94	5	1346	C	'one, two, three.'
+94	5	1347	P	'one, two, three?'
+94	5	1348	P	'one, two, three, four, five?'
 94	5	1374	C	a princess with two horses.
 94	5	1375	P	a princess with two horses?
 94	5	1424	P	two hands?
@@ -4155,14 +4155,14 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 94	5	1427	P	two hands on the fishingpole please.
 94	5	1431	P	stand up and use two hands.
 94	5	1434	P	two hands.
-94	5	1441	P	"can you try to get the jellyfish with two hands, please?"
+94	5	1441	P	'can you try to get the jellyfish with two hands, please?'
 94	5	1446	P	use two hands.
 94	5	1447	P	sometimes two hands help.
 94	5	1451	P	two hands.
-94	5	1516	C	"one, two, three."
+94	5	1516	C	'one, two, three.'
 94	5	1536	P	remember we have two different Lego things.
 94	5	1572	C	she got two ponytails.
-94	5	1583	P	"we have two different Lego systems, Kate."
+94	5	1583	P	'we have two different Lego systems, Kate.'
 94	5	1789	C	get two jumps.
 94	5	1807	C	and do two jumps.
 94	6	173	P	we've had this balloon for three days and this is the most you've played with it.
@@ -4213,19 +4213,19 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 95	6	120	C	five.
 95	6	121	C	six.
 95	6	421	P	there is three guys in there.
-95	6	731	C	"three, one, two."
+95	6	731	C	'three, one, two.'
 95	6	1537	C	birthday two.
-95	6	1538	P	"you're two right now, but on your birthday, then you'll be three."
+95	6	1538	P	'you're two right now, but on your birthday, then you'll be three.'
 95	6	1540	P	can we do three?
-95	6	1541	C	"one, two three."
+95	6	1541	C	'one, two three.'
 95	6	1542	P	this is two.
-95	6	1544	P	"that is one, two."
+95	6	1544	P	'that is one, two.'
 95	6	1545	P	now on your birthday you'll be three.
-95	6	1547	P	"on your birthday, you're going to be three."
-95	6	1548	P	"that is, this is three."
-95	6	1549	P	"three, can you say three?"
+95	6	1547	P	'on your birthday, you're going to be three.'
+95	6	1548	P	'that is, this is three.'
+95	6	1549	P	'three, can you say three?'
 95	6	1550	C	three.
-95	6	1551	P	"let me show you three fingers, ready?"
+95	6	1551	P	'let me show you three fingers, ready?'
 95	6	1552	C	three.
 95	6	1555	P	two.
 95	6	1556	P	three.
@@ -4233,7 +4233,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 95	6	1558	P	say I am going to be three on my birthday.
 95	6	1559	P	three like this.
 95	6	1560	P	three.
-95	6	1561	P	"one, two, three."
+95	6	1561	P	'one, two, three.'
 95	6	1567	P	you're going to be three!
 95	6	1568	P	can you say three?
 95	7	3	C	I just turned three.
@@ -4242,7 +4242,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 95	7	117	C	### six.
 95	7	293	C	is three people.
 99	6	38	C	all three.
-99	6	340	P	"maybe you should make two trains, Nash."
+99	6	340	P	'maybe you should make two trains, Nash.'
 99	6	380	C	### these with these two trains.
 99	6	1143	P	two balls!
 99	7	127	C	now we're missing a two track.
@@ -4371,7 +4371,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 103	6	48	P	two more.
 103	6	84	C	I -- I need -- these two --
 103	6	146	P	think we can do two.
-103	6	226	P	"then two hunters came out of the forest."
+103	6	226	P	'then two hunters came out of the forest.'
 103	6	322	C	and the two bad womans came.
 103	6	643	C	these two --
 103	6	808	P	I got two.
@@ -4476,7 +4476,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 106	6	285	P	two owies.
 106	6	1168	C	two.
 106	6	1169	C	three.
-106	7	557	P	"one two three monsters on parade."
+106	7	557	P	'one two three monsters on parade.'
 106	7	606	C	when I two.
 106	7	608	P	you were two for a long time?
 106	7	645	P	two.
@@ -4517,7 +4517,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 106	7	822	C	marching threes.
 106	7	823	P	marching threes.
 106	7	830	P	or the four?
-106	7	833	P	"draw an x@l through the box containing four things."
+106	7	833	P	'draw an x@l through the box containing four things.'
 106	7	836	P	which one has four?
 106	7	848	C	two.
 106	7	849	C	three.
@@ -4591,7 +4591,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 106	7	1126	C	four.
 106	7	1127	C	five.
 106	7	1128	P	five monsters sliding.
-106	7	1129	P	"six monsters take a ride."
+106	7	1129	P	'six monsters take a ride.'
 106	7	1129	C	six.
 106	7	1131	C	two.
 106	7	1132	C	three.
@@ -5021,12 +5021,12 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 109	7	1610	P	two.
 109	7	1612	P	three.
 115	6	227	P	I still -- we have two Barneys.
-115	6	280	C	"one, two."
-115	6	460	P	"they said, we'll see you at seven."
+115	6	280	C	'one, two.'
+115	6	460	P	'they said, we'll see you at seven.'
 115	6	542	P	you got three choices.
-115	6	626	C	"one, two, three, four."
+115	6	626	C	'one, two, three, four.'
 115	6	627	P	just four?
-115	6	634	C	"one, two, three!"
+115	6	634	C	'one, two, three!'
 115	6	640	C	two.
 115	6	641	P	two animals.
 115	6	645	P	two animals.
@@ -5037,35 +5037,35 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 115	6	655	P	four!
 115	6	656	P	count to ten.
 115	6	657	P	count to ten.
-115	6	658	C	"one, two, three."
-115	6	659	P	"one, two, three"
+115	6	658	C	'one, two, three.'
+115	6	659	P	'one, two, three'
 115	6	660	C	four!
 115	6	662	C	five!
 115	6	664	C	seven.
-115	6	665	P	"no, you forgot six."
+115	6	665	P	'no, you forgot six.'
 115	6	666	C	six.
 115	6	668	P	what comes after six?
 115	6	669	C	nine.
-115	6	670	P	"no, what comes after six silly?"
+115	6	670	P	'no, what comes after six silly?'
 115	6	671	P	seven.
 115	6	672	C	seven.
 115	6	674	P	what comes after seven.
 115	6	675	P	what comes after seven.
 115	6	678	P	eight.
-115	6	679	C	"nine, ten!"
+115	6	679	C	'nine, ten!'
 115	6	735	P	and two Barneys and two puppies.
 115	6	831	C	two more.
-115	6	832	P	"no, not two more."
+115	6	832	P	'no, not two more.'
 115	6	1568	P	how about two more then?
-115	6	1614	P	"where are your two pink socks, Vi?"
+115	6	1614	P	'where are your two pink socks, Vi?'
 115	6	1783	C	one two three four.
 115	6	1789	C	two.
 115	6	1790	C	three.
 115	7	272	P	you might have to make two trips.
-115	7	543	P	"his wife Hannah and their four kittens."
-115	7	595	P	"his wife Hannah and their four small kittens."
-115	7	638	P	"this mongrel dog attempted to make all the cats shave off their whiskers and give up eight of their lives."
-115	7	687	P	"the four little kittens -- "
+115	7	543	P	'his wife Hannah and their four kittens.'
+115	7	595	P	'his wife Hannah and their four small kittens.'
+115	7	638	P	'this mongrel dog attempted to make all the cats shave off their whiskers and give up eight of their lives.'
+115	7	687	P	'the four little kittens -- '
 115	7	691	P	yeah, I know, but what about the other two?
 115	7	737	P	Hannah and her four small kittens.
 115	7	843	P	ok, one, two, three.
@@ -5080,7 +5080,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 116	7	1061	C	two.
 116	7	1063	P	one, two.
 116	7	1064	P	three.
-116	7	1266	P	"duck sprouts two left feet"
+116	7	1266	P	'duck sprouts two left feet'
 116	7	1271	P	two.
 116	7	1271	C	two two.
 116	7	1272	P	three.
@@ -5088,7 +5088,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 116	7	1273	C	two.
 116	7	1274	P	what comes after three?
 116	7	1276	P	four.
-117	5	128	P	"two bees."
+117	5	128	P	'two bees.'
 117	5	237	P	two boats.
 117	5	245	P	four boats.
 117	5	350	P	two.
@@ -5125,18 +5125,18 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 117	5	1840	P	five what?
 117	5	1841	C	five.
 117	5	1842	P	five -- five fingers on each hand.
-117	5	1876	P	"yes, we've done that two times."
+117	5	1876	P	'yes, we've done that two times.'
 117	5	1896	P	yes and then I have to finish two more fingernails on your right hand.
-117	5	1923	P	"ok, two fingernails left."
+117	5	1923	P	'ok, two fingernails left.'
 117	5	1970	C	two ###.
 117	6	3	C	two legs.
 117	6	4	P	two legs!
 117	6	6	P	because you have two legs.
-117	6	87	P	"one, two, three."
-117	6	89	P	"one, two, three, four, five."
-117	6	91	P	"six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty."
-117	6	219	P	"one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty."
-117	6	505	P	"here, you and Olivia can be a two man band."
+117	6	87	P	'one, two, three.'
+117	6	89	P	'one, two, three, four, five.'
+117	6	91	P	'six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.'
+117	6	219	P	'one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty.'
+117	6	505	P	'here, you and Olivia can be a two man band.'
 117	6	506	C	two.
 117	6	507	P	two man band.
 117	6	534	P	it is only nine oclock in the morning.
@@ -5148,19 +5148,19 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 117	6	1214	P	where are the other two Olivias?
 117	6	1222	P	oh you found the other two Olivias.
 117	6	1223	C	three.
-117	6	1224	P	"three Olivias, oh wow!"
+117	6	1224	P	'three Olivias, oh wow!'
 117	6	1491	P	it stuck together the two noodles here.
 117	6	1515	C	three noodles.
 117	6	1516	P	three noodles?
-117	7	261	P	"three gray geese."
-117	7	262	P	"three gray geese in a green field grazing."
-117	7	392	P	"everybody promenade two by two."
+117	7	261	P	'three gray geese.'
+117	7	262	P	'three gray geese in a green field grazing.'
+117	7	392	P	'everybody promenade two by two.'
 117	7	396	C	two pigs.
 117	7	397	P	you see two pigs.
 117	7	398	P	that's right, one, two.
 117	7	400	C	two pigs.
 117	7	401	P	one, two.
-117	7	447	P	"everybody promenade two by two."
+117	7	447	P	'everybody promenade two by two.'
 117	7	449	C	two.
 117	7	450	P	two.
 117	7	451	P	one, two.
@@ -5268,11 +5268,11 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 119	7	837	C	ten.
 119	7	840	C	five.
 121	5	269	P	now we're going to have two of them in there.
-121	5	445	P	"oh, two of them!"
-121	5	459	P	"whoa, two of the at once."
-121	5	937	P	"whoa, that was two of them."
+121	5	445	P	'oh, two of them!'
+121	5	459	P	'whoa, two of the at once.'
+121	5	937	P	'whoa, that was two of them.'
 121	6	173	P	two in one --
-121	6	181	P	"oh, the three balls?"
+121	6	181	P	'oh, the three balls?'
 121	6	337	P	I got two --
 121	6	540	P	now we got two hands going.
 121	6	643	P	one two.
@@ -5288,16 +5288,16 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 123	5	81	P	see two here.
 123	5	93	P	three.
 123	5	237	P	is there two orange?
-123	5	726	P	"Suddenly she stopped, and right in the middle of the path were two big shoes."
-123	5	730	P	"get out of my way, you two big shoes."
-123	5	734	P	"but behind her, she could hear two shoes go -- "
-123	5	747	P	"two shoes go clump clump and one pair of pants go wiggle wiggle."
-123	5	759	P	"two shoes go clump clump, one pair of pants go wiggle wiggle, and one shirt go shake shake."
-123	5	761	P	"a little ways on, the little old lady came upon two white gloves and a tall black hat."
-123	5	768	P	"get out of my way, you two white gloves and you tall black hat."
-123	5	786	P	"but behind her, she could hear two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go nod nod, and one scary pumpkin head go boo boo."
-123	5	796	P	"two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go nod nod, and one scary pumpkin head go -- "
-123	5	813	P	"two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go -- "
+123	5	726	P	'Suddenly she stopped, and right in the middle of the path were two big shoes.'
+123	5	730	P	'get out of my way, you two big shoes.'
+123	5	734	P	'but behind her, she could hear two shoes go -- '
+123	5	747	P	'two shoes go clump clump and one pair of pants go wiggle wiggle.'
+123	5	759	P	'two shoes go clump clump, one pair of pants go wiggle wiggle, and one shirt go shake shake.'
+123	5	761	P	'a little ways on, the little old lady came upon two white gloves and a tall black hat.'
+123	5	768	P	'get out of my way, you two white gloves and you tall black hat.'
+123	5	786	P	'but behind her, she could hear two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go nod nod, and one scary pumpkin head go boo boo.'
+123	5	796	P	'two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go nod nod, and one scary pumpkin head go -- '
+123	5	813	P	'two shoes go clump clump, one pair of pants go wiggle wiggle, one shirt go shake shake, two gloves go clap clap, one hat go -- '
 123	6	45	C	don't take two bears.
 123	6	64	C	don't take two bears!
 123	6	124	C	I -- I want two.
@@ -5453,7 +5453,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 126	7	243	C	I got two plugs.
 126	7	380	P	you just got two new pair of shoes.
 126	7	573	C	we got two.
-126	7	859	P	"the winning ticket, shouts -- the winning ticket, shouts Charlie is number four."
+126	7	859	P	'the winning ticket, shouts -- the winning ticket, shouts Charlie is number four.'
 126	7	910	P	I just read that whole twenty two page book to you.
 126	7	911	P	it may have only been two -- three sentences a page but I did --
 127	5	333	P	seven, twelve, one.
@@ -5571,45 +5571,45 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 132	5	1000	C	eight.
 132	5	1037	C	three.
 132	5	1038	P	three dollars.
-132	5	1153	C	"three, nine."
+132	5	1153	C	'three, nine.'
 132	5	1236	C	two.
 132	5	1237	P	three.
 132	5	1239	P	four.
 132	5	1240	P	five.
 132	5	1326	P	maybe you should try two hands honey.
-132	5	1504	P	"five little isicles."
-132	5	1559	P	"three little kittens lost their mittens on a cold winter day."
-132	5	1560	P	""if the three little kittens can't find their mittens, they can't go out to play.""
+132	5	1504	P	'five little isicles.'
+132	5	1559	P	'three little kittens lost their mittens on a cold winter day.'
+132	5	1560	P	''if the three little kittens can't find their mittens, they can't go out to play.''
 132	5	1573	P	do you see the two mittens?
-132	5	1724	P	"a one and a two and a three, four, five!"
+132	5	1724	P	'a one and a two and a three, four, five!'
 132	5	1749	C	two.
 132	6	559	P	would you like one lump or two?
-132	6	834	P	"you know what, there is two in a drawer."
-132	6	918	C	"um, seven."
+132	6	834	P	'you know what, there is two in a drawer.'
+132	6	918	C	'um, seven.'
 132	6	919	P	seven?
 132	6	920	P	seven dollars for ketchup!
 132	6	943	C	um seven.
 132	6	945	C	seven.
 132	6	946	P	seven?
 132	6	946	C	seven.
-132	6	948	P	"boy, everything is seven today."
+132	6	948	P	'boy, everything is seven today.'
 132	6	1258	P	I know where two of them are.
 132	6	1497	P	two.
-132	6	1499	P	"here is two, right?"
+132	6	1499	P	'here is two, right?'
 132	6	1500	P	three.
 132	6	1502	P	four.
 132	6	1506	P	what is after four?
 132	6	1507	P	five?
 132	6	1508	P	six.
-132	6	1510	P	"seven, eight."
+132	6	1510	P	'seven, eight.'
 132	6	1512	P	and nine.
-132	6	1616	P	"no, six oclock."
+132	6	1616	P	'no, six oclock.'
 132	6	1617	C	six.
 132	6	1773	P	and two -- two more left.
-132	6	1981	C	"one, two."
+132	6	1981	C	'one, two.'
 132	6	2000	P	count to ten.
 132	6	2001	P	count to ten.
-132	6	2010	C	"one, two."
+132	6	2010	C	'one, two.'
 132	6	2027	P	two.
 132	6	2028	P	three.
 132	6	2029	P	four.
@@ -5642,7 +5642,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 132	6	2163	P	eight.
 132	6	2164	P	nine.
 132	6	2165	P	ten.
-132	6	2241	C	"one, two."
+132	6	2241	C	'one, two.'
 132	6	2242	C	six.
 132	6	2243	C	eight.
 132	6	2253	C	two.
@@ -5657,11 +5657,11 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 132	6	2274	P	eight.
 132	6	2275	P	nine.
 132	6	2276	P	ten!
-132	6	2383	P	"one, two, three."
-132	6	2395	P	"one, two, three!"
-132	6	2516	P	"ok, just two more times."
+132	6	2383	P	'one, two, three.'
+132	6	2395	P	'one, two, three!'
+132	6	2516	P	'ok, just two more times.'
 132	6	2520	P	two!
-132	6	2548	P	"alright, two more times."
+132	6	2548	P	'alright, two more times.'
 132	6	2550	P	two more.
 132	6	2551	P	two more for the road.
 132	7	203	P	ok, go get those two pieces that fell on the floor.
@@ -5682,19 +5682,19 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 134	5	65	P	that is a nine.
 134	5	67	P	nine.
 134	5	366	P	nine balls.
-134	5	852	P	"ooh, you found two circles."
+134	5	852	P	'ooh, you found two circles.'
 134	5	853	C	two circles.
 134	5	950	P	look at the number ten.
 134	5	955	P	six.
 134	5	956	P	is that a six?
 134	5	957	C	six.
 134	5	958	P	six.
-134	5	984	C	"six, seven ###."
+134	5	984	C	'six, seven ###.'
 134	5	985	C	seven.
 134	5	986	P	seven.
 134	5	987	P	seven.
-134	5	1217	C	"six, seven."
-134	5	1409	P	"one, two, three, catch!"
+134	5	1217	C	'six, seven.'
+134	5	1409	P	'one, two, three, catch!'
 134	6	460	P	I think you got two crackers in there from last night.
 134	6	687	C	two girls.
 134	6	816	P	two.
@@ -5713,8 +5713,8 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 134	6	833	P	eight.
 134	6	834	P	nine.
 134	6	835	P	ten!
-134	6	937	P	"you're not supposed to get up at six in the morning, my friend."
-134	6	1330	P	"say, Miss_Maureen tried to go to two year old preschool."
+134	6	937	P	'you're not supposed to get up at six in the morning, my friend.'
+134	6	1330	P	'say, Miss_Maureen tried to go to two year old preschool.'
 134	6	1583	C	two light --
 134	6	1584	P	two lights.
 134	6	1656	C	seven.
@@ -5791,7 +5791,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 134	7	1715	C	nine.
 134	7	1716	C	ten.
 134	7	1717	P	ten.
-134	7	1729	P	"give me a high five, girlfriend."
+134	7	1729	P	'give me a high five, girlfriend.'
 134	7	1804	P	two.
 134	7	1805	P	three.
 134	7	1805	C	three.
@@ -5804,13 +5804,13 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 134	7	1813	P	eight.
 134	7	1814	P	nine.
 134	7	1816	P	ten.
-134	7	1931	P	"engine engine number nine rolling down -- rolling rolling down the line."
-134	7	1955	P	""busy engine number nine, clicking clacking down the line.""
-134	7	1971	P	"crowded engine number nine."
+134	7	1931	P	'engine engine number nine rolling down -- rolling rolling down the line.'
+134	7	1955	P	''busy engine number nine, clicking clacking down the line.''
+134	7	1971	P	'crowded engine number nine.'
 134	7	1981	P	where is this engine number nine going?
-134	7	1999	P	"noisy engine number nine."
-134	7	2023	P	"happy engine number nine."
-134	7	2039	P	"sleepy engine number nine."
+134	7	1999	P	'noisy engine number nine.'
+134	7	2023	P	'happy engine number nine.'
+134	7	2039	P	'sleepy engine number nine.'
 134	7	2124	C	that is eight.
 134	7	2131	C	two.
 134	7	2132	C	three.
@@ -5820,7 +5820,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 134	7	2163	C	three yummy bananies.
 134	7	2167	C	three -- two yummy eggs!
 134	7	2168	P	that is nine --
-134	7	2170	P	"no, that is not two yummy eggs."
+134	7	2170	P	'no, that is not two yummy eggs.'
 134	7	2171	P	that is -- six yummy eggs.
 134	7	2172	C	six --
 134	7	2276	C	four muffins.
@@ -5835,21 +5835,21 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 135	5	265	P	there is two of them.
 135	5	1523	P	give me five.
 135	5	1826	P	two kisses from Cookie.
-135	6	116	P	"oh, there is two horses huh."
-135	6	175	P	"ah, two cows."
+135	6	116	P	'oh, there is two horses huh.'
+135	6	175	P	'ah, two cows.'
 135	6	313	P	I think we were on song number ten.
-135	6	386	P	"if we could find the other half, that is what -- that is the edge that helps connect the two pieces."
+135	6	386	P	'if we could find the other half, that is what -- that is the edge that helps connect the two pieces.'
 135	6	503	P	he has been up for -- since seven AM now.
 135	6	692	P	you have -- you have three.
-135	7	535	C	"six, seven, eight."
-135	7	538	C	"nine, ten, eleven, twelve."
+135	7	535	C	'six, seven, eight.'
+135	7	538	C	'nine, ten, eleven, twelve.'
 135	7	543	C	eight.
 135	7	544	C	nine.
 135	7	545	C	ten.
 135	7	652	P	it sounds like there must be three pigs.
 135	7	659	P	maybe two or three.
-135	7	865	C	"one, two."
-135	7	1241	C	"mm, three, four five."
+135	7	865	C	'one, two.'
+135	7	1241	C	'mm, three, four five.'
 135	7	1242	P	five!
 135	7	1774	P	he and the three fairies saved me.
 135	7	1845	C	two.
@@ -5870,7 +5870,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 137	5	1442	C	two tools.
 137	5	1443	P	you got three tools.
 137	5	1446	P	three.
-137	6	20	P	"two hands, please."
+137	6	20	P	'two hands, please.'
 137	6	29	P	two hands.
 137	6	97	C	eight boys is here.
 137	6	568	P	she needs two hairbrushes?
@@ -5881,14 +5881,14 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 137	6	1248	C	you got two rings?
 137	6	1249	P	does she have two rings?
 137	6	1654	P	how about in five minutes we'll change your diaper?
-137	6	1655	C	"and now, I -- I take this home in like -- like two minutes."
+137	6	1655	C	'and now, I -- I take this home in like -- like two minutes.'
 137	6	1656	P	two minutes?
 137	6	1867	P	two more bites.
 137	6	1869	P	two!
 137	6	1870	P	that is three.
 137	6	1872	C	four.
 137	6	1875	P	five.
-137	6	1883	P	"no, I think we don't need to go to the doctor again for two months."
+137	6	1883	P	'no, I think we don't need to go to the doctor again for two months.'
 137	7	40	C	two.
 137	7	41	C	three.
 137	7	42	C	four.
@@ -5936,9 +5936,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 140	5	621	P	give me five.
 140	5	1511	C	there one two three roosters.
 140	5	1512	P	three roosters?
-140	5	1519	P	"those are -- those are two tigers, yes."
+140	5	1519	P	'those are -- those are two tigers, yes.'
 140	5	1543	P	two tigers?
-140	5	1589	C	"mom, two Michael."
+140	5	1589	C	'mom, two Michael.'
 140	5	1590	P	two Michaels?
 140	5	1616	P	there is two Michaels.
 140	5	1683	P	now there is two.
@@ -5952,17 +5952,17 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 140	6	289	P	two.
 140	6	290	P	three.
 140	6	500	P	can you grab those two ducks Noelle please?
-140	6	503	P	"three ducks, sorry."
-140	6	532	P	"wow, you have two Noelle."
+140	6	503	P	'three ducks, sorry.'
+140	6	532	P	'wow, you have two Noelle.'
 140	6	547	P	give me five.
 140	6	697	P	one two three.
 140	6	705	P	I think there is four puzzles.
 140	6	716	P	there are -- there are four puzzles --
 140	6	767	P	we have to turn them all over and you have to pick five blue pieces.
-140	6	771	P	"and then there is two more, sweets."
+140	6	771	P	'and then there is two more, sweets.'
 140	6	798	P	do you have five?
 140	6	799	P	one two three four.
-140	6	800	P	"where is the number five piece, Honey_Bunch."
+140	6	800	P	'where is the number five piece, Honey_Bunch.'
 140	6	812	P	one two three four.
 140	6	820	P	you're looking for five.
 140	6	824	P	one two --
@@ -5991,13 +5991,13 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 140	6	976	C	one two three.
 140	6	979	P	so move three spots.
 140	6	982	P	let's go one two three --
-140	6	1125	P	"maybe your number three birthday, huh?"
+140	6	1125	P	'maybe your number three birthday, huh?'
 140	6	1290	P	we are going to take three of these guys.
 140	6	1291	P	I'm going to put these three in back.
 140	6	1293	P	I'm hiding those three.
-140	6	1373	P	"Actually, there is two sticks."
+140	6	1373	P	'Actually, there is two sticks.'
 140	6	1410	P	I've got two dogs now.
-140	6	1428	P	"Noelle's got two puppies, Connor has two puppies, and I have two puppies."
+140	6	1428	P	'Noelle's got two puppies, Connor has two puppies, and I have two puppies.'
 140	6	1577	P	these three.
 140	6	1638	P	give me five.
 140	6	1663	P	give me five.
@@ -6041,13 +6041,13 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 140	7	1285	P	number four?
 140	7	1322	P	see, there's one, two different levels, and they have fireworks, too.
 140	7	1732	P	give me five, allright.
-141	5	243	C	"five, five, five ###."
+141	5	243	C	'five, five, five ###.'
 141	5	458	C	can have some yellow two?
 141	6	125	P	use two hands.
 141	6	326	C	he is nine years old.
 141	6	327	P	he is four.
 141	6	330	P	he'll be four years old this August.
-141	6	345	C	"one, two, three, four."
+141	6	345	C	'one, two, three, four.'
 141	6	346	C	he ate five.
 141	6	347	P	five.
 141	6	551	C	two.
@@ -6068,15 +6068,15 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 141	6	600	C	ten.
 141	6	727	P	what is onehundred times ten?
 141	6	801	P	about six of them.
-141	6	802	P	"oh, six more minutes?"
-141	6	803	P	"alright, six more minutes."
-141	6	850	P	"ok, we're going to plant three."
+141	6	802	P	'oh, six more minutes?'
+141	6	803	P	'alright, six more minutes.'
+141	6	850	P	'ok, we're going to plant three.'
 141	6	934	C	that -- that is the eightanda -- that is the eight andahalf.
 141	6	942	C	there were ### seven.
 141	6	953	P	you planted like five seeds.
-141	6	985	P	"ok, we're going to plant two more."
-141	6	1589	P	"Anthony, three more minutes."
-141	6	1752	P	"ok, you have to carry it with two hands."
+141	6	985	P	'ok, we're going to plant two more.'
+141	6	1589	P	'Anthony, three more minutes.'
+141	6	1752	P	'ok, you have to carry it with two hands.'
 142	6	129	P	ok see these two balls?
 142	6	264	C	one two three four five six seven eight nine ten eleven twelve thirteen fourteen --
 142	6	265	P	five six seven eight nine ten eleven twelve thirteen fourteen --
@@ -6268,34 +6268,34 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 147	5	1451	P	three.
 147	5	1453	P	three cards for Will.
 147	5	1455	P	you don't need two foxes.
-147	5	1510	P	"let me see, there is two ostriches, so my choices are."
-147	5	1597	P	"no no no, you have three in front of you."
+147	5	1510	P	'let me see, there is two ostriches, so my choices are.'
+147	5	1597	P	'no no no, you have three in front of you.'
 147	5	1880	C	three.
 147	5	1885	C	four.
 147	5	1886	P	six.
 147	5	1892	C	two three four five six.
 147	5	1895	C	one three four five.
 147	5	1906	C	one two three four five.
-147	5	1942	P	"you got to use two hands, bud."
+147	5	1942	P	'you got to use two hands, bud.'
 147	5	1944	P	you got to use two hands.
 147	5	2693	P	I'm number seven.
 147	6	135	P	you just turned five so you're doing five?
-147	6	140	P	"here, let me have your five."
+147	6	140	P	'here, let me have your five.'
 147	6	143	P	and you take the five.
 147	6	530	C	he go two legs.
 147	6	531	P	he has two legs?
 147	6	533	P	two in the front and two in the back.
 147	6	547	C	he got two legs.
-147	6	548	P	"no, he is got eight legs."
-147	6	549	P	"eight arms, too."
+147	6	548	P	'no, he is got eight legs.'
+147	6	549	P	'eight arms, too.'
 147	6	704	P	I need two more pretty --
-147	6	858	P	"one, two, three, four, five, six, seven, eight."
-147	6	1185	C	"one, two."
+147	6	858	P	'one, two, three, four, five, six, seven, eight.'
+147	6	1185	C	'one, two.'
 147	6	1191	P	you go two feet and jump.
 147	6	1193	P	two feet.
 147	6	1195	P	two --
 147	6	1222	P	two feet.
-147	6	1230	P	"oh, number three."
+147	6	1230	P	'oh, number three.'
 147	6	1264	P	where is number five?
 147	6	1265	P	where is five?
 147	6	1266	P	five.
@@ -6304,7 +6304,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 147	6	1269	P	that is two.
 147	6	1273	P	four.
 147	6	1849	P	two points.
-147	6	1869	P	"nice two hands, buddy."
+147	6	1869	P	'nice two hands, buddy.'
 147	6	1881	C	got two points.
 147	6	1882	P	two points?
 147	6	1883	C	two points.
@@ -6315,7 +6315,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 147	6	1910	C	I did two points.
 147	6	1921	C	I got two points.
 147	6	1923	P	go get your two points.
-147	6	1931	P	"in about -- I would say in about -- I don't know, ten minutes or so we can start -- maybe getting lunch organized."
+147	6	1931	P	'in about -- I would say in about -- I don't know, ten minutes or so we can start -- maybe getting lunch organized.'
 147	6	1978	P	can I please get three bananas.
 147	6	1979	P	two apples.
 147	7	9	P	allright, let's bring these two in the playroom.
@@ -6406,7 +6406,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 147	7	2497	P	three three three three three.
 147	7	2499	C	three three three.
 148	5	1329	P	two purses.
-148	5	1384	P	"ok, hold on with two hands."
+148	5	1384	P	'ok, hold on with two hands.'
 148	6	895	P	there's two of them.
 148	6	998	P	I think they gave us two of these same ears.
 148	6	1208	P	go get two more red ones.
@@ -6446,7 +6446,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 149	5	73	P	two.
 149	5	74	P	three.
 149	5	390	P	want to get those two over there?
-149	5	395	C	"### two, three four."
+149	5	395	C	'### two, three four.'
 149	6	1340	C	I four.
 149	6	1341	C	I four.
 149	6	1383	C	a two.
@@ -6466,22 +6466,22 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 150	5	1366	P	that is all three of them together.
 150	5	1422	C	three of them.
 150	5	1424	P	three of them.
-150	5	1425	P	"there is three instruments, right?"
-150	5	2167	P	"tell everyone what to do, you're two and a half."
+150	5	1425	P	'there is three instruments, right?'
+150	5	2167	P	'tell everyone what to do, you're two and a half.'
 150	6	642	P	the one with the four faces.
-150	6	643	P	"four faces, the yellow one."
+150	6	643	P	'four faces, the yellow one.'
 150	6	782	P	two more.
 150	6	1369	C	two of them.
 150	6	1370	P	two of them?
 150	6	1371	P	I think there is more than two.
-150	6	1373	C	"one, two, three, four."
+150	6	1373	C	'one, two, three, four.'
 150	6	1538	C	I want two of them down.
-150	6	1541	P	"check one, two."
-150	6	1542	P	"check one, two."
-150	6	1544	C	"two, two."
-150	6	1555	P	"ok, check one, two."
-150	6	1644	C	"two, one."
-150	6	1794	P	"one, two, three."
+150	6	1541	P	'check one, two.'
+150	6	1542	P	'check one, two.'
+150	6	1544	C	'two, two.'
+150	6	1555	P	'ok, check one, two.'
+150	6	1644	C	'two, one.'
+150	6	1794	P	'one, two, three.'
 150	6	1798	C	two.
 150	6	1800	C	three.
 150	6	1801	C	four.
@@ -6491,9 +6491,9 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 150	6	1805	C	eight.
 150	6	1806	C	nine.
 150	6	1807	C	ten.
-150	6	1895	P	"one, two, three."
-150	6	1925	P	"one, two, three."
-150	6	2048	C	"I -- I -- I want -- I want a bandage -- I want two bandages -- I -- I want a bandage, case -- case I get hurt."
+150	6	1895	P	'one, two, three.'
+150	6	1925	P	'one, two, three.'
+150	6	2048	C	'I -- I -- I want -- I want a bandage -- I want two bandages -- I -- I want a bandage, case -- case I get hurt.'
 150	7	336	P	that's why I got two.
 150	7	486	P	maybe two.
 150	7	693	P	I'm going to make two small pieces for you.
@@ -6506,29 +6506,29 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 150	7	1375	P	five more minutes.
 150	7	1598	P	it says, three+fifty.
 150	7	1600	P	so I'll turn the oven to three+fifty, first.
-151	5	75	P	"one, two, three, catch."
-151	5	147	P	"one, two, three -- "
+151	5	75	P	'one, two, three, catch.'
+151	5	147	P	'one, two, three -- '
 151	5	148	C	three.
-151	5	173	C	"one, two, three."
-151	5	175	P	"one, two, three."
-151	5	280	C	"I got one, two."
-151	5	281	P	"one, two?"
-151	5	283	C	"got one, two."
-151	5	285	C	"got one, two!"
-151	5	286	P	"one, two."
-151	5	287	C	"got one, two."
-151	5	289	P	"one, two."
-151	5	290	P	"three, four, five."
+151	5	173	C	'one, two, three.'
+151	5	175	P	'one, two, three.'
+151	5	280	C	'I got one, two.'
+151	5	281	P	'one, two?'
+151	5	283	C	'got one, two.'
+151	5	285	C	'got one, two!'
+151	5	286	P	'one, two.'
+151	5	287	C	'got one, two.'
+151	5	289	P	'one, two.'
+151	5	290	P	'three, four, five.'
 151	5	291	C	three.
-151	5	292	C	"I've got one, two."
-151	5	293	P	"one, two."
-151	5	294	P	"can you count to ten, Jack?"
-151	5	295	C	"one, two, three, four, five."
+151	5	292	C	'I've got one, two.'
+151	5	293	P	'one, two.'
+151	5	294	P	'can you count to ten, Jack?'
+151	5	295	C	'one, two, three, four, five.'
 151	5	566	P	on the count of three.
-151	5	567	P	"one, two, three."
-151	5	937	C	"one, two, three."
-151	5	1017	P	"one, two, three, open."
-151	5	1383	P	"one, two, three, jump."
+151	5	567	P	'one, two, three.'
+151	5	937	C	'one, two, three.'
+151	5	1017	P	'one, two, three, open.'
+151	5	1383	P	'one, two, three, jump.'
 151	5	1435	P	### high five?
 151	5	1436	P	you can do high five while you're up high ### other hand.
 151	5	1473	C	I up two.
@@ -6540,37 +6540,37 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 151	5	1516	C	seven.
 151	5	1517	C	eight.
 151	5	1518	C	nine.
-151	5	1520	C	"one, two, three."
+151	5	1520	C	'one, two, three.'
 151	5	1627	P	give me ten.
-151	5	1628	P	"Jack, give me ten."
+151	5	1628	P	'Jack, give me ten.'
 151	5	1630	P	give me ten again.
 151	5	1631	P	give me ten again.
 151	6	42	P	he is only got two.
-151	6	76	P	"one, two, three."
-151	6	385	P	"a cat and two rats are trying on hats."
-151	6	520	P	"one, two, three, blow."
-151	6	522	P	"one, two, three, blow."
-151	6	524	P	"one, two, three, blow."
+151	6	76	P	'one, two, three.'
+151	6	385	P	'a cat and two rats are trying on hats.'
+151	6	520	P	'one, two, three, blow.'
+151	6	522	P	'one, two, three, blow.'
+151	6	524	P	'one, two, three, blow.'
 151	6	603	P	you're almost three.
 151	6	755	P	you took two naps today.
-151	6	1067	P	"one, two, three, up."
-151	6	1145	P	"one, two, three, blow."
-151	6	1146	P	"one, two, three, blow."
+151	6	1067	P	'one, two, three, up.'
+151	6	1145	P	'one, two, three, blow.'
+151	6	1146	P	'one, two, three, blow.'
 151	6	1191	P	mom is got to -- got to buy two of these at a time instead of just one.
-151	6	1196	P	"one, two, three, blow."
-151	6	1197	P	"one, two, three, blow."
+151	6	1196	P	'one, two, three, blow.'
+151	6	1197	P	'one, two, three, blow.'
 151	6	1299	P	one or two?
 151	6	1300	C	three.
 151	6	1301	P	you want two slices?
 151	6	1303	P	you can have one or two.
 151	6	1344	P	take two bites.
-151	6	1449	P	"one, two, three, blow."
+151	6	1449	P	'one, two, three, blow.'
 151	6	1503	C	high five.
-151	6	1574	P	"hey Jack, you got to have two sips out of here."
+151	6	1574	P	'hey Jack, you got to have two sips out of here.'
 151	6	1579	P	you got to have two sips out of here.
 151	6	1583	P	you got to have two sips.
 151	6	1690	C	three.
-151	6	1691	P	"three, that is right."
+151	6	1691	P	'three, that is right.'
 151	7	27	P	one, two, three.
 151	7	29	P	one, two, three down and jump.
 151	7	48	P	one, two, three up.
@@ -6615,7 +6615,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 152	5	782	P	do you know who is coming at ten oclock?
 152	5	784	P	who is coming at ten oclock?
 152	5	850	P	I know it is on at nine oclock in the morning.
-152	5	862	P	"I bought five dresses yesterday, didn't I?"
+152	5	862	P	'I bought five dresses yesterday, didn't I?'
 152	5	924	P	four.
 152	5	925	C	### two.
 152	5	926	P	two?
@@ -6645,18 +6645,18 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 152	6	503	P	plant me five, man.
 152	6	576	P	how about -- you pick two books, I'll pick two books.
 152	6	701	P	ok, Tommy for two minutes and then Mary for two minutes, Ok?
-152	6	903	P	"mama duck had five little ducklings."
-152	6	916	P	"one, two, three, four, five, five ducklings!"
-152	6	925	P	"she began to count one, two."
-152	6	929	P	"four ducklings."
-152	6	934	P	"mama counted three, four."
-152	6	936	P	"mama counted five, six."
-152	6	940	P	"Mama_Duck counted seven, eight."
-152	6	942	P	"mama counted nine."
-152	6	947	P	"mama called out, ten, here I come!"
-152	6	971	P	"that's two little ducklings found, said Mama."
-152	6	977	P	"that's three little ducklings found, said Mama."
-152	6	990	P	"that's four little ducklings found."
+152	6	903	P	'mama duck had five little ducklings.'
+152	6	916	P	'one, two, three, four, five, five ducklings!'
+152	6	925	P	'she began to count one, two.'
+152	6	929	P	'four ducklings.'
+152	6	934	P	'mama counted three, four.'
+152	6	936	P	'mama counted five, six.'
+152	6	940	P	'Mama_Duck counted seven, eight.'
+152	6	942	P	'mama counted nine.'
+152	6	947	P	'mama called out, ten, here I come!'
+152	6	971	P	'that's two little ducklings found, said Mama.'
+152	6	977	P	'that's three little ducklings found, said Mama.'
+152	6	990	P	'that's four little ducklings found.'
 152	6	1085	C	I want two ###
 152	6	1160	P	how about four grapes?
 152	6	1161	C	four grapes.
@@ -6933,7 +6933,7 @@ SUBJECT	SESSION	ROW	SPEAKER	UTTERANCE
 156	7	49	C	eight.
 156	7	56	P	there're two of them.
 156	7	1074	C	there's two for you!
-157	5	329	P	"oh, two jewels on one dress?"
+157	5	329	P	'oh, two jewels on one dress?'
 157	5	378	P	five?
 157	5	379	P	you only have two ears.
 157	5	380	P	you only have two.
