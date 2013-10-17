@@ -4068,7 +4068,7 @@ ID	SUBJECT	SESSION	ROW	C_CHAT	C_CLAUSES	C_NP	CONTEXT
 10440800483	44	8	483	I missed .	1	1	
 10440800485	44	8	485	that tickle .	1	1	
 10440800486	44	8	486	it's too light .	1	1	
-10440800488	44	8	488	let me turn my lamp on .	2	2	C pronounces "lamp" as "pamp"
+10440800488	44	8	488	let me turn my lamp on .	2	2	C pronounces 'lamp' as 'pamp'
 10440800489	44	8	489	okay ?	0	0	
 10440800490	44	8	490	lamp on .	0	1	
 10440800491	44	8	491	my lamp .	0	1	
