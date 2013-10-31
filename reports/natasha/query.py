@@ -1,13 +1,19 @@
+#!/usr/bin/env python
+import sys
 from ldp.data import Utterances
 
 utterances = Utterances()
 subjects = '24 29 33 37 42 43 44 48 50 62 74 77 78 84 88 92 103 105'.split(' ')
 columns = [col.rstrip() for col in open('columns.txt')]
 
-COLUMNS = ', '.join(columns)
-CONDITIONS = 'p_utts != "" or c_utts != ""'
-LIMIT = ''
+sess_cond = ''
+if len(sys.argv) > 1:
+    sess = sys.argv[-1]
+    sess_cond = ' and session = ' + sess
 
+COLUMNS = ', '.join(columns)
+CONDITIONS = '(p_utts != "" or c_utts != "")' + sess_cond
+LIMIT = ''
 
 def pprint(args):
     try:

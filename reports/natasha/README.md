@@ -5,6 +5,11 @@ Natasha Abner is interested in the gesture-speech relations occurring in both pa
 The `data.xls` file contains the requested utterances.
 
 
+## Updates
+
+**31-10-2013**: revised `query.py` and used `make.sh` script to generate transcript utterance listings for each home visit session. For example, `sessions/1.xls` contains all utterances from session 1.
+
+
 ## Subjects
 
 * 24
