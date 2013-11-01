@@ -15,6 +15,9 @@ class Report(object):
 
         >>> speech = Report()
         >>> speech.query('session=11')
+        >>> speech.query('subject=22 and session=5')
+        >>> speech.query('session=5', project=2)
+        >>> speech.query('session=5', subjects=[22, 23, 24])
 
     Use the `result` method to get the speech counts 
     for a particular (subject, session, speaker).
@@ -35,7 +38,7 @@ class Report(object):
 
     Call the object directly to query and report:
 
-        >>> speech('subject=22')
+        >>> speech('session=10')
 
     '''
     utterances = Utterances()
@@ -50,17 +53,19 @@ class Report(object):
         self.words = dd(lambda: dd(int))
         self.trans = dd(int)
 
-    def __call__(self, conditions=None, limit=''):
+    def __call__(self, conditions=None, limit='', project='', subjects=[]):
         '''
         Call object directly to run a query and print a report.
         
             >>> speech = Report()
             >>> speech('subject=22 and session=5')
+            >>> speech('session=5', project=2)
+            >>> speech('session=5', subjects=[22, 23, 24])
         '''
-        self.query(conditions, limit)
+        self.query(conditions, limit, project, subjects)
         self.report()
 
-    def query(self, conditions=None, limit=''):
+    def query(self, conditions=None, limit='', project='', subjects=[]):
         '''
         Query the dataset of utterances with given conditions.
 
@@ -73,8 +78,12 @@ class Report(object):
         '''
         columns = 'subject, session, p_utts, c_utts'
 
-        for subj, sess, p, c in self.utterances(columns, conditions, limit=limit):
-            self.trans[subj, sess] = 0
+        for subj, sess, p, c in self.utterances(columns, 
+                                                conditions,
+                                                limit, 
+                                                project, 
+                                                subjects):
+            self.trans[subj, sess] = 1
             for spkr, utt in [('P', p), ('C', c)]:
                 if not utt: continue
                 id = (subj, sess, spkr)
@@ -85,7 +94,7 @@ class Report(object):
                     self.toks[id] += 1
                     self.words[id][word] += 1
 
-    def result(self, subj, sess, spkr):
+    def result(self, subj, sess, spkr, returnArray=False):
         '''
         Return a dict of results for the specified 
         (subject, session, speaker).
@@ -100,13 +109,16 @@ class Report(object):
         TOK = self.toks[id]
         TYP = len(self.words[id])
         MLU = TOK/UTT if UTT else '-'
-        return dict(subject=subj,
-                    session=sess,
-                    speaker=spkr, 
-                    utterances=UTT, 
-                    word_tokens=TOK, 
-                    word_types=TYP, 
-                    mlu=MLU)
+        if returnArray:
+            return [subj, sess, spkr, UTT, TOK, TYP, MLU]
+        else:
+            return dict(subject=subj,
+                        session=sess,
+                        speaker=spkr, 
+                        utterances=UTT, 
+                        word_tokens=TOK, 
+                        word_types=TYP, 
+                        mlu=MLU)
 
     def report(self, header=True):
         '''
