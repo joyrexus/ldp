@@ -4,7 +4,10 @@ NORC is requesting counts of word types and tokens for each student (for each st
 
 ---
 
-NOTE: To some extent, it seems the `|` code was used more as a clause *marker* than a as a [delimiter](http://en.wikipedia.org/wiki/Delimiter-separated_values) separating clause values.
+NOTE: To some extent, it seems the `|` code was used more as a clause *marker* than as a [delimiter](http://en.wikipedia.org/wiki/Delimiter-separated_values) separating clause values.
+
+The report file named `compare.tsv` compares the counts of the `|` code found
+in each story with the clause count judgments made by human reviewers.
 
 ---
 
