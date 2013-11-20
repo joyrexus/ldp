@@ -111,8 +111,8 @@ class GestureType(GestureMixin):
     s = 'S'                                     # sign
     f = 'FA'                                    # functional act
 
-    r_sub = r'(?:a|d|m|met)(?:\.(?:e|pp))?'                 # representational subcode
-    d_sub = r'nl'                                           # deictic subcode
+    r_sub = r'(?:a|d|m|met)(?:\.(?:e|pp))?'     # representational subcode
+    d_sub = r'nl'                               # deictic subcode
     valid_subcode = r'\.({0})?'.format(r_sub +'|'+ d_sub)   # valid subcode
 
     sep = r'\s*[;/]\s*'                         # separator
