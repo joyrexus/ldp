@@ -10,7 +10,7 @@ lemmas = Normalizer()
 def pprint(*items):
     print "\t".join(str(i) for i in items)
 
-pprint(*'ID STORY PAGE DELIM CLAUSES'.split(' '))
+pprint(*'ID STORY DELIM CLAUSES'.split(' '))
 
 for line in open('data.tsv'):
     columns = line.rstrip().split('\t')
