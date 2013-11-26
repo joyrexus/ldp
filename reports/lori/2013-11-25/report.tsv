@@ -1,4 +1,4 @@
-SUBJECT	SESSION	TIME	UTT	MATCHES	MATCHED	CONTEXT
+SUBJECT	SESSION	TIME	UTTERANCE	MATCHES	MATCHED	CONTEXT
 24	4	00:00:00	make big cake.	1	big	
 24	4	00:01:01	on top?	2	on, top	
 24	5	00:10:01	see I had to put my ### my ### my ### in the air.	1	in	

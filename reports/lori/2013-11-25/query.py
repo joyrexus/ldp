@@ -71,7 +71,7 @@ def in_window(subj, sess, time):
 def pprint(*args):
     print "\t".join(str(x) for x in args)
 
-pprint(*'SUBJECT SESSION TIME UTT MATCHES MATCHED CONTEXT'.split())
+pprint(*'SUBJECT SESSION TIME UTTERANCE MATCHES MATCHED CONTEXT'.split())
 def run(limit=''):
     prev_time = '00:00:00'
     prev_id = (24, 4)
