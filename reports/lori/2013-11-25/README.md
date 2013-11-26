@@ -41,9 +41,9 @@ The [requested report](report.tsv) contains the following columns:
 
 ## Request
 
-    From: Lori Petersen <lpetersen@uchicago.edu>
+    From: Lori P
     Subject: Spatial words
-    Date: November 22, 2013 at 3:49:15 PM CST
+    Date: November 22, 2013
 
     I am looking into the spatial language that children use when they 
     are playing with blocks. Are you able to do word searches at this 
