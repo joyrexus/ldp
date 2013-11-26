@@ -9,23 +9,34 @@ in a particular activity of interest, viz. playing with blocks.
 
 ## Files
 
-* `times.tsv` - specifies the windows of interest for each transript
-* `words.txt` - lists the word tokens to be matched
-* `report.tsv` - the requested report listing matched utterances
-* `query.py` - the query script used to generate the requested report
+* [times.tsv](times.tsv) - specifies the windows of interest for each transript
+* [words.txt](words.txt) - lists the word tokens to be matched
+* [report.tsv](report.tsv) - the requested report listing matched utterances
+* [query.py](query.py) - the query script used to generate the requested report
 
 
 ## Report Format
 
-The report requested contains the following columns:
+The [requested report](report.tsv) contains the following columns:
 
-* SUBJECT - subject ID 
-* SESSION - session/visit ID
-* TIME - time stamp of utterance (or last seen time stamp)
-* CONTEXT - context notes
-* UTT - matched utterance
-* MATCHES - number of matched words
-* MATCHED - matched words
+* `SUBJECT` - subject ID 
+* `SESSION` - session/visit ID
+* `TIME` - time stamp of utterance (or last seen time stamp)
+* `CONTEXT` - context notes
+* `UTT` - matched utterance
+* `MATCHES` - number of matched words
+* `MATCHED` - matched words
+
+
+## Notes
+
+1. Most utterances do not contain timestamps.  If an utterance did not contain
+   a timestamp, the last seen timestamp was used to determine if the utterance
+   fell within one of the specified windows of interest.  
+
+2. Only single-word token strings were used in order to simplifiy word
+   matching.  For example, a multi-word string such as "a little" was 
+   converted to a single-word string, "little".
 
 
 ## Request
