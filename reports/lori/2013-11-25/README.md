@@ -22,10 +22,10 @@ The [requested report](report.tsv) contains the following columns:
 * `SUBJECT` - subject ID 
 * `SESSION` - session/visit ID
 * `TIME` - time stamp of utterance (or last seen time stamp)
-* `CONTEXT` - context notes
 * `UTT` - matched utterance
 * `MATCHES` - number of matched words
 * `MATCHED` - matched words
+* `CONTEXT` - context notes
 
 
 ## Notes
