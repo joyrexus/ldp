@@ -71,17 +71,21 @@ def in_window(subj, sess, time):
 def pprint(*args):
     print "\t".join(str(x) for x in args)
 
-pprint(*'SUBJECT SESSION TIME CONTEXT UTT MATCHES MATCHED*'.split())
-def run(limit=1000):
-    prev_time = ''
+pprint(*'SUBJECT SESSION TIME CONTEXT UTT MATCHES MATCHED'.split())
+def run(limit=''):
+    prev_time = '00:00:00'
+    prev_id = (24, 4)
     for row in utterances(COLUMNS, WHERE, limit=limit): 
         subj, sess, time, utt, cxt = row
-        if not time: time = prev_time
+        if not time and prev_id == (subj, sess): time = prev_time
         if in_window(subj, sess, time):
             matched = [t for t in tokens(utt) if t in words]
             matches = len(matched)
-            if matches: pprint(subj, sess, time, utt, matches, *matched)
+            MATCHED = ", ".join(matched)
+            if matches: 
+                pprint(subj, sess, time, utt, cxt, matches, MATCHED)
         prev_time = time
+        prev_id = (subj, sess)
 
 def time_tests():
     assert fix_time('1:00:00') == '01:00:00'
@@ -94,4 +98,4 @@ def time_tests():
 
 if __name__ == '__main__':
 
-    run('')
+    run()
