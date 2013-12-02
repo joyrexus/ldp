@@ -35,9 +35,9 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10220502246	22	5	2246	00:19:40		if the -- the octagon has eight sides.	iconic	L	octagon shaped stop sign	octogan's hape	traceshape	M traces the shape of octogan in puzzle	R.a	ELAB.a
 10220502248	22	5	2248	00:19:42			iconic	B		swimming	H=O	M wiggles both arms to represent octopus arms swimming in water	R.m	X
 10220502249	22	5	2249			what?	iconic~	B		swimming	H=O	M wiggles both arms to represent octopus arms swimming in water	R	ADD.p
-10220600104	22	6	104		R	"quick feet!"	iconic	L		moving quickly	H=O	M quickly withdraws her index finger from the book to mimic quick motion	R.m	ADD.p
-10220600113	22	6	113	00:04:00	R	"small feet -- "	point. Iconic	L-L	small feet in book	small feet in book. Small	H=O	M pinches together index finger and thumb to show small	DP;R.a	RF;RF.a
-10220600480	22	6	480	00:17:33	R	"the thing is little and very cute."	iconic	L		little	H=O	M pinches her thumb to her index finger to represent little	R.a	RF.a
+10220600104	22	6	104		R	'quick feet!'	iconic	L		moving quickly	H=O	M quickly withdraws her index finger from the book to mimic quick motion	R.m	ADD.p
+10220600113	22	6	113	00:04:00	R	'small feet -- '	point. Iconic	L-L	small feet in book	small feet in book. Small	H=O	M pinches together index finger and thumb to show small	DP;R.a	RF;RF.a
+10220600480	22	6	480	00:17:33	R	'the thing is little and very cute.'	iconic	L		little	H=O	M pinches her thumb to her index finger to represent little	R.a	RF.a
 10220600513	22	6	513	00:19:05			iconic	L		stream's shape	traceshape	With extended palm M holds thumb about three inches apart from index finger while moving hand to her right to represent the elongated shape of a stream of water	R.a	X
 10220600514	22	6	514	00:19:08		you know what a stream is?	iconic~	L		stream's shape	traceshape	With extended palm M holds thumb about three inches apart from index finger while moving hand to her left to represent the elongated shape of a stream of water	R.a	ELAB.a
 10220600516	22	6	516	00:19:11		it's a little thing of water.	iconic	L		stream's shape	traceshape	With extended palm M holds thumb about three inches apart from index finger while moving hand to her left to represent the elongated shape of a stream of water	R.a	ADD.a
@@ -96,7 +96,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10221101518	22	11	1518	0.0116892355318		is you could make it a bigger house by putting the same exact structure right next to it.	iconic - iconic - iconic - iconic	r - r - r - r		bigger house - put - structure - put next to something		holds hand out as if holding onto a pipe help vertically - flattens hand and moves it in circles - traces arc in air with finger - holds hand as if holding the structure and then drops hand is if setting somethinf down	R.a;R.m;R.a;R.m	RF.a;RF.p;RF.a;ADD.p
 10221101519	22	11	1519	0.0117111749095		and then you'll make it a long house.	iconic	r		long house		positions hand as if gripping something and then pulls it through the air	R.a	RF.a
 10221101553	22	11	1553			you could do right next to it the same thing.	iconic	r		structure		holds hand as if holding a cup next to the block building	R.a	ADD.a
-10221101556	22	11	1556			you put the same thing right here, and then you'll have a longer house.	iconic - iconic	r - r		structure - longer house		holds hand as if holding a cup next to the block building - pulls back hand from structure while hand is in "holding cup" form	R.a;R.a	ADD.a;RF.a
+10221101556	22	11	1556			you put the same thing right here, and then you'll have a longer house.	iconic - iconic	r - r		structure - longer house		holds hand as if holding a cup next to the block building - pulls back hand from structure while hand is in 'holding cup' form	R.a;R.a	ADD.a;RF.a
 10221101653	22	11	1653			spin it little so it doesn't --	iconic	l		roll die		holds hand palm up and tips it over	R.m	RF.p
 10221101797	22	11	1797	0.0184447603468		you want to build a domino bridge and you go --	iconic	r		path of dominoes	trace path	traces winding path in air showing how dominoes are typically lined up	R.d	ADD.d
 10221101837	22	11	1837			no, turn it around.	iconic	r		turn around		points finger and spins clockwise	R.m	RF.p
@@ -106,7 +106,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10221201750	22	12	1750			I took the violin and the bow and I play.	iconic	b		playing violing		left hand is poised as if holding violin and right hand is clenched as if holding a bow	R.m	RF.p
 10240200471	24	2	471	00:29:44		yes, turn it.	Iconic	R		turning	H=H	Hand open as if grasping and knob and rotating right and left like turning a knob	R.m	RF.p
 10240300090	24	3	90	00:04:40	F		Iconic	L		Sleeping	B=B	F puts hands under head to imitate sleeping	R.m	X
-10240300115	24	3	115	00:05:36	FR	"I have on my adorable pajamas and I brushed my little tooth"	Iconic	L		Brushing 	H=H	F sweeps horizontal finger in front of mouth like brushing	R.m	RF.p
+10240300115	24	3	115	00:05:36	FR	'I have on my adorable pajamas and I brushed my little tooth'	Iconic	L		Brushing 	H=H	F sweeps horizontal finger in front of mouth like brushing	R.m	RF.p
 10240300352	24	3	352	00:25:05	F	elephant?	Iconic	R		Elephant	H=O	F extends arm above head and holds it like an elephant trunk	R.a	RF.a
 10240400342	24	4	342			how many rabbits do I have?	iconic.iconic	R.L		rabbit.rabbit	H=O.H=O	holds up two fingers on each hand as if they are the ears of two different rabbits	R.a;R.a	RF.a;RF.a
 10240400344	24	4	344			how many rabbits?	iconic.iconic	R.L		hopping. Hopping	H=O.H=O	holds up two fingers on each hand as if they are the ears of two different rabbits while hopping them	R.m;R.m	ADD.p;ADD.p
@@ -292,7 +292,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10270402304	27	4	2304	00:21:20		and they flap their little wings.	iconic	B		flapping	H=O	M waves partially extended arms to mimic a penguin flapping its wings	R.m	RF.p
 10270402416	27	4	2416	00:25:33		chomp chomp.	iconic	R		biting	H=O	M squeezes C's foot to mimic alligator biting foot	R.m	ADD.p
 10270402497	27	4	2497	00:28:10		turn it around.	iconic	L		(turning) around	tracepath	M traces counter clockwise circles over puzzle piece 	R.d	RF.d
-10270500948	27	5	948			boing, boing, boing, pshoooo.	iconic. Iconic	R.R		bouncing. Diving	H=O.H=O	M moves finger up and down on lego "divingboard" several times to mimic bouncing. M then moves finger from the diving board and traces a curved shape to floor rapidly to mimic diving	R.m;R.m	ADD.p;ADD.p
+10270500948	27	5	948			boing, boing, boing, pshoooo.	iconic. Iconic	R.R		bouncing. Diving	H=O.H=O	M moves finger up and down on lego 'divingboard' several times to mimic bouncing. M then moves finger from the diving board and traces a curved shape to floor rapidly to mimic diving	R.m;R.m	ADD.p;ADD.p
 10270501040	27	5	1040	00:34:20		up, we got to build it up.	iconic	L	legos	upward	tracepath	While holding lego traces upward path with hand	R.d	RF.d
 10270501041	27	5	1041	00:34:22			iconic	L	legos	stacking	H=H	M moves hand in steps upwards as if stacking legos	R.m	X
 10270501760	27	5	1760	00:00:40			iconic	B		playing (trumpet)	H=H	M lifts hands in air as if one hand holding and pressing buttons on trumpet	R.m	ADD.p
@@ -580,12 +580,12 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10371100663	37	11	663	0.0278843697092		come around.	iconic	R		move video game character around	trace path	extended arm with pointer finger moving a circular motion 	R.d	RF.d
 10371100664	37	11	664	0.0279032929534		come around.	iconic	R		move video game character around	trace path	extended arm with pointer finger moving a circular motion 	R.d	RF.d
 10380100634	38	1	634	00:32:08		like that	iconic	R	piggies in book	piggy fingers	H=O	M holds up two fingers imitating the picture of piggies on fingers in book 	R.a	ADD.a
-10380100635	38	1	635		R	"I've got two long little piggies"	iconic	R	piggies in book	piggy fingers	H=O	M holds up two fingers imitating the picture of piggies on fingers in book 	R.a	RF.a
-10380100636	38	1	636		R	"I've got two silly little piggies"	iconic	R	piggies in book	piggy fingers	H=O	M holds up two fingers imitating the picture of piggies on fingers in book 	R.a	RF.a
-10380100638	38	1	638	00:32:21	R	"and two wee little piggies"	iconic	R	piggies in book	piggy fingers	H=O	M wiggles fingers imitating he picture of piggies on fingers in book	R.a	RF.a
-10380100650	38	1	650	00:33:00	R	"there were dinosaurs with long sharp claws and long sharp teeth"	point-iconic-iconic	R-R-R	dinosaurs in book	dinosaurs. Claws. Teeth	H=O.H=O	touch. M spreads fingers as if her hand is a claw and or teeth and extends it towards C	DP;R.a;R.a	RF;RF.a;RF.a
-10380100651	38	1	651	00:33:06	R	"there were dinosaurs with long long necks and long long tails"	iconic-iconic	R - R	dinosaurs in book	long necks.long tails	traceshape.traceshape	M traces the long shape of the neck.M traces the long shape of the tail in book	R.a;R.a	RF.a;RF.a
-10380100652	38	1	652	00:33:11	R	"there were big dinosaurs"	iconic	R		big	H=O	M holds palms apart to indicate big	R.a	RF.a
+10380100635	38	1	635		R	'I've got two long little piggies'	iconic	R	piggies in book	piggy fingers	H=O	M holds up two fingers imitating the picture of piggies on fingers in book 	R.a	RF.a
+10380100636	38	1	636		R	'I've got two silly little piggies'	iconic	R	piggies in book	piggy fingers	H=O	M holds up two fingers imitating the picture of piggies on fingers in book 	R.a	RF.a
+10380100638	38	1	638	00:32:21	R	'and two wee little piggies'	iconic	R	piggies in book	piggy fingers	H=O	M wiggles fingers imitating he picture of piggies on fingers in book	R.a	RF.a
+10380100650	38	1	650	00:33:00	R	'there were dinosaurs with long sharp claws and long sharp teeth'	point-iconic-iconic	R-R-R	dinosaurs in book	dinosaurs. Claws. Teeth	H=O.H=O	touch. M spreads fingers as if her hand is a claw and or teeth and extends it towards C	DP;R.a;R.a	RF;RF.a;RF.a
+10380100651	38	1	651	00:33:06	R	'there were dinosaurs with long long necks and long long tails'	iconic-iconic	R - R	dinosaurs in book	long necks.long tails	traceshape.traceshape	M traces the long shape of the neck.M traces the long shape of the tail in book	R.a;R.a	RF.a;RF.a
+10380100652	38	1	652	00:33:11	R	'there were big dinosaurs'	iconic	R		big	H=O	M holds palms apart to indicate big	R.a	RF.a
 10380100712	38	1	712			Hmmmmm	iconic	L		thinking	B=B	M taps finger on mouth	R.m	ADD.p
 10380101568	38	1	1568			bumble bee, bumble bee out of the jelly	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101569	38	1	1569			get little Gracie right in the belly	iconic~	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
@@ -594,7 +594,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10380101574	38	1	1574			bumble bee, bumble bee out of the tar pit	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101575	38	1	1575			get little Gracie right in the arm+pit	iconic~	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101576	38	1	1576			bumble bee, bumble bee out of the rut	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
-10380101579	38	1	1579	00:28:21		say, "Bumble bee, bumble bee out of the beer"	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
+10380101579	38	1	1579	00:28:21		say, 'Bumble bee, bumble bee out of the beer'	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101580	38	1	1580			get mama right in the ear	iconic~	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101581	38	1	1581			bumble bee, bumble bee out of the pie	iconic	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
 10380101582	38	1	1582			get little Gracie right in the thigh	iconic~	R		flying	H=O	M moves finger in circles as if it is the bumblebee flying	R.m	ADD.p
@@ -671,10 +671,10 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10420100764	42	1	764		F	put your arms like this.	iconic~	B	ball	cupped hands	H=H	F cups hands together to show C how to hold his hands	R.a	ADD.a
 10420200056	42	2	56	00:04:58	*F	### get off my chair.	iconic	L		forward	tracepath	F traces forward path	R.d	ADD.d
 10420300936	42	3	936	00:35:28		shake it up.	iconic	R		shaking	H=H	M shakes hand in air to show C how to shake bottle	R.m	RF.p
-10420400173	42	4	173	00:06:05	R	"down, down, down."	iconic~	R	tree in book	downward	tracepath	M traces a downward path from the top of tree to the ground on book	R.d	RF.d
-10420400174	42	4	174		R	"it was a long way down."	iconic~	R	tree in book	downward	tracepath	M traces a downward path from the top of tree to the ground on book	R.d	RF.d
-10420400181	42	4	181	00:06:26	R	"he went right by her and he didn't see her."	iconic-point	R	motherbird. Babybird	path by motherbird. Babybird	tracepath	M traces a path across the page to represent the direction baby bird used	R.d;DP	RF.d;DA
-10420400287	42	4	287	00:09:48	R	"the snort went up."	iconic	R	snort's path in book	upward	tracepath	M traces an upward path with her finger	R.d	RF.d
+10420400173	42	4	173	00:06:05	R	'down, down, down.'	iconic~	R	tree in book	downward	tracepath	M traces a downward path from the top of tree to the ground on book	R.d	RF.d
+10420400174	42	4	174		R	'it was a long way down.'	iconic~	R	tree in book	downward	tracepath	M traces a downward path from the top of tree to the ground on book	R.d	RF.d
+10420400181	42	4	181	00:06:26	R	'he went right by her and he didn't see her.'	iconic-point	R	motherbird. Babybird	path by motherbird. Babybird	tracepath	M traces a path across the page to represent the direction baby bird used	R.d;DP	RF.d;DA
+10420400287	42	4	287	00:09:48	R	'the snort went up.'	iconic	R	snort's path in book	upward	tracepath	M traces an upward path with her finger	R.d	RF.d
 10420400666	42	4	666	00:24:10		is he bouncing?	iconic	R		bouncing	H=O	moves her hand up and down  on book to represent  tiger's bouncing	R.m	RF.p
 10420500775	42	5	775	00:38:43		bring him here.	iconic	R		toward M	tracepath	makes an arch with palm towards herself tracing the direction the helicopter should be brought	R.d	DA
 10420501750	42	5	1750	00:21:02		no, twirl the top.	iconic	L		twirling	H=H	M moves index finger over propeller as if twirling it	R.m	RF.p
@@ -799,10 +799,10 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10470100347	47	1	347			paddles, paddles	point. Iconic	R.R	C's foot	C's foot. Paddling	tap. H=O	M makes C's foot paddle as if C is the penguin paddling	DP;R.m	ADD;RF.p
 10470100349	47	1	349			nip, nip, nip	iconic	R		nipping	H=O	M nips C's foot with her pinching fingers as if M is the crab	R.m	RF.p
 10470100367	47	1	367			nip, nip, nip	iconic	R		nipping	H=O	M nips C's foot with her pinching fingers as if M is the crab	R.m	RF.p
-10470100499	47	1	499			it says "Crab nips"	point. iconic	R.R	crab in book	crab in book. Nipping	touch. H=O	M nips C's foot with her pinching fingers as if M is the crab	DP;R.m	RF;RF.p
+10470100499	47	1	499			it says 'Crab nips'	point. iconic	R.R	crab in book	crab in book. Nipping	touch. H=O	M nips C's foot with her pinching fingers as if M is the crab	DP;R.m	RF;RF.p
 10470100501	47	1	501			like this	iconic	R		paddling	H=O	M makes C's foot paddle as if C is the penguin paddling	R.m	ADD.p
 10470100502	47	1	502			paddle, paddle, paddle, paddle, paddle, paddle, paddle, yeah	iconic~	R		paddling	H=O	M makes C's foot paddle as if C is the penguin paddling	R.m	RF.p
-10470100541	47	1	541			"shark bites"	iconic	R		biting	H=O	M pinches C's shoulder	R.m	RF.p
+10470100541	47	1	541			'shark bites'	iconic	R		biting	H=O	M pinches C's shoulder	R.m	RF.p
 10470100542	47	1	542			bite, bite, bite, bite, bite	iconic~	R		biting	H=O	M pinches C's shoulder	R.m	RF.p
 10470300797	47	3	797	00:51:44	*	I think you have to work the Play_Doh a little bit and make it softer and then it will go through better.	Iconic	R		Working playdoh	M moves hand to show SIB how to massage playdoh		R	ADD
 10470301005	47	3	1005	00:06:28		there's just stuff.	iconic	B		scattering	H=H	M moves hand back and forth to emphasize how things are being scattered around	R.m	ADD.p
@@ -851,7 +851,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10471201153	47	12	1153	0.0322569444444		is that straight or curved?	iconic	b		eyebrows	trace shape	traces eyebrows	R.a	ADD.a
 10471201191	47	12	1191	0.032951794387		what do you see in the middle of my -- in the circle of my eyes.	iconic	b		eyes	trace shape	traces eyes with fingers	R.a	RF.a
 10471201199	47	12	1199	0.0331520293442		because there's two circles right.	iconic - iconic	r - r		eye - eye		pinching fingers as if holding something circular - pinching fingers as if holding something circular 	R.a;R.a	RF.a;RF.a
-10480200967	48	2	967	00:54:53		"spinning round and round till I'm dizzy inside"	Iconic	L		around	tracepath	M traces the around path of dance in book	R.d	RF.d
+10480200967	48	2	967	00:54:53		'spinning round and round till I'm dizzy inside'	Iconic	L		around	tracepath	M traces the around path of dance in book	R.d	RF.d
 10480201132	48	2	1132	00:03:28		hey, put the monkey on the	Hold. Iconic	L. L	Monkey. 	Monkey. Round carousel	traceshape	M holds monkey and makes circular motion with hand to represent the shape of carousel	DS;R.a	RF;ADD.a
 10480201241	48	2	1241	00:12:04		well you turn it over.	Iconic	R	music toy	(turning) over	H=H	M turns hand in clockwise direction	R.d	RF.d
 10480300771	48	3	771	00:38:25		pull.	Iconic	B		Pulling	H=H	M moves hands apart from each other to show how to pull blocks apart	R.m	RF.p
@@ -905,7 +905,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10480501529	48	5	1529			hmm.	iconic	L		thinking	B=B	puts finger on chin as if thinking	R.m	ADD.p
 10480501566	48	5	1566			hmm, where did the ball go?	iconic	R		thinking	B=B	puts finger on chin as if thinking	R.m	ADD.p
 10480501669	48	5	1669			hmm.	iconic	R		thinking	B=B	puts finger on chin as if thinking	R.m	ADD.p
-10480501701	48	5	1701		R	"bake me a cake as fast as you can."	Iconic	L		mixing/stirring	H=H	turns hand in circles as if mixing	R.m	ADD.p
+10480501701	48	5	1701		R	'bake me a cake as fast as you can.'	Iconic	L		mixing/stirring	H=H	turns hand in circles as if mixing	R.m	ADD.p
 10480501702	48	5	1702	00:59:44		can you mix it?	Iconic~	L		mixing/stirring	H=H	turns hand in circles as if mixing	R.m	RF.p
 10480501704	48	5	1704			mix.	Iconic~	L		mixing/stirring	H=H	turns hand in circles as if mixing	R.m	RF.p
 10480501706	48	5	1706			roll,	iconic	B		rolling	H=H	moves palms sideways as if rubbing eachother	R.m	RF.p
@@ -1114,13 +1114,13 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10491001999	49	10	1999	0.0175231481481	F	and then the dinosaur uh --   the big silver thing with the  -- the line.	iconic	B		the line		L in a fist, facing up, R fist facing down, moves up and down over L.	R.a	RF.a
 10500100231	50	1	231	00:12:33		you've got to push up	iconic	L		upward	tracepath	M moves hand upwards	R.d	RF.d
 10500201244	50	2	1244	00:10:18		ok, turn it for mama.	iconic	R		turning	H=H	M traces a circle with hand above part C is supposed to turn	R.m	RF.p
-10500201395	50	2	1395	00:16:43		"sofa, pillow."	iconic.drag point	L	pillow. Sofa	pillow's shape. Sofa	traceshape	M traces the shape of pillow in book	R.a;DP	ELAB.a;RF
-10500201444	50	2	1444			"plant, shears, flower pot, hose, beads."	point (x5).iconic	R	plant. Shears. Flower pot. Hose. Beads. Beads	plant. Shears. Flower pot. Hose. Beads. Bead's shape	touch (x5) traceshape	M traces the shape of beads in book	DP;DP;DP;DP;DP;R.a	RF;RF;RF;RF;RF;ELAB.a
-10500201450	50	2	1450	00:18:52		"drill."	iconic	L	drill	drill's shape	traceshape	M traces the shape of drill in book	R.a	ELAB.a
+10500201395	50	2	1395	00:16:43		'sofa, pillow.'	iconic.drag point	L	pillow. Sofa	pillow's shape. Sofa	traceshape	M traces the shape of pillow in book	R.a;DP	ELAB.a;RF
+10500201444	50	2	1444			'plant, shears, flower pot, hose, beads.'	point (x5).iconic	R	plant. Shears. Flower pot. Hose. Beads. Beads	plant. Shears. Flower pot. Hose. Beads. Bead's shape	touch (x5) traceshape	M traces the shape of beads in book	DP;DP;DP;DP;DP;R.a	RF;RF;RF;RF;RF;ELAB.a
+10500201450	50	2	1450	00:18:52		'drill.'	iconic	L	drill	drill's shape	traceshape	M traces the shape of drill in book	R.a	ELAB.a
 10500201458	50	2	1458			and the tape measure.	iconic	L	tape measure	tape measure's shape	traceshape	M traces the shape of tape measure in book	R.a	ELAB.a
 10500201459	50	2	1459			daddy has a tape measure.	iconic~	L	tape measure	tape measure's shape	traceshape	M traces the shape of tape measure in book	R.a	ELAB.a
 10500201470	50	2	1470	00:19:39		tape measure.	iconic	L	tape measure	tape measure's shape	traceshape	M traces the shape of tape measure in book	R.a	ELAB.a
-10500201504	50	2	1504	00:20:49		"rope, wires."	iconic.drag point	R	rope.wires	rope's shape. Wire	traceshape	M traces the shape of rope in book	R.a;DP	ELAB.a;RF
+10500201504	50	2	1504	00:20:49		'rope, wires.'	iconic.drag point	R	rope.wires	rope's shape. Wire	traceshape	M traces the shape of rope in book	R.a;DP	ELAB.a;RF
 10500401330	50	4	1330	00:15:07		is he going to use the buzz, buzz clippers, and the tickle brush?	iconic	L	C's hair	shaving	H=O	M moves hand over C's hair as if shaving it	R.m	ADD.p
 10500401434	50	4	1434	00:19:14		um -- red.	iconic	R		thinking	B=B	M places finger on upper lip pantomiming thinking	R.m	ADD.p
 10500600219	50	6	219	00:17:15		yeah.	iconic	R	car in book	path of car	tracepath	M moves hand across page to trace path of car	R.d	ADD.d
@@ -1133,8 +1133,8 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10510100570	51	1	570	00:45:45		go.	iconic	R		forward	tracepath	M waves downward facing palm away from body to show forward direction C should go	R.a	ADD.a
 10510100571	51	1	571			go, go.	iconic	R		forward	tracepath	M waves downward facing palm away from body to show forward direction C should go	R.a	ADD.a
 10510100833	51	1	833	00:02:03		now go.	iconic	R		forward	tracepath	M waves downward facing palm forward away from body	R.d	ADD.d
-10510200404	51	2	404	00:22:48		"fly away."	iconic	R	kite in book	path of kite	touch tracepath	M touches kite in book and then traces curved upward path	R.d	ADD.d
-10510200561	51	2	561	00:33:52		"I will wash the engine and I'll have it very clean."	iconic	R	fire engine in book	washing	touch	M moves downward facing palm over fire engine in book to represent washing	R.m	RF.p
+10510200404	51	2	404	00:22:48		'fly away.'	iconic	R	kite in book	path of kite	touch tracepath	M touches kite in book and then traces curved upward path	R.d	ADD.d
+10510200561	51	2	561	00:33:52		'I will wash the engine and I'll have it very clean.'	iconic	R	fire engine in book	washing	touch	M moves downward facing palm over fire engine in book to represent washing	R.m	RF.p
 10510200798	51	2	798	00:50:23		today you are so --	iconic	R		irritable		M touches thumb to index finger and shakes hand	R.a	ADD.a
 10510201011	51	2	1011	00:09:18		go around it.	iconic	L		around	tracepath	M traces curved path with index figer to represent path around coat	R.a	RF.a
 10510300381	51	3	381	00:25:13		once upon a time Piglet was sweeping his floor when the windows open and the whole bunch of leaves just fell everywhere.	hold-point-iconic-iconic-iconic+shake	L-R-R-R-R	piglet book. Piglet. 	piglet book. Piglet. Opening. Falling. Everywhere. No	.touch. H=O. H=O. H=H	M flips downward facing palm upward to represent opening. M sweeps upward facing palm to the left to represent leaves falling into house in book. M circles around side palm to represent everywhere.	DS;DP;R.m;R.m;R.a;C	RF;RF;RF.p;RF.p;RF.a;ADD
@@ -1203,26 +1203,26 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10540101682	54	1	1682	00:23:01		put them away.	iconic	R		putting away	H=H	M closes palm to represent holding lid and then traces path from lid on floor to inside drawer and then opens palm to mimic letting go of lid 	R.m	RF.p
 10540101723	54	1	1723	00:24:46		night+night.	iconic	R		sleeping	H=O	M places palm on her ear and leans head over to represent laying down	R.m	ADD.p
 10540101724	54	1	1724	00:24:48		night+night.	iconic	R		sleeping	H=O	M places palm on her ear and leans head over to represent laying down	R.m	ADD.p
-10540200456	54	2	456	00:23:50	R	"he splashes splash, splash, splash."	iconic	R	duckling in book	splashing	H=O	M slaps book page with downward facing palm to mimic action of spashing	R.m	RF.p
+10540200456	54	2	456	00:23:50	R	'he splashes splash, splash, splash.'	iconic	R	duckling in book	splashing	H=O	M slaps book page with downward facing palm to mimic action of spashing	R.m	RF.p
 10540200487	54	2	487	00:24:42		that's dental floss and it's all over.	point. Iconic	R.R	floss in book. Floss in book	floss in book. Floss' shape	touch. Traceshape	M traces oval shapes around book pages	DP;R.a	RF;ELAB.a
 10540200488	54	2	488			oh no!	iconic~	R	floss in book	floss' shape	touch	M traces oval shapes around book pages	R.a	ADD.a
 10540200502	54	2	502	00:25:27		and where's the tooth+paste?	iconic	R	toothpaste in book	shape of toothpaste	traceshape	M traces looped shape of toothpaste line	R.a	ELAB.a
 10540200503	54	2	503	00:25:28		you don't use tooth+paste yet.	iconic~	R	toothpaste in book	shape of toothpaste	traceshape	M traces looped shape of toothpaste line	R.a	ELAB.a
 10540200504	54	2	504			oh no, what a mess!	iconic~	R	toothpaste in book	shape of toothpaste	traceshape	M traces looped shape of toothpaste line	R.a	ADD.a
 10540200550	54	2	550	00:27:28		ah, moon!	iconic	R	moon in book	moon's round shape	traceshape	M traces round shape of moon	R.a	ELAB.a
-10540200552	54	2	552	00:27:33	R	"the moon is big and round."	point	R	moon in in book	moon's round shape	traceshape	M traces round shape of moon	R.a	RF.a
-10540200568	54	2	568	00:28:13	R	"here's one more kiss."	iconic	R		kissing	H=O	M holds thumb against the rest of her fingers while placing hand on C's cheek to represent a mouth kissing C	R.m	ADD.p
-10540200635	54	2	635	00:30:43	R	"how that made us jump."	iconic	R		jumping	H=B	M brings hand rapidly from book up into air to represent action of jumping	R.m	RF.p
-10540200639	54	2	639	00:30:54	R	"hat!"	point. Iconic	R-R	hat in book	hat in book. Hat	touch. H=O	M places downward facing palm over C's head to represent a hat	DP;R.a	RF;RF.a
-10540200653	54	2	653	00:31:39	R	"no no make that cat go away."	shake. Iconic	R		no. away	tracepath	M sweeps inward facing palm up and out to represent path away	R.d	RF.d
-10540200654	54	2	654		R	"tell that Cat_In_The_Hat you do not want to play."	iconic. Sign	R-R		hat. Play	H=O	M palces downward facing palm on C's head to represent a hat. M extends thumb and pinky finger on closed fist and rotates hand	R.a;S	RF.a;RF
-10540200664	54	2	664	00:32:07	R	"with a game that I call, up up, up with a fish."	iconic	R		upward	tracepath	M points up with index finger and then brings hand upward in several steps to represent upward	R.d	RF.d
-10540200674	54	2	674	00:32:28		"with a book in one hand and a cup on my hat."	point. Iconic	R-R	book in book	book in book-hat	touch. H=O	M places downward facing palm on C's head to represent a hat	DP;R.a	RF;RF.a
-10540200733	54	2	733	00:34:53	R	"hat."	iconic	R		hat	H=O	M places downward facing palm on C's head to represent hat	R.a	RF.a
+10540200552	54	2	552	00:27:33	R	'the moon is big and round.'	point	R	moon in in book	moon's round shape	traceshape	M traces round shape of moon	R.a	RF.a
+10540200568	54	2	568	00:28:13	R	'here's one more kiss.'	iconic	R		kissing	H=O	M holds thumb against the rest of her fingers while placing hand on C's cheek to represent a mouth kissing C	R.m	ADD.p
+10540200635	54	2	635	00:30:43	R	'how that made us jump.'	iconic	R		jumping	H=B	M brings hand rapidly from book up into air to represent action of jumping	R.m	RF.p
+10540200639	54	2	639	00:30:54	R	'hat!'	point. Iconic	R-R	hat in book	hat in book. Hat	touch. H=O	M places downward facing palm over C's head to represent a hat	DP;R.a	RF;RF.a
+10540200653	54	2	653	00:31:39	R	'no no make that cat go away.'	shake. Iconic	R		no. away	tracepath	M sweeps inward facing palm up and out to represent path away	R.d	RF.d
+10540200654	54	2	654		R	'tell that Cat_In_The_Hat you do not want to play.'	iconic. Sign	R-R		hat. Play	H=O	M palces downward facing palm on C's head to represent a hat. M extends thumb and pinky finger on closed fist and rotates hand	R.a;S	RF.a;RF
+10540200664	54	2	664	00:32:07	R	'with a game that I call, up up, up with a fish.'	iconic	R		upward	tracepath	M points up with index finger and then brings hand upward in several steps to represent upward	R.d	RF.d
+10540200674	54	2	674	00:32:28		'with a book in one hand and a cup on my hat.'	point. Iconic	R-R	book in book	book in book-hat	touch. H=O	M places downward facing palm on C's head to represent a hat	DP;R.a	RF;RF.a
+10540200733	54	2	733	00:34:53	R	'hat.'	iconic	R		hat	H=O	M places downward facing palm on C's head to represent hat	R.a	RF.a
 10540200745	54	2	745				iconic	R		hat	H=O	M places downward facing palm on C's head to represent a hat	R.a	X
-10540200746	54	2	746	00:35:23	R	"hat."	iconic~	R		hat	H=O	M places downward facing palm on C's head to represent a hat	R.a	RF.a
+10540200746	54	2	746	00:35:23	R	'hat.'	iconic~	R		hat	H=O	M places downward facing palm on C's head to represent a hat	R.a	RF.a
 10540200779	54	2	779	00:36:54			iconic	R		hat	H=O	M taps downward facing palm on C's head to represent hat	R.a	X
-10540200842	54	2	842	00:39:41	R	"and then he was gone with a tip of his hat."	iconic	R		tipping	H=H	M pinches together thumb and index finger and places hand near C's head to represent action of tipping hat	R.m	RF.p
+10540200842	54	2	842	00:39:41	R	'and then he was gone with a tip of his hat.'	iconic	R		tipping	H=H	M pinches together thumb and index finger and places hand near C's head to represent action of tipping hat	R.m	RF.p
 10540201301	54	2	1301			let's mark it with a r@l for Ross.	iconic	R	letter R	shape of letter R	traceshape	M traces shape of R on book page	R.a	ELAB.a
 10540201302	54	2	1302	00:03:04		r@l.	iconic	R	letter R	shape of letter R	traceshape	M traces shape of R on book page	R.a	ELAB.a
 10540201553	54	2	1553	00:12:59		what are these?	iconic	R	eggs on book	egg's shape	traceshape	M traces oval shape of egg in book	R.a	ADD.a
@@ -1236,12 +1236,12 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10540400062	54	4	62			ooh.	iconic	R		crawling (spider)	H=O	M wiggles fingers across C's chest to mimic a crawling spider	R.m	ADD.p
 10540400066	54	4	66	00:02:17		look at the spider+web.	iconic	R	spiderweb in book	web's shape	traceshape	traces the shape of web with finger	R.a	ELAB.a
 10540400079	54	4	79	00:02:49		and if they have faces in them what do we call them?	iconic. Iconic	L.L	Jackolanter's eye. Jackolantern's mouth	eye's shape. Mouth's shape	traceshape. Traceshape	M traces circular shape of eye. M traces linear shape of mouth	R.a;R.a	ELAB.a;ELAB.a
-10540400177	54	4	177	00:06:03	R	"each cupcake had a candy corn on top."	iconic	R		putting		M pinches fingers together and lowers hand as if putting smt small on smt	R.m	ADD.p
-10540400197	54	4	197	00:06:50	R	"one candy corn."	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
-10540400198	54	4	198	00:06:51	R	"another candy corn."	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
-10540400199	54	4	199	00:06:55	R	"another candy corn."	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
-10540400200	54	4	200	00:06:58	R	"another candy corn."	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
-10540400201	54	4	201	00:07:00	R	"another candy corn."	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
+10540400177	54	4	177	00:06:03	R	'each cupcake had a candy corn on top.'	iconic	R		putting		M pinches fingers together and lowers hand as if putting smt small on smt	R.m	ADD.p
+10540400197	54	4	197	00:06:50	R	'one candy corn.'	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
+10540400198	54	4	198	00:06:51	R	'another candy corn.'	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
+10540400199	54	4	199	00:06:55	R	'another candy corn.'	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
+10540400200	54	4	200	00:06:58	R	'another candy corn.'	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
+10540400201	54	4	201	00:07:00	R	'another candy corn.'	iconic	R	candy corn in book	picking	H=H	moves two fingers in syn above corn as if picking	R.m	ADD.p
 10540400266	54	4	266			hot.	point~.iconic	R.R	candles in book	candles in book.retracting	touch.H=H	moves finger away rapidly as if she just touched smt. Hot	DP;R.m	ADD;ADD.p
 10540400267	54	4	267	00:09:26		hot.	point~.iconic	R.R	candles in book	candles in book.retracting	touch.H=H	moves finger away rapidly as if she just touched smt. Hot	DP;R.m	ADD;ADD.p
 10540400363	54	4	363	00:14:14		yeah, I don't know if there -- this has a lot of -- um -- caffeine in it.	point-iconic	R.R	tea box. Rectangle on tea box	tea box. Rectangle	tap. Traceshape	M traces shape of rectangle on teabox	DP;R.a	DA;ADD.a
@@ -1416,8 +1416,8 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10640600797	64	6	797	00:16:38			Iconic	R		shaking	H=H	M shakes hand in air as if playing the maraca	R.m	ADD.p
 10640800374	64	8	374			go click click.	iconic	R		clicking mouse	H=H	M moves index finger in air as if clicking imaginary mouse button	R.m	RF.p
 10650100881	65	1	881			you go --	iconic	R	paper flashlight	directing (the light of the flashlight)	H=H	M directs the toy flashlight in different directions as if directing its light	R.m	ADD.p
-10650200229	65	2	229		R	"it started to snow and snow."	iconic	R	snow in book	snowing	H=O	M moves hand downward on book as to represent snow falling	R.m	RF.p
-10650200619	65	2	619	00:43:05	R	"then winter came and it started to snow."	iconic	R	snow in book	snowing	H=O	M moves hand downward on book as to represent snow falling	R.m	RF.p
+10650200229	65	2	229		R	'it started to snow and snow.'	iconic	R	snow in book	snowing	H=O	M moves hand downward on book as to represent snow falling	R.m	RF.p
+10650200619	65	2	619	00:43:05	R	'then winter came and it started to snow.'	iconic	R	snow in book	snowing	H=O	M moves hand downward on book as to represent snow falling	R.m	RF.p
 10650201007	65	2	1007	00:09:30		whoosh, whoosh, whoosh	iconic	B		swimming	O=B	M moves book in swimming motion	R.m	ADD.p
 10650300687	65	3	687	00:37:04		and he's going to come back.	iconic	L		towards M	tracepath	M moves her finger toward herself	R.d	ADD.d
 10650301512	65	3	1512	00:13:19		hop hop hop hop hop hop hop.	iconic	L		hopping	O=O	M hops the bunny book in air	R.m	RF.p
@@ -1500,7 +1500,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10720300290	72	3	290	00:13:50		and go zoom zoom zoom.	iconic	R		backward and forward	tracepath	M traces the path car takes on floor by moving her hand forward and backward on carpet	R.d	ADD.d
 10720400678	72	4	678	00:32:08		see the water coming onto the horse and cow.	iconic	R	water in book	toward horse	tracepath	M traces path water takes with thumb	R.d	RF.d
 10720400772	72	4	772			they go blink blink blink blink.	iconic	R	lights on truck	blinking	H=O	moves finger up and down as if its light going on and off	R.m	RF.p
-10720401122	72	4	1122	00:50:05		"and Clifford flew up -- up to the top of the tree."	iconic	R	Clifford's path in book	upward	tracepath	M traces path from ground to tree in book	R.d	RF.d
+10720401122	72	4	1122	00:50:05		'and Clifford flew up -- up to the top of the tree.'	iconic	R	Clifford's path in book	upward	tracepath	M traces path from ground to tree in book	R.d	RF.d
 10720401127	72	4	1127	00:50:15		and Clifford flew up there.	iconic	R	Clifford's path in book	upward	tracepath	M extends index finger upwards to represent upward path of clifford	R.d	RF.d
 10720401185	72	4	1185	00:52:12		hop hop hop hop hop hop all the way up here!	iconic.point	R.R	clifford's path in book	hopping up.here	H=O	M hops finger on the path that clifford took in book	R.m;DP	RF.p;DA
 10720401187	72	4	1187	00:52:15		and then he jumps right in the stocking.	iconic. Iconic	R.R	path to stocking in book (x2)	towards stocking. Towards stocking	tracepath. Tracepath	while touching book M traces downward path to represent clifford's path (x2)	R.d;R.d	RF.d;RF.d
@@ -1558,7 +1558,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10750600464	75	6	464	00:11:41		all the way up the middle.	Iconic	R		up	tracepath	M traces an upward path with index finger	R.d	RF.d
 10750601004	75	6	1004	00:29:19		let's make the -- Let's make all different towers.	Iconic.iconic	R.R		low tower.high tower	H=O.H=O	M raises downward facing palm to different heights to represent height of two different towers	R.a;R.a	ADD.a;ADD.a
 10750601322	75	6	1322	00:36:52		it's a drum.	Iconic	B		drumming	H=H	M makes drumming motion with fists.	R.m	ADD.p
-10750601337	75	6	1337	00:37:15	R	"the suitcase has a rectangle shape."	iconic	L	suitcase in book	rectangle shape	traceshape	M traces the rectange shape of suitcase	R.a	RF.a
+10750601337	75	6	1337	00:37:15	R	'the suitcase has a rectangle shape.'	iconic	L	suitcase in book	rectangle shape	traceshape	M traces the rectange shape of suitcase	R.a	RF.a
 10750601338	75	6	1338	00:37:15		see this rectangle shape?	iconic~	L	suitcase in book	rectangle shape	traceshape	M traces the rectange shape of suitcase	R.a	RF.a
 10750601390	75	6	1390	00:38:27		this is.	iconic	R	tennis racket in book	oval shaped tennis racket	traceshape	M traces oval shape of tennis racket in book	R.a	ADD.a
 10750601391	75	6	1391	00:38:27		what's this.	iconic~	R	tennis racket in book	oval shaped tennis racket	traceshape	M traces oval shape of tennis racket in book	R.a	ADD.a
@@ -1699,13 +1699,13 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10780701576	78	7	1576	00:29:42			iconic	WB		fish lips	B=O	M opens and closes mouth like a fish.	R.a	X
 10780701588	78	7	1588	00:30:03			iconic	WB		fish lips	B=O	M opens and closes mouth like a fish.	R.a	X
 10780701594	78	7	1594	00:30:18			iconic	WB		fish lips	B=O	M opens and closes mouth like a fish.	R.a	X
-10780800734	78	8	734	00:45:42			iconic	L		stabbing	H=H	holds small stick in fist like "Psycho" knife and brings arm down sharply as if stabbing once	R.m	X
+10780800734	78	8	734	00:45:42			iconic	L		stabbing	H=H	holds small stick in fist like 'Psycho' knife and brings arm down sharply as if stabbing once	R.m	X
 10780900927	78	9	927	00:48:42		you had the little worm and he followed his way out?	iconic	R		worm crawling	trace path	points with index finger, presses down on page and traces path of cartoon worm through maze in coloring book 	R.d	DA
 10781000296	78	10	296	00:33:39		take Tigger out of here.	point / iconic	R / R	Tigger toy / 	Tigger toy / move out of room	 / trace path	 / after pointing at Tigger swoops point toward door	R.d	RF.d
 10781000896	78	10	896	00:05:52		you got to hold it a little bit above the paper.	iconic	R	above paper	above paper			R.d	RF.d
 10781100185	78	11	185	0.00577699999382		it makes the wind and then travels over the land.	iconic	L		moving tornado	trace path	point down with finger and move crooked along surface	R.d	ADD.d
-10790100561	79	1	561	00:34:21		"there is a ### slide."	iconic	R	slide in book	slide's shape	traceshape	M traces slides linear shape	R.a	ELAB.a
-10790100719	79	1	719			they went, "Swish, swish, swish."	iconic	L		moving/ swishing		Moves index finger back and forth in swishing motion	R.m	RF.p
+10790100561	79	1	561	00:34:21		'there is a ### slide.'	iconic	R	slide in book	slide's shape	traceshape	M traces slides linear shape	R.a	ELAB.a
+10790100719	79	1	719			they went, 'Swish, swish, swish.'	iconic	L		moving/ swishing		Moves index finger back and forth in swishing motion	R.m	RF.p
 10790400596	79	4	596	00:20:30		it -- it looks like a gate.	iconic-flip	R-R		mailbox flag. Don&#8217;t know	H=O	M holds up outward facing palm to represent mailbox flag	R.a;C	ADD.a;ADD
 10790401625	79	4	1625	00:53:00		no, stand up.	iconic	R		upward	tracepath	M raises upward facing palm to trace an upward path	R.d	RF.d
 10790402572	79	4	2572	00:24:54		can we throw over there?	iconic	L		towards left	tracepath	M motions towards C's right with index finger	R.d	DA
@@ -1719,10 +1719,10 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10790600332	79	6	332	00:12:45		should we have a big track?	iconic	R		track's shape	traceshape	M holds thumb apart from index finger and moves hand to her right to show shape of track	R.a	ELAB.a
 10790601536	79	6	1536	00:56:48		should we build like a track to go up to the station?	iconic	L		upward path	tracepath	M moves downward facing palm forward towards rockpile trainstation then upwards onto station	R.d	RF.d
 10790700696	79	7	696	00:21:06		you know the American flag?	iconic	L		waving	H=H	M holds closed fist in air and waves it back and forth as if holding and waving a flag	R.m	ADD.p
-10790700786	79	7	786	00:23:46		it's a soccer ball, but what is -- but it's looking like an o@l.	hold~+point~-iconic	R+L-L	cup w/ soccerball sticker+soccerball sticker	cup w/ soccerball sticker+soccerball sticker-round letter O	touch-traceshape	M traces shape of soccerball (acting as letter O) on "soccer" sticker	DS;DP;R.a	RF;RF;ELAB.a
-10790700788	79	7	788	00:23:50			hold~-iconic	R-L	cup w/ "soccer" sticker	cup w/ "soccer" sticker-letter C	traceshape	M traces shape of letter C on "soccer" sticker	DS;R.a	X;X
-10790700790	79	7	790	00:23:51		what is this?	hold~-iconic	R+L	cup w/ "soccer" sticker	cup w/ "soccer" sticker+letter C	traceshape	M traces shape of letter C (second letter C in "soccer") on "soccer" sticker	DS;R.a	DA;ADD.a
-10790700792	79	7	792	00:23:53			hold~-iconic	R+L	cup w/ "soccer" sticker	cup w/ "soccer" sticker+letter E	traceshape	M traces shape of letter E on "soccer" sticker	DS;R.a	X;X
+10790700786	79	7	786	00:23:46		it's a soccer ball, but what is -- but it's looking like an o@l.	hold~+point~-iconic	R+L-L	cup w/ soccerball sticker+soccerball sticker	cup w/ soccerball sticker+soccerball sticker-round letter O	touch-traceshape	M traces shape of soccerball (acting as letter O) on 'soccer' sticker	DS;DP;R.a	RF;RF;ELAB.a
+10790700788	79	7	788	00:23:50			hold~-iconic	R-L	cup w/ 'soccer' sticker	cup w/ 'soccer' sticker-letter C	traceshape	M traces shape of letter C on 'soccer' sticker	DS;R.a	X;X
+10790700790	79	7	790	00:23:51		what is this?	hold~-iconic	R+L	cup w/ 'soccer' sticker	cup w/ 'soccer' sticker+letter C	traceshape	M traces shape of letter C (second letter C in 'soccer') on 'soccer' sticker	DS;R.a	DA;ADD.a
+10790700792	79	7	792	00:23:53			hold~-iconic	R+L	cup w/ 'soccer' sticker	cup w/ 'soccer' sticker+letter E	traceshape	M traces shape of letter E on 'soccer' sticker	DS;R.a	X;X
 10790701301	79	7	1301	00:38:36		it needs to be kind of low.	iconic	R		low	H=O	M pushes palm down to show low.	R.a	RF.a
 10790900325	79	9	325	00:16:40		alright, but now we have to look for the other train, so put it down.	iconic	L		putting down	trace path	palm out, like wait, then continues sweeping arm to L while lowering palm	R.d	DA
 10790900334	79	9	334	00:16:57		but the whole idea is to -- try to remember where we put that, for when the other one comes up.	beat - iconic- iconic-nod+iconic	B - B - B - H + R		emphasis - remember - put - emphasis+comes up 		 - eyes on hands to symbolize memorizing without looking -palm down with fingers rising - + two palms down 	E;R.met;R.m;C;R.d	E.b;RF;RF.p;E;RF.d
@@ -1760,10 +1760,10 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10800500499	80	5	499	00:30:36		go down the slide.	iconic	R		downward	tracepath	M traces downward path with index finger	R.d	RF.d
 10800501032	80	5	1032	00:21:57		pick it up and bite it.	iconic	R		picking up	H=H	M brings inward facing palm up towards her mouth	R.m	RF.p
 10800601159	80	6	1159	00:20:44		big.	iconic	B		big	H=O	spreads arms out wide	R.a	RF.a
-10800601160	80	6	1160	00:20:46	R	"I'll teach him small."	iconic	R		small		M holds thumb slightly apart from index finger	R.a	RF.a
+10800601160	80	6	1160	00:20:46	R	'I'll teach him small.'	iconic	R		small		M holds thumb slightly apart from index finger	R.a	RF.a
 10800601166	80	6	1166	00:20:56		short.	iconic	R		short	H=O	holds hand close to ground	R.a	RF.a
 10800601167	80	6	1167	00:20:58		and tall.	iconic	R		tall	H=O	holds hand high in air	R.a	RF.a
-10800601208	80	6	1208	00:22:23	R	"from here -- to there."	iconic	L	road in book	windy path 	tracepath	M traces windy path of road from on end of the book to the other	R.d	DA
+10800601208	80	6	1208	00:22:23	R	'from here -- to there.'	iconic	L	road in book	windy path 	tracepath	M traces windy path of road from on end of the book to the other	R.d	DA
 10800900050	80	9	50	00:01:18			iconic	L		ambulance		C moving finger from R to L and making a siren noise	R.d	X
 10801000108	80	10	108	00:04:13	*	quack quack quack.	Iconic	B		flap arms like a chicken		Pulls hands into chest and flaps arms up and down.	R.a	RF.a
 10801000145	80	10	145	00:05:40		oh thank you.	Iconic	R		take and eat imaginary ice cream cone		makes hand into a fist around the imaginary ice cream cone and pulls back as if taking it.	R.a	ADD.a
@@ -1847,7 +1847,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10821000307	82	10	307	00:13:57		he go wiggle wiggle wiggle wiggle wiggle.	Iconic	R		Baby wiggling inside Mommy's tummy		takes right hand and places it on child's belly then pushes belly back and forth rapidly.	R.m	RF.p
 10821201317	82	12	1317	0.039906808815		yeah they pluck them like this.	iconic	r		playing harp		spreads out fingers, hand in front of body, palm to side, pulls hand back with fingers fluttering	R.m	RF.p
 10830100443	83	1	443	00:42:27			iconic	R	spider web in book	downward	tracepath	M traces from top of thread down to where spider is hanging in book	R.d	X
-10830100450	83	1	450	00:42:49	R	"she was very busy spinning her web."	iconic	R	spider web in book	spider web's shape	traceshape	M traces shape of spider web in book	R.a	ELAB.a
+10830100450	83	1	450	00:42:49	R	'she was very busy spinning her web.'	iconic	R	spider web in book	spider web's shape	traceshape	M traces shape of spider web in book	R.a	ELAB.a
 10830100451	83	1	451			see?	iconic~	R	spider web in book	spider web's shape	traceshape	M traces shape of spider web in book	R.a	ADD.a
 10830100495	83	1	495	00:44:49		look how big it is.	iconic	R	spider web in book	spider web's shape	traceshape	M traces big circular shape of spider web	R.a	RF.a
 10830300615	83	3	615	00:09:30		hello Susie.	iconic	R		phone	H=H	M holds fist to ear as if holding a phone	R.a	ADD.a
@@ -1913,29 +1913,29 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10850200934	85	2	934	00:41:31		you made a line.	iconic	R	line	line's shape	traceshape	M traces the shape of line	R.a	ELAB.a
 10850200970	85	2	970	00:42:47		put it on the paper.	iconic	R		drawing/ putting on	H=H	M scribbles with her finger as if drawing on the paper	R.m	RF.p
 10850201214	85	2	1214	00:53:31		ah you made a nice yellow line.	iconic	R	line	line's shape	traceshape	M traces the shape of line	R.a	ELAB.a
-10850201466	85	2	1466	00:03:14	R	"I'll meet you at the top of the coconut tree."	iconic	R	tree in book	climbing	H=O	M "walks" fingers up tree, indicating climbing up tree	R.m	ADD.p
-10850201470	85	2	1470	00:03:22	R	"I'll beat you to the top of the coconut tree."	iconic	R	tree in book	climbing	H=O	M "walks" fingers up tree, indicating climbing up tree	R.m	ADD.p
-10850201477	85	2	1477	00:03:37	R	"all on their way up the coconut tree."	iconic	R	tree in book	climbing	H=O	M "walks" fingers up tree, indicating climbing up tree	R.m	ADD.p
+10850201466	85	2	1466	00:03:14	R	'I'll meet you at the top of the coconut tree.'	iconic	R	tree in book	climbing	H=O	M 'walks' fingers up tree, indicating climbing up tree	R.m	ADD.p
+10850201470	85	2	1470	00:03:22	R	'I'll beat you to the top of the coconut tree.'	iconic	R	tree in book	climbing	H=O	M 'walks' fingers up tree, indicating climbing up tree	R.m	ADD.p
+10850201477	85	2	1477	00:03:37	R	'all on their way up the coconut tree.'	iconic	R	tree in book	climbing	H=O	M 'walks' fingers up tree, indicating climbing up tree	R.m	ADD.p
 10850201573	85	2	1573	00:06:17		whee.	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in an arch tracing the path the ball takes	R.d	ADD.d
 10850201575	85	2	1575	00:06:19		whee.	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in an arch tracing the path the ball takes	R.d	ADD.d
 10850201577	85	2	1577	00:06:20		right over Elmo's head.	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in an arch tracing the path the ball takes	R.d	RF.d
-10850201578	85	2	1578	00:06:22	R	"it bounces by the baby."	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in an arch tracing the path the ball takes	R.d	ADD.d
+10850201578	85	2	1578	00:06:22	R	'it bounces by the baby.'	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in an arch tracing the path the ball takes	R.d	ADD.d
 10850201582	85	2	1582	00:06:29		it goes boing boing boing.	iconic	L	path of ball in book	path of ball	tracepath	M moves hand in discontinuous fashion to show the path the bouncing ball takes	R.d	ADD.d
 10850202121	85	2	2121	00:26:46		yeah you made him pop up.	point.iconic	R.R	lego on toy	lego on toy. Upward	tracepath	M moves finger upward	DP;R.d	DA;RF.d
 10850300494	85	3	494	00:19:20		whee!	iconic	R	path of ball in book	path of ball	tracepath	traces an arched path on book	R.d	ADD.d
 10850300716	85	3	716	00:24:17		goes zoom zoom.	iconic-iconic	L-L		zooming. Zooming	H=O. H=O	M moves finger very fast away from book as if it is the care zooming	R.m;R.m	RF.p;RF.p
 10850300836	85	3	836			they're running away from the trash truck.	iconic	R	path in book	away from truck	tracepath	M moves finger away from trashtruck in book	R.d	RF.d
-10850300849	85	3	849	00:28:19	R	"now here's one big hungry diesel beast, chowing down his garbage feast while two more -- snort -- and -- and sniff the air and catch the scent that's drifting there."	iconic-continuous point	R-R	trash truck-Trash trucks/ diesel beast	chowing-trash trucks/diesel beast	H=O. touch	M moves fingers up and down on book as if it is the mouth of the character eating	R.m;DP	RF.p;RF
-10850300857	85	3	857	00:28:41	R	"they haul their rubbish to the street and heave it."	iconic	R	path in book	towards street	tracepath	M moves finger across page to indicate path	R.d	RF.d
+10850300849	85	3	849	00:28:19	R	'now here's one big hungry diesel beast, chowing down his garbage feast while two more -- snort -- and -- and sniff the air and catch the scent that's drifting there.'	iconic-continuous point	R-R	trash truck-Trash trucks/ diesel beast	chowing-trash trucks/diesel beast	H=O. touch	M moves fingers up and down on book as if it is the mouth of the character eating	R.m;DP	RF.p;RF
+10850300857	85	3	857	00:28:41	R	'they haul their rubbish to the street and heave it.'	iconic	R	path in book	towards street	tracepath	M moves finger across page to indicate path	R.d	RF.d
 10850301106	85	3	1106	0;36:39		go around the table.	iconic	R		around	tracepath	M traces a half circle in air above table	R.d	RF.d
 10850301107	85	3	1107	00:36:41		go around and go over there.	iconic	R		around	tracepath	M traces a half circle in air above table	R.d	RF.d
-10850301548	85	3	1548	00:53:54	R	"but Little_Guy's daddy catches that baby all up and he throws the baby up high."	iconic	L		upward	tracepath	M moves hand upwards	R.d	RF.d
-10850301648	85	3	1648	00:57:19	R	"but Little_Guy's daddy catches that baby up alright and he throws the baby way up high."	iconic-point	L-L	 -baby	upward. Baby	tracepath	M moves hand upwards	R.d;DP	RF.d;RF
-10850301721	85	3	1721	00:00:40	R	"does a dinosaur slam his tail and pout?"	iconic	R		slamming	H=O	Moves arm sideways in fast motion as if it is the tail slamming	R.m	RF.p
-10850301725	85	3	1725	00:00:45		there's shoes everywhere because he slammed his tail -- "	point-iconic	R-R	shoes	shoes-slamming	touch.H=O	Moves hand sideways in fast motion as if it is the tail slamming	DP;R.m	RF;RF.p
-10850301730	85	3	1730	00:00:56	R	"does he throw his teddy+bear all about?"	iconic	R		multiple paths	tracepath	M moves finger in multiple directions on book	R.d	RF.d
-10850301732	85	3	1732	00:01:03	R	"does a dinosaur stomp his feet on the floor and shout 'I want to hear one book more!'?"	iconic	R		stomping	H=O	M hits on book with fist as if stomping	R.m	RF.p
-10850301758	85	3	1758		R	"does he fall on top of the -- of his covers and cry?"	iconic	R		falling	H=O	moves hand downward and hits the bed	R.m	RF.p
+10850301548	85	3	1548	00:53:54	R	'but Little_Guy's daddy catches that baby all up and he throws the baby up high.'	iconic	L		upward	tracepath	M moves hand upwards	R.d	RF.d
+10850301648	85	3	1648	00:57:19	R	'but Little_Guy's daddy catches that baby up alright and he throws the baby way up high.'	iconic-point	L-L	 -baby	upward. Baby	tracepath	M moves hand upwards	R.d;DP	RF.d;RF
+10850301721	85	3	1721	00:00:40	R	'does a dinosaur slam his tail and pout?'	iconic	R		slamming	H=O	Moves arm sideways in fast motion as if it is the tail slamming	R.m	RF.p
+10850301725	85	3	1725	00:00:45		there's shoes everywhere because he slammed his tail -- '	point-iconic	R-R	shoes	shoes-slamming	touch.H=O	Moves hand sideways in fast motion as if it is the tail slamming	DP;R.m	RF;RF.p
+10850301730	85	3	1730	00:00:56	R	'does he throw his teddy+bear all about?'	iconic	R		multiple paths	tracepath	M moves finger in multiple directions on book	R.d	RF.d
+10850301732	85	3	1732	00:01:03	R	'does a dinosaur stomp his feet on the floor and shout 'I want to hear one book more!'?'	iconic	R		stomping	H=O	M hits on book with fist as if stomping	R.m	RF.p
+10850301758	85	3	1758		R	'does he fall on top of the -- of his covers and cry?'	iconic	R		falling	H=O	moves hand downward and hits the bed	R.m	RF.p
 10850302018	85	3	2018	00:08:14		get -- lift the blanket up.	iconic	B		lifting/pulling up	H=H	moves hand upward with force	R.m	RF.p
 10850302021	85	3	2021	00:08:17		pull the blanket up!	iconic	B		lifting/pulling up	H=H	moves hand upward with force	R.m	RF.p
 10850302739	85	3	2739	00:28:59		put it on your head.	iconic	B		putting on	H=H	moves fists downward above head as if putting on hat	R.m	RF.p
@@ -1945,7 +1945,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10850400983	85	4	983	00:46:06		yum	hold~+iconic	R+L	block+	block+eating	H=H	M pantomimes bringing food to her mouth and biting off a piece of food	DS;R.m	ADD;ADD.p
 10850401014	85	4	1014			Yumm --	hold+iconic	L+R	carrot on block	carrot on block. Eating 	H=H	M brings hand to her mouth as if eating	DS;R.m	ADD;ADD.p
 10850401063	85	4	1063	00:48:01		Yumm	iconic	L		eating	H=H	M brings fist to her mouth as if eating	R.m	ADD.p
-10850401065	85	4	1065	00:48:04		candy goes "Yummm"	iconic	L		eating	H=H	M pantomimes putting food in her mouth	R.m	ADD.p
+10850401065	85	4	1065	00:48:04		candy goes 'Yummm'	iconic	L		eating	H=H	M pantomimes putting food in her mouth	R.m	ADD.p
 10850401374	85	4	1374	00:55:46		pull!	iconic	B		Pulling	H=H	M spreads fists apart quickly to pantomime pulling apart	R.m	RF.p
 10850401740	85	4	1740	00:05:00		it's going to go fly right off the page!	iconic	R	drawing of plane	path of plane	tracepath	M touches paper near airplane sticker and traces a path off the page	R.d	RF.d
 10850401793	85	4	1793	00:06:02		Errrrr	iconic	R		drawing	H=H	M traces a circle with  vertical fist to mimic drawing action	R.m	ADD.p
@@ -2032,7 +2032,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10880500660	88	5	660	00:48:03		like, what kind of tea?	iconic	L		drinking	H=H	M brings fist--as if holding a handle-- to her mouth as if drinking fromm a cup	R.m	RF.p
 10880601208	88	6	1208	00:27:00		and then we go -- I don't know.	iconic	R		stirring?	H=H	M pulls back fist and extends thumb as if preparing to pantomime stirring however she aborts gesture before performing any kind of motion 	R.m	ADD.p
 10880700507	88	7	507	00:39:35			iconic	WB		chewing	B=B	M opens and closes mouth as if chewing	R.m	X
-10880701181	88	7	1181	00:23:55	r	"the frontloader's wide shovel scoops up heavy gravel and then carries it out onto the roadway."	iconic	L		scooping	H=O	M makes scooping motion with left arm as if arm is part of frontloader	R.m	RF.p
+10880701181	88	7	1181	00:23:55	r	'the frontloader's wide shovel scoops up heavy gravel and then carries it out onto the roadway.'	iconic	L		scooping	H=O	M makes scooping motion with left arm as if arm is part of frontloader	R.m	RF.p
 10880800711	88	8	711	00:42:46		you better make a way -- make way for Thomas.	iconic	R		path for train	tracepath	M traces a circular path in the air with her finger to show path for train	R.d	ADD.d
 10880900306	88	9	306	00:26:37		do you want me to cut it in half and you can eat half of it?	iconic	R		cut with a knife		holds apple peeler out and makes chopping motion with arm	R.m	RF.p
 10880900440	88	9	440	00:47:32		can you -- move over a little bit there?	iconic	L		scoot over		points to L of C and traces a R-moving path	R.d	DA
@@ -2064,9 +2064,9 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10910201724	91	2	1724			he's asleep.	iconic	WB		sleeping	B=B	M leans head to the right and places head on upward facing palm to represent sleeping	R.m	RF.p
 10910201734	91	2	1734	00:11:40			iconic	WB		lizard	B=O	M sticks out and retracts her tongue as if she is a lizard	R.a	X
 10910201753	91	2	1753	00:12:32		can you do one two?	iconic	L		stamping	H=H	M pinches together fingers as if she was holding a magnet stamp and pantomimes stamping action on magnet board	R.m	ADD.p
-10910300804	91	3	804	00:35:14	R	"ten little ladybugs sitting on a vine."	iconic	R		crawling	H=O	M does crawling motion with middle and index fingers across floor	R.m	ADD.p
-10910300818	91	3	818	00:35:39	R	"along came a caterpillar, then there were -- "	iconic-iconic	R-R	caterpillar in book	wiggling (caterpillar). Caterpillar's shape	H=O. traceshape	M wiggles finger to mimic caterpillar's movement. M traces caterpillar's wavy linear shape	R.m;R.a	ADD.p;ELAB.a
-10910300945	91	3	945	00:39:39	R	"along came a -- "	iconic	L	butterfly in book	butterfly's shape	traceshape	M traces curvy outline of butterfly	R.a	ADD.a
+10910300804	91	3	804	00:35:14	R	'ten little ladybugs sitting on a vine.'	iconic	R		crawling	H=O	M does crawling motion with middle and index fingers across floor	R.m	ADD.p
+10910300818	91	3	818	00:35:39	R	'along came a caterpillar, then there were -- '	iconic-iconic	R-R	caterpillar in book	wiggling (caterpillar). Caterpillar's shape	H=O. traceshape	M wiggles finger to mimic caterpillar's movement. M traces caterpillar's wavy linear shape	R.m;R.a	ADD.p;ELAB.a
+10910300945	91	3	945	00:39:39	R	'along came a -- '	iconic	L	butterfly in book	butterfly's shape	traceshape	M traces curvy outline of butterfly	R.a	ADD.a
 10910300947	91	3	947	00:39:42		who does --	iconic	B		butterfly	H=O	M interlocks thumbs on downward facing palms to represent a butterfly	R.a	ADD.a
 10910300948	91	3	948	00:39:44		who does this?	iconic	B		flapping/ opening (butterfly wings)	H=O	M places inward facing palms together and moves palms away from and back to eachother while maintaining contact at the wrists	R.m	ADD.p
 10910300950	91	3	950			what's this?	iconic~	B		flapping/ opening (butterfly wings)	H=O	M places inward facing palms together and moves palms away from and back to eachother while maintaining contact at the wrists	R.m	ADD.p
@@ -2077,7 +2077,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10910300977	91	3	977	00:41:07		they're resting on sticks.	iconic	R	stick in book	stick's shape	traceshape	M traces long linear shape of stick	R.a	ELAB.a
 10910300978	91	3	978	00:41:07		on these sticks.	iconic	R	stick in book	stick's shape	traceshape	M traces long linear shape of stick	R.a	ELAB.a
 10910300979	91	3	979	00:41:08		what color are these sticks?	iconic	R	stick in book	stick's shape	traceshape	M traces long linear shape of stick	R.a	ELAB.a
-10910300983	91	3	983	00:41:23	R	"along came a -- grasshopper."	iconic	L		hopping (grasshopper)	H=O	M retracts and extends pointer finger as she moves hand along bottom of book to mimic a hopping grasshopper	R.m	ADD.p
+10910300983	91	3	983	00:41:23	R	'along came a -- grasshopper.'	iconic	L		hopping (grasshopper)	H=O	M retracts and extends pointer finger as she moves hand along bottom of book to mimic a hopping grasshopper	R.m	ADD.p
 10910301332	91	3	1332	00:55:49		he's got a little curls at the side of it like your little curls here, huh?	iconic. Hold	L-L	curls in book. C's curls	curl's shape. Curls	traceshape	M traces shape of curls in book	R.a;DS	ELAB.a;RF
 10910301333	91	3	1333	00:55:51		and what does this look like?	iconic	L		crawling	H=O	M crawls hand across book by moving fingers rapidly on downward facing palm	R.m	ADD.p
 10910301354	91	3	1354	00:00:47		see here the big whale, and his tail.	iconic	R	whale in book	whale's shape	traceshape	M traces the shape of whale in book	R.a	ELAB.a
@@ -2093,7 +2093,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10920201392	92	2	1392	00:55:59		hello.	iconic	R		phone	H=O	M places closed palm next to her ear to represent a phone	R.a	ADD.a
 10920201572	92	2	1572	00:02:59		shake, shake, shake.	iconic	R		shaking	H=H	M shakes closed fist	R.m	RF.p
 10920201832	92	2	1832			n@l.	iconic	L	N	shape of N	touch traceshape	M traces shape of N with her index finger	R.a	ELAB.a
-10920201839	92	2	1839	00:16:52	R	"rabbits are running."	iconic	L	Rabbits in book	rabbits path towards right in book	touch tracepath	M moves finger over line of rabbits from the left to the right to show the direction of rabbit's motion	R.d	ADD.d
+10920201839	92	2	1839	00:16:52	R	'rabbits are running.'	iconic	L	Rabbits in book	rabbits path towards right in book	touch tracepath	M moves finger over line of rabbits from the left to the right to show the direction of rabbit's motion	R.d	ADD.d
 10920201841	92	2	1841	00:16:56		t@l is for turkey tripping.	iconic	L	turkey in book	path turkey took	touch tracepath	M traces an upside down V shaped path from the turkey to off of the page to show path turkey took when he tripped	R.d	ADD.d
 10920201843	92	2	1843	00:17:00		u@l.	iconic	L	U	shape of U	touch traceshape	M traces shape of U with index finger	R.a	ELAB.a
 10920201871	92	2	1871	00:17:47		it's looking at the moon.	iconic	R	moon	crescent shape of moon	touch traceshape	M traces crescent shape with finger	R.a	ELAB.a
@@ -2119,18 +2119,18 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 10920601415	92	6	1415	00:39:18		going down the tracks, and steam comes up.	point-iconic	L-L	steam spout	steam spout-up	touch-tracepath	while pointing at spout, quickly raises hand up to show upward movement of steam	R.d	RF.d
 10920601416	92	6	1416	00:39:19		choo choo.	iconic-iconic	L-L		up-up	tracepath-tracepath	while pointing at spout, quickly raises hand up to show upward movement of steam (x2)	R.d;R.d	ADD.d;ADD.d
 10920601583	92	6	1583	00:44:22		so we can have room?	iconic	R		into box	tracepath	M traces path from trains on table into box with downward facing palm	R.d	ADD.d
-10920602952	92	6	2952	00:22:33	R	"Little_Cloud changed into a giant cloud."	iconic	R	giant cloud in book	giant cloud in book's shape	traceshape	M outlines the shape of cloud in book	R.a	ELAB.a
-10920602958	92	6	2958	00:22:45	R	"Little_Cloud changed into an airplane."	iconic	R	LittleCloud as airplane	LittleCloud as airplane's shape	traceshape	M traces shape of airplane shaped cloud	R.a	ELAB.a
-10920602979	92	6	2979	00:23:22	R	"Little_Cloud loved to watch rabbits dash across the meadows."	point~-iconic	R-R	LittleCloud as rabbit	LittleCloud as rabbit-dashing	H=O	M moves fist up and down while moving hand forward to mimic smt dashing	DP;R.m	RF;RF.p
+10920602952	92	6	2952	00:22:33	R	'Little_Cloud changed into a giant cloud.'	iconic	R	giant cloud in book	giant cloud in book's shape	traceshape	M outlines the shape of cloud in book	R.a	ELAB.a
+10920602958	92	6	2958	00:22:45	R	'Little_Cloud changed into an airplane.'	iconic	R	LittleCloud as airplane	LittleCloud as airplane's shape	traceshape	M traces shape of airplane shaped cloud	R.a	ELAB.a
+10920602979	92	6	2979	00:23:22	R	'Little_Cloud loved to watch rabbits dash across the meadows.'	point~-iconic	R-R	LittleCloud as rabbit	LittleCloud as rabbit-dashing	H=O	M moves fist up and down while moving hand forward to mimic smt dashing	DP;R.m	RF;RF.p
 10920603048	92	6	3048	00:25:13		see, that's a carousel like we went on.	iconic	R	carousel	carousel's shape	traceshape	M traces circular shape of carousel	R.a	ELAB.a
 10920603049	92	6	3049	00:25:15		remember?	iconic~	R	carousel	carousel's shape	traceshape	M traces circular shape of carousel	R.a	ELAB.a
 10920603050	92	6	3050	00:25:16		it goes around and around.	iconic~	R	carousel	around	tracepath	M traces circular path of carousel	R.d	RF.d
-10920603057	92	6	3057	00:25:26	R	"but where's the big red dog?"	iconic	R	Clifford the dog	Clifford the dog's shape	traceshape	M traces outline of Clifford the dog	R.a	ELAB.a
+10920603057	92	6	3057	00:25:26	R	'but where's the big red dog?'	iconic	R	Clifford the dog	Clifford the dog's shape	traceshape	M traces outline of Clifford the dog	R.a	ELAB.a
 10920603070	92	6	3070	00:25:42		because the moon's out.	iconic	R	moon	moon's shape	traceshape	M traces circular edge of cresent moon	R.a	ELAB.a
 10920603180	92	6	3180	00:28:48		see?	iconic	R	Earth in book	Earth's shape	traceshape	M traces circular shape of earth	R.a	ADD.a
 10920603181	92	6	3181	00:28:49		this one right here.	iconic~	R	Earth in book	Earth's shape	traceshape	M traces circular shape of earth	R.a	ADD.a
 10920603182	92	6	3182	00:28:50		planet Earth.	iconic~	R	Earth in book	Earth's shape	traceshape	M traces circular shape of earth	R.a	ELAB.a
-10920603183	92	6	3183	00:28:52	R	"it spins all the time, round and round like a top."	point - iconic	R - R	Earth in book - Earth in book	Earth in book - round path	tracepath	M traces round path	R.d	RF.d
+10920603183	92	6	3183	00:28:52	R	'it spins all the time, round and round like a top.'	point - iconic	R - R	Earth in book - Earth in book	Earth in book - round path	tracepath	M traces round path	R.d	RF.d
 10920700828	92	7	828	00:28:30		if it's a corner, remember the edges go on the corners?	Iconic	R		corner	traceshape	Tracing shape of corner pieces on table with index finger	R.a	RF.a
 10920700829	92	7	829	00:28:33		where it's -- like the outside.	Iconic~	R		corner	traceshape	Tracing shape of corner pieces on table with index finger	R.a	ADD.a
 10920701164	92	7	1164	00:39:00		Rarr.	iconic	WB		scary guy	B=O	M shakes head and moves hands up and down as if claws, pretending she's a monster	R.a	ADD.a
@@ -2258,12 +2258,12 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11001101197	100	11	1197	0.0347728167983		you got to put all the edges so it goes in one big long line.	iconic	R		straight across flat		holds hand flat with fingers together and diagonally pointed towards the floor and thumb parallel the ceiling and palm out, slides hand straight across from right to left 	R.a	RF.a
 11001101217	100	11	1217	0.0352057342837		then you got to make a line.	iconic	L		straight across flat		holds hand flat with pinky parallel to the floor and thumb closest to the ceiling and palm side then slides hand back and forth from right to left 	R.a	RF.a
 11020100414	102	1	414			can you make it go down the slide?	point-iconic 	R	slide on toy structure	slide.sliding	H=O	M touches slide, runs finger down length of it	DP;R.m	RF;ADD.p
-11020101234	102	1	1234			"Humpty_Dumpty had a great fall"	iconic	R		falling	H=O	M lets finger "fall" when she reads the word fall	R.m	RF.p
-11020101273	102	1	1273	00:20:35		"rapping on the window"	iconic	L		knocking	H=H	M knocks on book with fist	R.m	RF.p
+11020101234	102	1	1234			'Humpty_Dumpty had a great fall'	iconic	R		falling	H=O	M lets finger 'fall' when she reads the word fall	R.m	RF.p
+11020101273	102	1	1273	00:20:35		'rapping on the window'	iconic	L		knocking	H=H	M knocks on book with fist	R.m	RF.p
 11020300264	102	3	264	00:08:32		it's very small.	iconic	R		small	H=O	M pinches fingers	R.a	RF.a
 11020300509	102	3	509	00:22:08		yep, on the phone.	iconic	R		phone	H=H	M places a fist shaped hand next to ear as if it is the phone	R.a	RF.a
 11020300770	102	3	770	00:34:04		so they can go.	iconic	L		across	tracepath	M traces path from one side of sidewalk to the other in book	R.d	ADD.d
-11020300776	102	3	776	00:34:15	R	"going that way."	iconic	L		path of people	tracepath	M traces the direction people walk in book	R.d	DA
+11020300776	102	3	776	00:34:15	R	'going that way.'	iconic	L		path of people	tracepath	M traces the direction people walk in book	R.d	DA
 11020300803	102	3	803	00:35:12		look, they're getting off the bus.	point-iconic-point	L	people in line in book. .people in line in book	people. Path of the bus. People	touch. Tracepath.tap	M traces the direction in which people are moving on the bus	DP;R.d;DP	DA;RF.d;DA
 11020300815	102	3	815	00:35:58		they're getting back on the bus.	iconic	L		path to bus	trace path	draws a line towards bus from stop	R	ADD
 11020300867	102	3	867	00:37:56		and it's green so these buses are going.	point.iconic	L.L	greenlight	greenlight. Path of bus	tracepath	moves finger on book to show direction of bus' motion	DP;R.d	RF.a;ADD.d
@@ -2313,7 +2313,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11030200341	103	2	341	00:13:02		zip it up.	iconic	B		zipping 	H=H	M pinches fingers as if holding smt as she moves right hand away from left to represent zipping something	R.m	RF.p
 11030201449	103	2	1449	00:09:20		it's easy if you can lay it flat.	iconic	B	floor	laying	H=H	M forcefully puts downward facing palms on foor and moves palms around to represent laying railroad track	R.m	RF.p
 11030201816	103	2	1816	00:27:23			iconic	R		Raising (trunk)	H=O	M raises up arm to mimic an elephant raising up his trunk	R.m	ADD.p
-11030201817	103	2	1817		R	"with my long trunk, said Elephant."	iconic~			Raising (trunk)	H=O	M raises up arm to mimic an elephant raising up his trunk	R.m	ADD.p
+11030201817	103	2	1817		R	'with my long trunk, said Elephant.'	iconic~			Raising (trunk)	H=O	M raises up arm to mimic an elephant raising up his trunk	R.m	ADD.p
 11030300968	103	3	968	00:35:33		you can press it down now.	iconic	R		pressing (down)	H=H	M quickly lowers extended index finger to repressent pressing down	R.m	RF.p
 11030301494	103	3	1494	00:58:44		take this out, and we'll put it back in here.	iconic	R		putting	H=H	While holding DVD mom forcefully lowers hand to mimic putting dvd  into smt	R.m	RF.p
 11030400452	103	4	452	00:18:24		it's got two short sides and two long sides.	point-iconic-iconic-iconic	L-L-L-L	short side-short side-long side-long side	short side-short sides' straight shape-long side's straight shape-long side straight shape	touch-traceshape-traceshape-traceshape	M uses thumb and index finger to point to trace straight shape of both short sides simultaneously. M traces straight shape of long side of rectangle (x2)	DP;R.a;R.a;R.a	RF;RF.a;RF.a;RF.a
@@ -2322,7 +2322,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11030501399	103	5	1399	00:10:37			iconic	B		putting	H=H	M moves closed hands forward while opening them to pantomime placing smt 	R.m	X
 11030501400	103	5	1400	00:10:42		you got to stoke the fire so there's big flames on it.	iconic-iconic	L-L		stroking-flame's shape	H=H.traceshape	M moves fist back and forth as if stroking- M moves hand upward to show rising shape of flames	R.m;R.a	RF.p;ELAB.a
 11030501423	103	5	1423	00:11:38		the wolf decided to climb up on the roof.	iconic	R		climbing	H=O	M moving fingers one after another over house to mimic climbing	R.m	RF.p
-11030600201	103	6	201	00:15:20	r	"the cat was the first to spot it and she ran up the tree."	iconic	L	tree in book	up	tracepath	M moves palm up tree in book to show upward path	R.d	RF.d
+11030600201	103	6	201	00:15:20	r	'the cat was the first to spot it and she ran up the tree.'	iconic	L	tree in book	up	tracepath	M moves palm up tree in book to show upward path	R.d	RF.d
 11030600216	103	6	216	00:16:13		see the wolf's going round and round in circles.	iconic	L		around	trace.path	M moves indwx in circles on book to show wolf going around in circles.	R.d	RF.d
 11030700135	103	7	135	00:08:12		are you going to put the other legs coming out like that?	iconic (x4)	R (x4)		outward (direction) (x4)	tracepath (x4)	M points w/ index finger to paper body of spider and then drags her finger away from central body showing how legs would be directed outward (x4)	R.d;R.d;R.d;R.d	DA;DA;DA;DA
 11030700162	103	7	162	00:09:34		you have to slide it over.	iconic	R		sliding/pushing	H=H	M runs finger above top of strip of paper showing how to slide it over	R.m	RF.p
@@ -2395,16 +2395,16 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11051101119	105	11	1119	0.014998026576		on his foot, ok.	iconic	r		foot		hold out hand, palm down	R.a	RF.a
 11051200989	105	12	989			it will flip over like I said.	iconic	r		pool falling over	trace path	moves hand from right to left with pointer finger extended	R.m	RF.p
 11051200991	105	12	991	0.0191344932896	*	no, then it will fall on top of you.	iconic	r		pool falling over		flicks hand from right to left	R.m	RF.p
-11060101197	106	1	1197	00:13:17		"there's a wide+eyed owl."	iconic	R		wide eyes	traceshape	M traces semi-circle around C's eye with finger	R.a	RF.a
+11060101197	106	1	1197	00:13:17		'there's a wide+eyed owl.'	iconic	R		wide eyes	traceshape	M traces semi-circle around C's eye with finger	R.a	RF.a
 11060101198	106	1	1198			big eyes.	iconic~	R		big eyes	traceshape	M traces semi-circle around C's eye with finger	R.a	RF.a
-11060101200	106	1	1200	00:13:21		"he has pointed ears."	iconic	R		pointed ear	H=O	M sticks finger up near C's head.	R.a	RF.a
-11060101201	106	1	1201	00:13:23		"and claws for toes."	iconic	R		claw	H=O	M holds claw shaped hand near C's foot.	R.a	RF.a
-11060101203	106	1	1203	00:13:28		"then flaps his wings and says hoo, hoo, hoo."	iconic	R		flapping	H=O	Mo moves C's arm in flapping motion	R.m	RF.p
-11060101217	106	1	1217	00:14:01		"round and round the garden went the teddy+bear."	iconic	R		round	tracepath	M traces circles on C's stomach, as if going round and round.	R.d	RF.d
-11060101220	106	1	1220			"round and round the hay stack went the little mouse."	iconic	R		round	tracepath	M moves C's feet in circular motion, demonstrating round and round.	R.d	RF.d
-11060101225	106	1	1225	00:14:30		"knock at the door."	iconic	R		knocking	H=H	M knocks on C's head.	R.m	RF.p
-11060101231	106	1	1231	00:14:40		"ring the bell."	iconic	R		ringing	H=H	M holds C's hands, shakes it as though it is a bell ringing	R.m	RF.p
-11060101232	106	1	1232			"lift the latch."	iconic	R		lifting	H=H	M lifts C's nose as if lifting latch	R.m	RF.p
+11060101200	106	1	1200	00:13:21		'he has pointed ears.'	iconic	R		pointed ear	H=O	M sticks finger up near C's head.	R.a	RF.a
+11060101201	106	1	1201	00:13:23		'and claws for toes.'	iconic	R		claw	H=O	M holds claw shaped hand near C's foot.	R.a	RF.a
+11060101203	106	1	1203	00:13:28		'then flaps his wings and says hoo, hoo, hoo.'	iconic	R		flapping	H=O	Mo moves C's arm in flapping motion	R.m	RF.p
+11060101217	106	1	1217	00:14:01		'round and round the garden went the teddy+bear.'	iconic	R		round	tracepath	M traces circles on C's stomach, as if going round and round.	R.d	RF.d
+11060101220	106	1	1220			'round and round the hay stack went the little mouse.'	iconic	R		round	tracepath	M moves C's feet in circular motion, demonstrating round and round.	R.d	RF.d
+11060101225	106	1	1225	00:14:30		'knock at the door.'	iconic	R		knocking	H=H	M knocks on C's head.	R.m	RF.p
+11060101231	106	1	1231	00:14:40		'ring the bell.'	iconic	R		ringing	H=H	M holds C's hands, shakes it as though it is a bell ringing	R.m	RF.p
+11060101232	106	1	1232			'lift the latch.'	iconic	R		lifting	H=H	M lifts C's nose as if lifting latch	R.m	RF.p
 11060200595	106	2	595	00:38:30		boing boing boing boing.	iconic	R		path of ball	tracepath	M moves finger along the path of a bouncing ball in discontinuous fashion	R.d	ADD.d
 11060200649	106	2	649	00:40:41		round and round and round.	iconic	L	wheel in book	round	traceshape	M traces the circular shape of wheel in book	R.a	RF.a
 11060200650	106	2	650			and around.	iconic~	L	wheel in book	round	traceshape	M traces the circular shape of wheel in book	R.a	RF.a
@@ -2445,7 +2445,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11070200463	107	2	463	00:23:50		ok, come down from there.	iconic	L		down	tracepath	M traces path from where C is standing on guitar to down on floor	R.d	RF.d
 11070200464	107	2	464			come down.	iconic~	L		down	tracepath	M traces path from where C is standing on guitar to down on floor	R.d	RF.d
 11070200467	107	2	467	00:23:55		come down.	iconic	L		down	tracepath	M traces path from where C is standing on guitar to down on floor	R.d	RF.d
-11070200662	107	2	662	00:35:47	R	"whose sweater is that?"	iconic	R	giraffe shaped sweater in book	sweater's shape	touch. Traceshape	M traces long linear shape of giraffe shaped sweater	R.a	ELAB.a
+11070200662	107	2	662	00:35:47	R	'whose sweater is that?'	iconic	R	giraffe shaped sweater in book	sweater's shape	touch. Traceshape	M traces long linear shape of giraffe shaped sweater	R.a	ELAB.a
 11070200719	107	2	719	00:38:26		the ostrich is wearing tights.	iconic	R	ostrich-tights	tights' shape	touch traceshape	M traces linear shape of tights	R.a	ELAB.a
 11070200720	107	2	720			the leopard has his socks on.	point. Iconic	R.R	leopard-socks	leopard-circular shape of socks	touch-touch traceshape	M traces circular shape of socks	DP;R.a	RF;ELAB.a
 11070200721	107	2	721	00:38:31		the giraffe has his sweater.	point. Iconic	R-R	giraffe-sweater	giraffe-shape of sweater	touch-touch traceshape	M traces shape on one side of sweater	DP;R.a	RF;ELAB.a
@@ -2455,18 +2455,18 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11070201194	107	2	1194			are you driving the fire+truck?	iconic	B		driving	H=H	M holds up both fists about a foot while moving fists up and down to represent driving	R.m	RF.p
 11070201195	107	2	1195			driving the fire+truck.	iconic~	B		driving	H=H	M holds up both fists about a foot while moving fists up and down to represent driving	R.m	RF.p
 11070201196	107	2	1196			whoo, whoo, whoo.	iconic~	B		driving	H=H	M holds up both fists about a foot while moving fists up and down to represent driving	R.m	ADD.p
-11070300312	107	3	312	00:38:58	R	"g@l."	iconic	R	letter G in book	letter G's shape	tracesahpe	M traces shape of G	R.a	ELAB.a
-11070300317	107	3	317	00:39:08	R	"I."	iconic	R	letter I in book	I's shape	traceshape	M traces shape of I	R.a	ELAB.a
-11070300323	107	3	323		R	"Jack jump, jump."	iconic	R	Jack in book	jumping	H=B	M touches jack in book and moves finger upwards rapidly to represent jumping action several times	R.m	RF.p
-11070300324	107	3	324	00:39:21	R	"k@l."	iconic	R	letter K in book	letter K's shape	traceshape	M traces shape of K in book	R.a	ELAB.a
-11070300327	107	3	327	00:39:29	R	"l@l is for lion leaving."	iconic	L	letter L in book	letter L's shape	traceshape	M traces shape of L in book	R.a	ELAB.a
-11070300331	107	3	331	00:39:37	R	"m@l."	iconic	L	letter M	letter M's shape	traceshape	M traces shape of M in book	R.a	ELAB.a
+11070300312	107	3	312	00:38:58	R	'g@l.'	iconic	R	letter G in book	letter G's shape	tracesahpe	M traces shape of G	R.a	ELAB.a
+11070300317	107	3	317	00:39:08	R	'I.'	iconic	R	letter I in book	I's shape	traceshape	M traces shape of I	R.a	ELAB.a
+11070300323	107	3	323		R	'Jack jump, jump.'	iconic	R	Jack in book	jumping	H=B	M touches jack in book and moves finger upwards rapidly to represent jumping action several times	R.m	RF.p
+11070300324	107	3	324	00:39:21	R	'k@l.'	iconic	R	letter K in book	letter K's shape	traceshape	M traces shape of K in book	R.a	ELAB.a
+11070300327	107	3	327	00:39:29	R	'l@l is for lion leaving.'	iconic	L	letter L in book	letter L's shape	traceshape	M traces shape of L in book	R.a	ELAB.a
+11070300331	107	3	331	00:39:37	R	'm@l.'	iconic	L	letter M	letter M's shape	traceshape	M traces shape of M in book	R.a	ELAB.a
 11070300333	107	3	333	00:39:43		that's grass.	iconic (x3)	L (x3)	grass blade (x3)	grass blade's shape (x3)	traceshape (x3)	M traces linear shape of grass blade (x3)	R.a;R.a;R.a	ELAB.a (x3)
-11070300334	107	3	334	00:39:46	R	"n@l is for nightingales."	iconic-point	R-R	letter N-nightengales	letter N's shape-nightengales	traceshape.touch	M traces shape of N	R.a;DP	ELAB.a;RF
-11070300338	107	3	338	00:39:57	R	"o@l -- is for the owl opening the door."	iconic-point-point	R-R-R	letter O-owl-door	letter O's shape-owl-door	traceshape. Touch. Touch	M traces circular shape of O	R.a;DP;DP	ELAB.a;RF;RF
-11070300343	107	3	343	00:40:09	R	"p@l is for penguins -- who are painting."	iconic-point-point-cont. point	L-L-L-L	letter P-penguin-penguin-painting penguin	letter P's shape-penguin-penguin-painting penguin	traceshape-touch-touch-touch	M traces shape of P	R.a;DP;DP;DP	ELAB.a
-11070300345	107	3	345	00:40:18	R	"q@l -- for quail quacking."	iconic. Point	L.L	letter Q. quail	letter Q's shape. Quail	traceshape. Tap	M traces the shape of letter Q	R.a;DP	ELAB.a;RF
-11070300351	107	3	351	00:40:28	R	"r@l -- for rabbits."	iconic.point	L.L	R.rabbit	R's shape.rabbit	traceshape	M traces shape of letter R	R.a;DP	ELAB.a;RF
+11070300334	107	3	334	00:39:46	R	'n@l is for nightingales.'	iconic-point	R-R	letter N-nightengales	letter N's shape-nightengales	traceshape.touch	M traces shape of N	R.a;DP	ELAB.a;RF
+11070300338	107	3	338	00:39:57	R	'o@l -- is for the owl opening the door.'	iconic-point-point	R-R-R	letter O-owl-door	letter O's shape-owl-door	traceshape. Touch. Touch	M traces circular shape of O	R.a;DP;DP	ELAB.a;RF;RF
+11070300343	107	3	343	00:40:09	R	'p@l is for penguins -- who are painting.'	iconic-point-point-cont. point	L-L-L-L	letter P-penguin-penguin-painting penguin	letter P's shape-penguin-penguin-painting penguin	traceshape-touch-touch-touch	M traces shape of P	R.a;DP;DP;DP	ELAB.a
+11070300345	107	3	345	00:40:18	R	'q@l -- for quail quacking.'	iconic. Point	L.L	letter Q. quail	letter Q's shape. Quail	traceshape. Tap	M traces the shape of letter Q	R.a;DP	ELAB.a;RF
+11070300351	107	3	351	00:40:28	R	'r@l -- for rabbits.'	iconic.point	L.L	R.rabbit	R's shape.rabbit	traceshape	M traces shape of letter R	R.a;DP	ELAB.a;RF
 11070300415	107	3	415	00:42:43		he goes zig zig -- zig, zig, zig, zig, zig, zig, zag.	iconic	L		zigzag path	tracepath	M moves finger back and forth rapidly to represent zigzag path	R.d	RF.d
 11070300425	107	3	425	00:43:36		he's like -- it goes this slow.	iconic	R		going (slowly)	H=O	M moves hand slowly up C's leg to mimic smt moving/ going slowly	R.m	RF.p
 11070300594	107	3	594	00:04:05		this monkey likes -- to go climb the tree.	iconic	L		upward	tracepath	M traces upward path along toy tree	R.d	ADD.d
@@ -2599,7 +2599,7 @@ id	subject	session	row	time	key	p_utts	p_form	p_lrb	p_obj	p_gloss	p_orient	p_msp
 11080500495	108	5	495	00:19:23	*	later they got the -- the ones that automatically went -- put it down for you, but I didn't have it.	iconic-shake	R		picking up needle and putting on record-no		.M picks up an imaginary needle and places it on an imaginary record	R;C	RF;RF
 11080500880	108	5	880	00:34:09	*	you see the little picture of the printer at the top?	iconic	R		little picture of printer		M touches her thumb to her pointer finger to create a small circle	R	RF
 11080501400	108	5	1400	00:50:59	F	come on let's do the count down.	metaphoric	R		down	tracepath	F traces a downwards path with side palm lik he is tracing down a list	R.d	RF.d
-11080501461	108	5	1461	00:52:32		daddy's the fixer.	iconic	L		quotation marks	N/A	M uses middle and pointer fingers to form imaginary quotation marks around word "fixer"	R.a	ELAB.a
+11080501461	108	5	1461	00:52:32		daddy's the fixer.	iconic	L		quotation marks	N/A	M uses middle and pointer fingers to form imaginary quotation marks around word 'fixer'	R.a	ELAB.a
 11080501816	108	5	1816	00:09:07	F	tell Nana -- chill.	iconic	R		calming	H=H	F moves down side with a slow downward sweep	R.m	RF.p
 11080600308	108	6	308	00:10:31		that's a skeleton.	iconic	R	Picture of dinosaur skeleton	skeleton's shape	traceshape	M traces the shape of dinosaur skeleton in book	R.a	ELAB.a
 11080600309	108	6	309			see, now here's another one.	iconic	R	Picture of dinosaur skeleton	skeleton's shape	traceshape	M traces the shape of dinosaur skeleton in book	R.a	ELAB.a
