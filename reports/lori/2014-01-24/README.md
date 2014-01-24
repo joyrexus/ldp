@@ -1,6 +1,6 @@
 # README
 
-Lori Petersen is requesting a list of all child utterances containing words of
+Lori Petersen is requesting a list of all parent utterances containing words of
 interest within specificed transcript windows.
 
 The "windows" are durations of time in which the subject was observed to engage
@@ -10,7 +10,8 @@ in a particular activity of interest, viz. playing with blocks.
 ## Files
 
 * [times.tsv](times.tsv) - specifies the windows of interest for each transript
-* [words.txt](words.txt) - lists the word tokens to be matched
+* [words.txt](words.txt) - lists the unigrams to be matched
+* [bigrams.txt](words.txt) - lists the bigrams to be matched
 * [report.tsv](report.tsv) - the requested report listing matched utterances
 * [query.py](query.py) - the query script used to generate the requested report
 
@@ -22,7 +23,7 @@ The [requested report](report.tsv) contains the following columns:
 * `SUBJECT` - subject ID 
 * `SESSION` - session/visit ID
 * `TIME` - time stamp of utterance (or last seen time stamp)
-* `UTTERANCE` - matched child utterance
+* `UTTERANCE` - matched parent utterance
 * `MATCHES` - number of matched words
 * `MATCHED` - matched words
 * `CONTEXT` - context notes
@@ -52,3 +53,15 @@ The [requested report](report.tsv) contains the following columns:
     by session?
 
     I would like a list of all matching utterances if that is okay.
+
+
+---
+
+
+From: [Lori Petersen](mailto://lpetersen@uchicago.edu)
+Subject: RE: Spatial words
+Date: January 3, 2014 at 9:47:25 AM CST
+
+I would like to look into the spatial language that parents use when their children are playing with blocks. Would you be able to send me the spatial language that parents use during block play by participant by session?
+
+Here are the files for the session/time and the words. There are a couple of spatial terms that are multiple words. I highlighted them in the excel file. 
