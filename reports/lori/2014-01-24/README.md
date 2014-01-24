@@ -9,9 +9,9 @@ in a particular activity of interest, viz. playing with blocks.
 
 ## Files
 
+* [words.txt](words.txt) - lists the word tokens to be matched
+* [subjects.txt](subjects.txt) - lists the subject IDs to search
 * [times.tsv](times.tsv) - specifies the windows of interest for each transript
-* [words.txt](words.txt) - lists the unigrams to be matched
-* [bigrams.txt](words.txt) - lists the bigrams to be matched
 * [report.tsv](report.tsv) - the requested report listing matched utterances
 * [query.py](query.py) - the query script used to generate the requested report
 
