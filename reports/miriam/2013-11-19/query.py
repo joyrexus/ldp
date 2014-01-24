@@ -21,7 +21,7 @@ columns = '''
     p_gs_rel
 '''.split()
 COLUMNS = ', '.join(columns)
-WHERE = 'p_g_type like "%D%" and session < 11'
+WHERE = 'p_g_type like "%R%"'
 
 def convert(x):
     return str(x) if type(x) is int else x.encode('utf-8', 'ignore')
@@ -34,5 +34,12 @@ def pprint(args):
 
 pprint(columns) # header
 
-for row in utterances(COLUMNS, WHERE, project=2):
-    pprint(row)
+def query(condition='', limit=''):
+    for row in utterances(COLUMNS, condition, project=2, limit=limit):
+        # if row['p_g_type'] != 'R.met': pprint(row)
+        pprint(row)
+
+# query(condition='p_g_type like "%R%"')
+query(condition='p_form like "%iconic%"')
+# query(condition='p_g_type like "%R%" and not p_form like "%iconic%"')
+# query(condition='p_form like "%iconic%" and not p_g_type like "%R%"')
