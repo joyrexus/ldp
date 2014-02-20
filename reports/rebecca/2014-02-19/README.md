@@ -7,11 +7,9 @@ Rebecca would like to get the following info for transcripts without cast data i
    (talk|say|speak)(s|ing)?|(said|spoke)
    (P|parent|F|father|sib|sibling|sister|brother)
 
-... or something like that.  I don't think the transcribers were at all consistent in how they reported things in the context column, hence the patterns catching:
+... or something like this.  I don't think the transcribers were at all consistent in how they reported things in the context column, hence the patterns catching:
 
   parent says to subject
   sib talking
   etc.
-
-Would that be of use to you?
 
