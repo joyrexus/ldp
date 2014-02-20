@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,600);
+
+html {
+  min-width: 1040px;
+}
+
+body {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 1em auto 4em auto;
+  position: relative;
+  width: 960px;
+  color: #555;
+  background: whiteSmoke;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 200;
+  letter-spacing: -6px;
+  margin: .8em 0 .1em 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-size: 100%;
+  margin-top: 2em;
+}
+
+h1, h2 {
+  text-rendering: optimizeLegibility;
+}
+
+h2 a {
+  color: #ccc;
+  left: -20px;
+  position: absolute;
+  width: 740px;
+}
+
+h3, h4, h5 {
+  font-size: 100%;
+  font-weight: 400;
+  margin-top: .8em;
+}
+
+h3, h4 {
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #AAA; 
+}
+
+footer {
+  font-size: small;
+  margin-top: 8em;
+}
+
+header aside {
+  margin-top: 80px;
+}
+
+header aside,
+footer aside {
+  text-align: right;
+}
+
+aside {
+  font-size: small;
+  right: 0;
+  position: absolute;
+  width: 180px;
+  color: #AAA; 
+}
+
+.attribution {
+  font-size: small;
+  margin-bottom: 2em;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+  border-bottom: 1px solid #CCC;
+}
+
+body > p, li > p {
+  line-height: 1.5em;
+}
+
+body > p {
+  width: 720px;
+}
+
+body > blockquote {
+  margin: 2em 0 2em -20px;
+  padding-left: 18px;
+  border-left: 4px solid #999;
+  width: 640px;
+}
+
+li {
+  width: 680px;
+}
+
+a {
+  color: steelblue;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+
+pre, code, textarea {
+  font-family: "Source Code Pro", monospace;
+  color: #444;
+}
+
+code {
+  line-height: 1em;
+}
+
+textarea {
+  font-size: 100%;
+}
+
+body > pre {
+  border-left: solid 2px #ccc;
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
+}
+
+.html .value,
+.javascript .string,
+.javascript .regexp {
+  color: #756bb1;
+}
+
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #3182bd;
+}
+
+.comment {
+  color: #636363;
+}
+
+.html .doctype,
+.javascript .number {
+  color: #31a354;
+}
+
+.html .attribute,
+.css .attribute,
+.javascript .class,
+.javascript .special {
+  color: #e6550d;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+sup, sub {
+  line-height: 0;
+}
+
+</style>
+<body>
+<h1>README</h1>
+<p>Lori Petersen is requesting a list of all parent utterances containing words of
+interest within specificed transcript windows.</p>
+<p>The &quot;windows&quot; are durations of time in which the subject was observed to engage
+in a particular activity of interest, viz. playing with blocks.</p>
+<h2>Files</h2>
+<ul>
+<li><a href="words.txt">words.txt</a> - lists the word tokens to be matched</li>
+<li><a href="subjects.txt">subjects.txt</a> - lists the subject IDs to search</li>
+<li><a href="times.tsv">times.tsv</a> - specifies the windows of interest for each transript</li>
+<li><a href="report.xls">report.xls</a> - the requested report listing matched utterances</li>
+<li><a href="query.py">query.py</a> - the query script used to generate the requested report</li>
+</ul>
+<h2>Report Format</h2>
+<p>The <a href="report.tsv">requested report</a> contains the following columns:</p>
+<ul>
+<li><code>SUBJECT</code> - subject ID </li>
+<li><code>SESSION</code> - session/visit ID</li>
+<li><code>TIME</code> - time stamp of utterance (or last seen time stamp)</li>
+<li><code>UTTERANCE</code> - matched parent utterance</li>
+<li><code>MATCHES</code> - number of matched words</li>
+<li><code>MATCHED</code> - matched words</li>
+<li><code>CONTEXT</code> - context notes</li>
+</ul>
+<h2>Notes</h2>
+<ol>
+<li><p>Most utterances do not contain timestamps.  If an utterance did not contain
+a timestamp, the last seen timestamp was used to determine if the utterance
+fell within one of the specified windows of interest.  </p>
+</li>
+<li><p>Only single-word token strings were used in order to simplifiy word
+matching.  For example, a multi-word string such as &quot;a little&quot; was 
+converted to a single-word string, &quot;little&quot;.</p>
+</li>
+</ol>
+<h2>Request</h2>
+<pre><code>From: Lori P
+Subject: Spatial words
+Date: November 22, 2013
+
+I am looking into the spatial language that children use when they 
+are playing with blocks. Are you able to do word searches at this 
+fine-grained level (for example, from 0:01:24-0:25:13) by participant 
+by session, or are you only able to do word searches by participant 
+by session?
+
+I would like a list of all matching utterances if that is okay.</code></pre>
+<hr>
+<p>From: <a href="mailto://lpetersen@uchicago.edu">Lori Petersen</a>
+Subject: RE: Spatial words
+Date: January 3, 2014 at 9:47:25 AM CST</p>
+<p>I would like to look into the spatial language that parents use when their children are playing with blocks. Would you be able to send me the spatial language that parents use during block play by participant by session?</p>
+<p>Here are the files for the session/time and the words. There are a couple of spatial terms that are multiple words. I highlighted them in the excel file. </p>
+

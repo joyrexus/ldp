@@ -1,0 +1,65 @@
+subj_id	1	2	3	4	5	6
+22	M, F, Grandma, Uncle, sib, cousin	M	M	M	M	M
+24	M, F	M, F	M/F	M, F	M, F	M
+25	M, sib	M	M, F	M	M, F	M, F
+27	M	M	M	M	M, F	M
+28	M, S1, S2	M, S1, S2	M, S1, S2	M, S1, S2, neighbors	M, S1, S2	M, S1, S2
+29	M	M	M	M	M	M
+33	M	M, M's friend, uncle, friend's child	M	M, friend	M	M, cousin
+37	M	M	M, S1	M, sib	M	M
+38	M	M	M	M, F	M, F, another child, his parents	M, F, cousin, aunt, sib
+39	M, F, neighbor	M, F	M	M	F	M
+40	M, F	M, F	M, F	M, F	M, F, older bro, older sis	M, F, older sis, younger sis
+42	F	F	M, F	M, F	M, F	M, F
+43	M, neighbor	M	M	M	M	
+44	M	M, F	M	M	M	M
+45	M	M	M	M	M	M, F
+47	M	M	M, sib	M, sib	M, sib2	M, sib2
+48	M	M	M	M, SIB, nanny	M, sib, nanny	M, SIB, nanny
+49	F	F	F, kids at park	M, F, people at grocery store	F, M	
+50	M	M	M	M, 2 neighbor kids	M	M
+51	M	M	M, sister	M	M	
+54	M	M, F	M, F	M	M, F, friends	M, F
+55	M, Great-grandma, M's friend	M, GGrandma, cousin, G-Grandpa	M, Papa	M, maternal grandmother, uncle	M, unrelated child	
+58	M, F	M, F, SIB	M	M	M, SIB, kids at park	M
+59	M	M, F, SIB3	M, SIB1, SIB2, SIB3, friends	M, sib1, sib2, sib3		
+61	M, M's friend, M's boyfriend, M's dad	M, F	M, GF, friends	M, GF	M, GM, friends	
+62	M, sib	M, SIB1, SIB2	M, SIB1, SIB2	M	M, sib1, F	
+64	M	M, aunt	M, SIB1	M, sib	M	M
+65	M	M	M	M, father, sib	M, F, sib1	M, sib1
+66	M, sib	M, sib	M, sib, old. bro.	M, sib	M, sib	M, sib, F
+68	M, F, sib	M, F	M, F, Sib (Eryckah)	M, F, sibs(Angel and Eryckah)	M, F	M, Aunt, Uncle, 2 Cousins
+72	M, F	M, F	M, F	M, F	M, F	
+73	M, F, sib	M, F, sib	M, F, sib	M, F, sib	M, F	M, F, sib
+74	M	M, F	M, F	M, sib	M, F, YF	
+75	M	M, adult neighbor	M, F	M	M, YF, worker	
+76	M, M's friend	M, F	M	M, M's friend Tracy		
+77	M, grandma, friend	M, grandma, friend	M, grandma, friend	M, M's sister, 2 women M and C live with now	M	
+78	M	M	M	M, F	M	
+79	M	M	visit skipped	M, YS	M, YS	
+80	M, Grandma	M, grandma, grandpa	M, grandma, grandpa	M	M	
+81	M, Grandma, Grandpa	M, F, paternal grandma and grandpa	M, F, paternal grandma		M, paternal grandparents	
+82	M, M's sister, C's cousin	M, C's cousin	M, M's sister, M's nephew, M's mom	M, maternal grandparents, cousin	M, maternal grandparents, aunts, uncle	
+83	 M, F, sib	M, F	M	M, F, sib	M	M, F, sib 1.
+84	M	M	M, sib	M	M, F	M, sib, F
+85	M, M's Roomate	M, M's roommate Tanya, M's friend	M, F, M's roommate	M, M's roommate, M's friend	M, M's friend	
+87	M, grandpa, sib	M	NO VISIT	M	M, sib1, sib2	M, sib1, sib2, sib3, sib4
+88	M	M, neighbors	M	M, F	M	
+89	M, F	M, F	M, sib, M's friend Jarhonda, M's friend Laverne, C's uncle, C's cousin Camille	M, F, sib(Zoe), M's friend (Rhonda)	M, sib	M, sib, M's friend
+91	M, F	M, F	M, F	M, F, sib	M, F, sib	M, F, sib, sib's friend
+92	M	M	M	M, F	M, F, Sib	
+100	M, F	M, F	M, F, cleaning lady	M	M, F, cleaning lady	M, sib, cleaning lady
+102	M, Grandma	M	M, sibs	M, sib1, sib2	M, sib1, sib2	M, sib1, sib2
+103	M	M	M	M	M	
+105	M, sib	M, sib	M, sib	M, sib	M, sib	
+106	M, neighbor, neighbor child, cat	M, F, cat	M, F, neighbor	M, F	M, F	M, F
+107	M	M	M	M, sib	M	
+108	M, sib	M, F, sib, neighbors	M, F, sib	M, F, sib	M, F, OF	
+109	M, sib	M, sib	M, sib, neighbor child	M, sib, infant, cleaning lady	M, OF, YF	
+110	M, neighbor, neighbor child, dog	M	M	M		
+119	M	M, F	M, sister	M, sister		
+123	M, F	M, F	M, F	M, sib		
+124	M, sibs, 2 cousins	M, sib1, sib2, cousin	M			
+125	M, F, brother	M, brother, foreign exchange student	M, F, brother, sister	M, F, brother, sister		
+126	M, F, sib	NO VISIT OCCURRED	M, F, sib1, sib2, friend	M, F, sib1, sib2		
+127	M	M	M	M, Grandma		
