@@ -5,8 +5,8 @@ Find the onset of iconic gestures for the subjects in group-1 (normally developi
 
 ## Files
 
-* `query.py` - the query script used to generate report
-* `report.tsv` - the requested report
+* [query.py](query.py) - the query script used to generate report
+* [report.tsv](report.tsv) - the requested report
 
 The report file contains three columns:
 
@@ -39,5 +39,3 @@ The [gesture type column](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transc
 *On Feb 14, 2014, at 12:20 PM, Cassie wrote:*
 
 I was wondering if you could pull data on the onset of iconic gestures for each LDP P2 kid. I'm interested in the first time that each child created an iconic gesture to compare it with onset of higher order thinking (which we're coding). 
-
-Could I also get the number of verbs used by each child and each parent at each visit? (SGM and I have a hypothesis we're testing about the relationship between verb complexity and HOT.)
