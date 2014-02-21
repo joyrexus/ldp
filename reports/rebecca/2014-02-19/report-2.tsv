@@ -751,7 +751,7 @@ subject	session	row	p_utts	c_utts	context
 25	3	353	---		F speaks to E
 25	3	355	---		M speaks to F; F responds.
 25	3	385	---		F speaks to M; M responds
-25	3	470	yucky?		F actually said \"ahky\"
+25	3	470	yucky?		F actually said 'ahky'
 25	3	506	---	go	M and F talking to one another
 25	3	521	---		M and F speaking to one another
 25	3	548	---	car	M speaking to F
@@ -775,16 +775,16 @@ subject	session	row	p_utts	c_utts	context
 25	3	1587	---		F speaks to M
 25	5	40		green.	C talking about his cup to F
 25	5	429	---		M on phone; C talks to F
-25	5	598		a right.	F has said, \"that's not right\"
-25	5	602		how rude.	F has said, \"how rude\"
-25	5	757		a self?	F has said \"all by yourself.\"
-25	5	792		up+side down.	F has said, \"these are upside down feet\"
-25	5	891		so big.	F has said \"so big\"
-25	5	1183		open please.	F has said \"say open please\"
-25	5	1203		touching you.	F has said \"I'm not touching you.\"\
-25	5	1247		open.	F has said \"you got to say open.\"
-25	5	1629		yes, that five.	F says, \"is that a five?\"
-25	5	1636		right there.	F says \"where's O?\"
+25	5	598		a right.	F has said, 'that's not right'
+25	5	602		how rude.	F has said, 'how rude'
+25	5	757		a self?	F has said 'all by yourself.'
+25	5	792		up+side down.	F has said, 'these are upside down feet'
+25	5	891		so big.	F has said 'so big'
+25	5	1183		open please.	F has said 'say open please'
+25	5	1203		touching you.	F has said 'I'm not touching you.'\
+25	5	1247		open.	F has said 'you got to say open.'
+25	5	1629		yes, that five.	F says, 'is that a five?'
+25	5	1636		right there.	F says 'where's O?'
 25	6	12	---		Mtalking to F
 25	6	17	---		M talking toF
 25	6	73	---		M talking to F
@@ -925,13 +925,13 @@ subject	session	row	p_utts	c_utts	context
 29	7	31	---		F talking to E
 29	7	1254	and which one is this one?	Kendall is --	F and C speak simultaneously
 29	7	2272			F points to words as talking book reads
-29	10	394	arms.		F says \"arms\" in unison with C
+29	10	394	arms.		F says 'arms' in unison with C
 29	10	677			E talks to F/E2
 29	10	679	---		F talks briefly to E
 29	10	965			F talks to E (for the benefit of C)
 29	10	1021		is a -- a Snow_White -- birth+day.	C tells F what to say; F says it along almost in unison, slightly after C
 29	10	1049		you ### arms.	C talking to Mr. Potatohead
-29	10	1142		I'm two to tiny two.	C possibly trying to say \"ninety+two\"
+29	10	1142		I'm two to tiny two.	C possibly trying to say 'ninety+two'
 29	10	1455	see who's there.		E talks to E2. C answers door.  E talks briefly to nanny; C makes baby/scary noises at the triplets; Nanny talks to E; more OFs come in shortly after.
 29	10	1548			OFs talk to C very briefly
 29	10	1685			Lots of talking in the background from OFs
@@ -939,23 +939,23 @@ subject	session	row	p_utts	c_utts	context
 29	10	2149			OF talks briefly and quietly in background
 29	10	2180	we made it away!		F and C play with horses.  A lot of the following speech is pretending the horses are talking
 29	10	2309			OF talks briefly on phone in background
-33	1	669	here you go, Pete, let's roll		M talks to toy \"Pete the Piano\" then turns it on
+33	1	669	here you go, Pete, let's roll		M talks to toy 'Pete the Piano' then turns it on
 33	2	418	---		M speaks to brother, OJ.
-37	4	147		my toy.	responding to sib saying \"this is my toy.\"
-37	4	277		I need it.	responding to sib saying \"I don't need it\"
+37	4	147		my toy.	responding to sib saying 'this is my toy.'
+37	4	277		I need it.	responding to sib saying 'I don't need it'
 37	4	472	what did I tell you to do?		M to sib; M instructs sib not to talk to Lilia
 37	4	638		why?	sib says I have all the cups
 37	4	674		I got bigger sandwich.	sib has said: I got a bigger sandwich
-37	4	884		one two three, scissors.	sib has said, \"one two three, silly scissors!\"
+37	4	884		one two three, scissors.	sib has said, 'one two three, silly scissors!'
 37	7	384			sibling talking to Mom
 37	7	385			sibling talking to child
 37	7	771	###		mother talking to sibling in other room
 37	7	1420			I think this is C's sib talking here.
-38	1	210	can I come for a ride?		M speaking in \"Pooh\" voice
-38	1	211	I'll sit in the trunk		M speaking in \"Pooh\" voice
-38	1	212	I won't make a noise		M speaking in \"Pooh\" voice
-38	1	213	please, please, please		M speaking in \"Pooh\" voice
-38	1	215	please please please		M speaking in \"Pooh\" voice
+38	1	210	can I come for a ride?		M speaking in 'Pooh' voice
+38	1	211	I'll sit in the trunk		M speaking in 'Pooh' voice
+38	1	212	I won't make a noise		M speaking in 'Pooh' voice
+38	1	213	please, please, please		M speaking in 'Pooh' voice
+38	1	215	please please please		M speaking in 'Pooh' voice
 38	3	572	hello!		M holding Mr Potatohead and pretending that he is speaking.
 38	3	575	hello, dada.		M holding Mr Potatohead and pretending that he is speaking.
 38	3	599	what did you say?		M holding Mr Potatohead and pretending that he is speaking.
@@ -1000,7 +1000,7 @@ subject	session	row	p_utts	c_utts	context
 38	5	599		that's my chair.	C talking to F.
 38	5	600		that's my chair.	C talking to F.
 38	5	601		mmhm.	C talking to F.
-38	5	613	\"bless us, oh Lord, and these Thy gifts which we are about to receive from Thy bounty through Christ our Lord, amen.\"	## hold -- I want hold ###.	M and F praying while C is talking.
+38	5	613	'bless us, oh Lord, and these Thy gifts which we are about to receive from Thy bounty through Christ our Lord, amen.'	## hold -- I want hold ###.	M and F praying while C is talking.
 38	5	648	---		M talkng to F.
 38	5	657		yes.	C talking to F.
 38	5	658		mmhm.	C talking to F.
@@ -1148,7 +1148,7 @@ subject	session	row	p_utts	c_utts	context
 39	1	1493	---		M talking to F.
 39	1	1497	no -- Justin.		F and C speak at same time.
 39	2	46	no, don't hurt my baby.		F talking to stair.
-39	2	130			C pointing up to light; not on camera, but can see it when F says \"Light.\"
+39	2	130			C pointing up to light; not on camera, but can see it when F says 'Light.'
 39	2	349	---		F talking on the phone.
 39	2	374			Can't see what C is gesturing towards; F talks at same time C is gesturing.
 39	2	457		move.	C pushing F; says moo.
@@ -2013,7 +2013,7 @@ subject	session	row	p_utts	c_utts	context
 40	6	629	---		F talking to S1.
 40	6	636	---		M and F talking.
 40	6	639	---		M and F talking in front room.
-40	6	663	I'll go with you.		F saying \"wiff\" b/c that's how C says with.
+40	6	663	I'll go with you.		F saying 'wiff' b/c that's how C says with.
 40	6	685	---		F talking to M.
 40	6	689	---		M talking to F.
 40	6	779	---		M talking to F.
@@ -2584,13 +2584,13 @@ subject	session	row	p_utts	c_utts	context
 47	2	190	beating a drum.		M talking about television show, TV not visible
 47	3	85	###		M says something to C that is not comprehensible
 47	4	225	you're welcome.		sib has said thank you
-47	4	694		cool.	sib has been saying \"cool\"
-47	4	822		three.	sib says \"Casey is three\"
-47	4	909		a you.	sib has said \"is that you?\"
-47	4	1742		I did.	sib has just said \"I did\"
-47	5	380		my.	sib is saying \"mine\"
+47	4	694		cool.	sib has been saying 'cool'
+47	4	822		three.	sib says 'Casey is three'
+47	4	909		a you.	sib has said 'is that you?'
+47	4	1742		I did.	sib has just said 'I did'
+47	5	380		my.	sib is saying 'mine'
 47	5	610		### side	C talking to sib
-48	7	1612		see, the ice+cream is big because it get -- it get -- it's -- it's ###	C is apparently saying \"high\" when ###, but his pronounciation bears no resemblance to it
+48	7	1612		see, the ice+cream is big because it get -- it get -- it's -- it's ###	C is apparently saying 'high' when ###, but his pronounciation bears no resemblance to it
 48	7	2189			M talking to nanny/father?
 48	8	411	yeah.		M talking to sib but gesturing to C.
 48	8	819	what else do you want to get out?		M gesturing to sib, talking to C.
@@ -2957,17 +2957,17 @@ subject	session	row	p_utts	c_utts	context
 49	12	1206			F talks with M
 49	12	1298			M talks with F
 49	12	1689			E talks to F and M talks with F
-50	6	505		---	C saying the nursery rhyme, Peter Piper, but changing it to \"Stinky.\"
+50	6	505		---	C saying the nursery rhyme, Peter Piper, but changing it to 'Stinky.'
 50	6	506	---		M saying Peter Piper nursery rhyme.
-50	6	508		---	C saying the nursery rhyme, Peter Piper, but changing it to \"Stinky.\"
-50	6	511		---	C saying the nursery rhyme, Peter Piper, but changing it to \"Stinky.\"
+50	6	508		---	C saying the nursery rhyme, Peter Piper, but changing it to 'Stinky.'
+50	6	511		---	C saying the nursery rhyme, Peter Piper, but changing it to 'Stinky.'
 50	8	129		daddy?	C talking to F on phone
 50	11	175	###		Mom in other room talking to sibling.
 51	2	835	hello.		M talking for Mr. Potato Head.
 51	2	864	he says, 'Hi Mikey I'm surfing.'		M talking for Mr. Potato Head.
 51	2	893	---		M telling E the word they're saying means Grandma in Portuguese.
-51	3	143		Harry_Potter.	C just says \"Pot.\"
-51	3	144		Harry_Potter.	C just says \"Pot.\"
+51	3	143		Harry_Potter.	C just says 'Pot.'
+51	3	144		Harry_Potter.	C just says 'Pot.'
 51	4	462	---	daddy.	C and M speaking simultaneously.  M sings Patacake with motions.
 51	4	850		fry fry.	C saying French Fry.
 51	6	110	---		M talking to F.
@@ -3015,7 +3015,7 @@ subject	session	row	p_utts	c_utts	context
 54	3	181	---		M talking to father
 54	3	183	---		M talking to father
 54	3	186	---		M talking to father
-54	3	188	explain to dada what you need.		F thinks C saying \"captain.\"
+54	3	188	explain to dada what you need.		F thinks C saying 'captain.'
 54	3	191	---		M talking to father
 54	3	193	---		M talking to father
 54	3	200	---		M talking to father
@@ -3049,9 +3049,9 @@ subject	session	row	p_utts	c_utts	context
 54	7	1		no.	child talking to father
 54	7	85			father talking to mother
 54	7	86			father talking to child
-54	7	121			Father says, \"I don't get any.\"
+54	7	121			Father says, 'I don't get any.'
 54	7	175			father talking to child
-54	7	182		I love it.	father has said \"I love it when he figures out\"
+54	7	182		I love it.	father has said 'I love it when he figures out'
 54	7	217			father talking to child
 54	7	252		yeah.	child talking to father
 54	7	298		I'm just putting them -- I'm putting them -- I'm putting them in mine.	father talking to child in between child's utterances
@@ -3311,20 +3311,20 @@ subject	session	row	p_utts	c_utts	context
 61	12	1241			F talks to C
 61	12	1303			F talks to M
 61	12	1304			F talks to C
-62	3	1238		nope.	C copying sib saying \"nope\"
-62	3	1278		cool.	C mimicking sib saying \"cool\"
+62	3	1238		nope.	C copying sib saying 'nope'
+62	3	1278		cool.	C mimicking sib saying 'cool'
 62	5	1368	---	you will be gone.	M to F while C is talking to F
 62	5	1399	---	look it.	M to F while C is talking to F
 62	12	1237	hey bud.		is talking to sibling on phone
 64	1	731	uh+oh		C says SHUT UP?
-64	5	511	Justin, say swim down.		characters in Finding Nemo are saying \"swim down\"
+64	5	511	Justin, say swim down.		characters in Finding Nemo are saying 'swim down'
 64	9	237		that one.	child talking to father
 65	3	1	---		M talking to father
 65	3	133	---		M talking to father
 65	3	211	maybe we shouldn't even go across the street.		M talking to father
 65	3	233	---		M talking to father
 65	4	1315	---	---	C singing; M talking to F
-65	4	1564	Uncle_Pete.	Uncle_Pete.	C is saying \"Pete\" like \"Peke;\" M is trying to get him to say a \"t\" sound instead of a \"k\" sound
+65	4	1564	Uncle_Pete.	Uncle_Pete.	C is saying 'Pete' like 'Peke;' M is trying to get him to say a 't' sound instead of a 'k' sound
 65	5	204	---	how about you do it like that.	M to F while C talks to F
 65	7	103			father talking to Mom
 65	7	104			father talking to child
@@ -3424,8 +3424,8 @@ subject	session	row	p_utts	c_utts	context
 68	1	420	---		M talking to F.
 68	1	424	---		M talking to F.
 68	1	427	she's a rough mother.		M talking to SIB1, F.
-68	1	445		fish.	C says word, sounds like Fish\".\"
-68	1	447		fish.	C says word, sounds like Fish\".\"
+68	1	445		fish.	C says word, sounds like Fish'.'
+68	1	447		fish.	C says word, sounds like Fish'.'
 68	1	453	---	fish.	M talking to F.
 68	1	457	---		M talking to F.
 68	1	460	---		M talking to F.
@@ -3771,7 +3771,7 @@ subject	session	row	p_utts	c_utts	context
 73	1	615	---		M talking to F. C and SIB1 playing with blocks.
 73	1	616	---		M talking to F. C and SIB1 playing with blocks.
 73	1	617	---		M talking to F. C and SIB1 playing with blocks.
-73	1	720		###	C says something, sounds like \"yeah\". F talking with C. F repeats \"yeah\" after C's utterance.
+73	1	720		###	C says something, sounds like 'yeah'. F talking with C. F repeats 'yeah' after C's utterance.
 73	1	721	---		M talking to F.
 73	1	723	---		M talking to F.
 73	1	724	---		M talking to F.
@@ -4000,7 +4000,7 @@ subject	session	row	p_utts	c_utts	context
 75	3	1568	---		M talking to F.
 75	6	169	Sara, what's Joe doing?		M talks to sib.
 75	6	170	hmm?		M talks to sib.
-75	10	809		###	C says something like \"blev\", possibly a reduced form of \"number eleven\"
+75	10	809		###	C says something like 'blev', possibly a reduced form of 'number eleven'
 76	1	821			Friend talks to C.
 76	1	887			Friend takes phone from C. Pretends to talk into it.
 76	1	1162		huh?	Friend talking to C.
@@ -4009,7 +4009,7 @@ subject	session	row	p_utts	c_utts	context
 77	1	40			Friend talking to C.
 77	1	51			Friend talking  to C and keeping her out of the kitchen.
 77	1	55			Friend talking  to C and keeping her out of the kitchen.
-77	2	119			Friend does a gesture while saying \"shame-shame\" that C immitates; rubbing two fingers together.
+77	2	119			Friend does a gesture while saying 'shame-shame' that C immitates; rubbing two fingers together.
 77	4	1	---		M talking to her sister.
 77	4	3	---		M talking to her sister.
 77	4	6	---		M talking to her sister.
@@ -6011,7 +6011,7 @@ subject	session	row	p_utts	c_utts	context
 108	5	1114	---		M talking to F.
 108	5	1120	---		F talking to M.
 108	5	1258	---		F talking to M.
-108	5	1400	come on let's do the count down.		F holds his palm up, then like tracing down a list brings it down as he says \"count down\".
+108	5	1400	come on let's do the count down.		F holds his palm up, then like tracing down a list brings it down as he says 'count down'.
 108	5	1562	---		M and F talking.
 108	5	1643	---		F and M talking.
 108	5	1782	---		M talking to F.
@@ -6611,8 +6611,8 @@ subject	session	row	p_utts	c_utts	context
 123	1	620	---		If and when F is talking, unintelligible
 123	1	852	---		F talking to Lilia
 123	1	861	---		F talking to man in park
-123	3	158			F says \"do you want me to draw with it?\"
-123	3	167			F has said \"do you want me to draw a ball?\"
+123	3	158			F says 'do you want me to draw with it?'
+123	3	167			F has said 'do you want me to draw a ball?'
 123	5	82			sibling talking to Mom
 123	5	83			sibling talking to child
 123	5	221			child and sibling have been playing with PlayDoh; sibling has said a couple utterances to child
@@ -6936,9 +6936,9 @@ subject	session	row	p_utts	c_utts	context
 126	3	253	---		M, F, and aunt talking
 126	3	513	let me see.		sib1 has said that she cut herself
 126	4	230	woof.		C runs into bedroom while M continues to talk to sib2 in living room
-126	4	871		stinky poo+poo.	sib1 says to C, \"don't say stinky poopoo\"
+126	4	871		stinky poo+poo.	sib1 says to C, 'don't say stinky poopoo'
 126	4	1196	---		M and F talking to each other
-126	4	1276		ew, cake.	sib1 has said \"ew, cake\"
+126	4	1276		ew, cake.	sib1 has said 'ew, cake'
 126	4	1334	---		M and F talking to each ther
 126	7	61		up?	C talking to F
 126	7	76		hurry up.	C talking to F
