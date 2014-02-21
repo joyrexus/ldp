@@ -4,8 +4,8 @@ Rebecca would like to get the following info for transcripts without cast data i
 
 2. a list of transcript line numbers containing both of the two patterns: 
 
-    (talk|say|speak)(s|ing)?|(said|spoke)
-    (P|parent|F|father|sib|sibling|sister|brother)
+* `(talk|say|speak)(s|ing)?|(said|spoke)`
+* `(P|parent|F|father|sib|sibling|sister|brother)`
 
 I don't think the transcribers were at all consistent in how they reported things in the context column, hence the patterns catching:
 
