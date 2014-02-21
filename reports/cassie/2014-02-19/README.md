@@ -1,5 +1,3 @@
-# 21-02-2014 
-
 Find the onset of iconic gestures for the subjects in group-1 (normally developing subjects).  I.e., list the session number where an iconic gesture is first used.
 
 

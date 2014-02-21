@@ -248,4 +248,4 @@ if __name__ == '__main__':
     assert gt('DS;DP.nl (x2);E (x3)') == ['DS', 'DP.nl', 'DP.nl', 'E', 'E', 'E']
     assert gt('DS;DP.nl (x2);E (x3)', subcodes=False) == 'DS DP DP E E E'.split()
     assert gt(u'') == []
-    print gt('DS;DP.nl;E (x3)', subcodes=False)
+    assert gt('DS;DP.nl;E (x3)', subcodes=False) == 'DS DP E E E'.split()
