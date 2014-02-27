@@ -1,5 +1,6 @@
 excel
 *.zip
+*.swp
 *.xls
 *.xlsx
 *.py[cod]

@@ -8,7 +8,7 @@ vtyps = dd(dict)
 
 utts = Utterances()
 columns = 'id, subject, session, p_utts, p_mor, c_utts, c_mor'
-where = 'c_mor != "" or p_mor != ""'
+where = '(c_mor != "" or p_mor != "")'
 
 for row in utts(columns, where, project=2, limit=''):
     id, subj, sess, p, p_mor, c, c_mor = row
@@ -29,7 +29,7 @@ def pprint(*args):
 
 
 pprint(*'SUBJ SESS SPKR VTYPS VTOKS'.split(' '))
-for id in vtoks:
+for id in sorted(vtoks):
     SUBJ, SESS, SPKR = id
     VTYPS = len(vtyps[id].items())
     pprint(SUBJ, SESS, SPKR, VTYPS, vtoks[id])
