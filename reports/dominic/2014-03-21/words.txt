@@ -1,0 +1,12 @@
+all
+another
+any
+both
+few
+many
+more
+most
+much
+only
+several
+some
