@@ -1,43 +1,27 @@
-# 21-02-2014 
+## 27-02-2014
 
-Find the onset of iconic gestures for the subjects in group-1 (normally developing subjects).  I.e., list the session number where an iconic gesture is first used.
+Cassie requested a report indicating the number of verb types and tokens used by each group-1 child and parent at each period-1 visit.
 
+We used [this script](query.py) to generate the [requested report](report.tsv).
 
-## Files
-
-* `query.py` - the query script used to generate report
-* `report.tsv` - the requested report
-
-The report file contains three columns:
+The report contains the following columns:
 
 * `SUBJ` - subject ID
-* `ONSET` - session in which an iconic was first used by subject
-* `COUNT` - number of iconics used at onset
+* `SESS` - session ID
+* `SPKR` - speaker (`C` for child and `P` for parent)
+* `VTYP` - count of verb types
+* `VTOK` - count of verb tokens
 
+---
 
-## Notes
+## Email to Cassie
 
-The [gesture type column](http://joyrexus.spc.uchicago.edu/ldp/docs/specs/transcript/columns/g_type.html) was used to identify iconic gestures.
-
-* `R.a` - Representing attribute. 
-  Iconic gesture characterizing an entity by means of specifying an 
-  attribute or a part associated with the entity, or the entity itself.
-
-* `R.d` - Representing direction.  
-  Iconic gesture characterizing the direction of the motion.
-
-* `R.m` -  Representing motion.
-  Iconic gesture characterizing an entity by means of an action associated 
-  with the entity.
-
-* `R.met` - Representing metaphoric.
-  Representational gesture indicating a metaphorical object or movement.
-
-
-## Cassie's Email Requests
-
-*On Feb 14, 2014, at 12:20 PM, Cassie wrote:*
-
-I was wondering if you could pull data on the onset of iconic gestures for each LDP P2 kid. I'm interested in the first time that each child created an iconic gesture to compare it with onset of higher order thinking (which we're coding). 
-
-Could I also get the number of verbs used by each child and each parent at each visit? (SGM and I have a hypothesis we're testing about the relationship between verb complexity and HOT.)
+> You requested a report indicating the number of verbs used by each
+> child and each parent at each visit for the normally developing subjects.
+> One caveat regarding identifying verb forms: there’s some ambiguity with 
+> auxiliary forms and participles when making compound verb forms, e.g.: 
+> “want to”, "is going”, “has been”.  The POS is often ambiguous even with 
+> the syntactic annotation, which is only available on a subset of subjects 
+> (12 total).  I’m just going to try to identify word tokens tagged with `v`
+> and ignore any `aux` or `part` tags for now.  If this is a concern I’d be 
+> happy to discuss.
