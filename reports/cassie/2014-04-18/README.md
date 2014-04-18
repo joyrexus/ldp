@@ -9,3 +9,11 @@ has coded.
 
 The [`query.py`](query.py) file contains the script used to dump the needed
 utterances/IDs from the LDP dataset.
+
+The resulting output files contain the following columns:
+
+* `_ID` - unique utterance ID
+* `time` - utterance timestamp
+* `row` - utterance row number
+* `c_utts` - child utterance
+* `p_utts` - parent utterance
