@@ -1,0 +1,4 @@
+*.zip
+*.xls
+output
+.DS_Store
