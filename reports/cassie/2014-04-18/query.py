@@ -1,5 +1,6 @@
 from ldp.data import Utterances
 
+verbose = False
 utterances = Utterances()
 visits = [x.rstrip().split('\t') for x in open('visits.txt')]
 
@@ -15,6 +16,6 @@ for subj, sess in visits:
         f.write(header)
         cond = 'subject={} and session={}'.format(subj, sess)
         for row in utterances(columns, cond, limit=''):
-            print stringify(row)
+            if verbose: print stringify(row)
             f.write(stringify(row) + '\n')
 

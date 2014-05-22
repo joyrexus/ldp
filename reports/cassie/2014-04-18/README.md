@@ -1,3 +1,9 @@
+# 2014-05-21 
+
+Send Casse the requested session 7 utterances.  For some reason these were not
+included in the first request.
+
+
 # 2014-04-18 
 
 Cassie needs to align her coding on the original transcripts with the canonical
