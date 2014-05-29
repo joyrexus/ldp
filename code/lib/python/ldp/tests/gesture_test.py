@@ -1,21 +1,23 @@
 from ldp.gesture import *
 
+gf = GestureForm()
+gg = GestureGloss()
+lrb = LRB()
+
+
+def test_parse():
+    '''Testing parse method of various gesture classes'''
+    for g in [gf, gg, lrb]:
+        assert g.parse('x + y + z') == 'x y z'.split()
+        assert g.parse('x . y . z') == 'x y z'.split()
+        assert g.parse('x - y - z') == 'x y z'.split()
+        assert g.parse('x / y / z') == 'x y z'.split()
 
 def test_parse_gf():
     '''Testing parse method of GestureForm'''
-    gf = GestureForm()
     assert gf.parse('a + b - c . d / e ', subcodes=False) == 'a b c d e'.split()
     assert gf('a + b - c . d / e ', subcodes=False) == 'a b c d e'.split()
 
-
-gg = GestureGloss()
-
-def test_parse_gg():
-    '''Testing parse method of GestureGloss'''
-    assert gg.parse('x + y + z') == 'x y z'.split()
-    assert gg.parse('x . y . z') == 'x y z'.split()
-    assert gg.parse('x - y - z') == 'x y z'.split()
-    assert gg.parse('x / y / z') == 'x y z'.split()
 
 def test_has_keyword_gg():
     '''Testing has_keyword method of GestureGloss'''
@@ -137,3 +139,13 @@ def test_call_gsr():
     assert gsr('X;X;E.b (x3)') == ['X', 'X', 'E.b', 'E.b', 'E.b']
     assert gsr('X;X;E.b (x3)', subcodes=False) == ['X', 'X', 'E', 'E', 'E']
     assert gsr('') == []
+
+
+def test_parse_lrb():
+    '''Testing parse method'''
+    assert lrb.parse("R,R,L") == ['R', 'R', 'L']
+    assert lrb.parse("L (x3)") == ['L', 'L', 'L']
+    assert lrb.parse("R + L (x3)") == ['R', 'L', 'L', 'L']
+    assert lrb.parse("LF.RF.L (x3)") == ['LF', 'RF', 'L', 'L', 'L']
+    assert lrb.parse("LF.RF.L(x3).W") == ['LF', 'RF', 'L', 'L', 'L', 'W']
+

@@ -19,6 +19,19 @@ def test_report():
     assert parent['word_types'] == 650
     assert round(parent['mlu'], 3) == 4.476
 
+    speech.query('subject=125 and session=11')
+    child = speech.result(125, 11, "C")
+    assert child['word_tokens'] == 1933
+    assert child['word_types'] == 353
+    assert child['utterances'] == 499
+
+    speech_uniq_tokens = Report(lemmatize=False)
+    speech_uniq_tokens.query('subject=125 and session=11')
+    child = speech_uniq_tokens.result(125, 11, "C")
+    assert child['word_tokens'] == 1933
+    assert child['word_types'] == 400
+    assert child['utterances'] == 499
+
 def test_init():
     '''Testing init of TranscriptReport'''
     assert trans.subject == 22
@@ -34,7 +47,7 @@ def test_child_results():
     assert result['word_tokens'] == 3283
     assert result['word_types'] == 397
     assert round(result['mlu'], 3) == 3.083
-    
+
 def test_parent_results():
     '''Testing parent speech count results'''
     result = trans.parent
@@ -42,4 +55,3 @@ def test_parent_results():
     assert result['word_tokens'] == 5604
     assert result['word_types'] == 650
     assert round(result['mlu'], 3) == 4.476
-

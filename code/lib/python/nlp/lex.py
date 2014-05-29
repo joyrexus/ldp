@@ -239,14 +239,20 @@ class Lemmatizer(object):
 
 class Normalizer(object):
     '''
-    Tokenize a string of words and return a list of lemmas.
+    Tokenize and optionally lemmatize a string of words. 
     
     '''
     def __init__(self, split_clitics=True, 
-                       nonword=r'[^a-zA-Z\+\'\-\&\@\_]', **kwargs):
+                       nonword=r'[^a-zA-Z\+\'\-\&\@\_]', 
+                       lemmas=True,                 # do not lemmatize if False 
+                       **kwargs):
         self.tokens = Tokenizer(split_clitics, nonword)
         self.lemmatize = Lemmatizer(**kwargs)
-
+        self.lemmas = lemmas                        # return lemmatized forms 
+                       
     def __call__(self, utt):
-        '''Tokenize an utterance and return a list of lemmas.'''
-        return [self.lemmatize(t) for t in self.tokens(utt)]
+        '''Tokenize an utterance and optionally return a list of lemmas.'''
+        if self.lemmas:
+            return [self.lemmatize(t) for t in self.tokens(utt)]
+        else:
+            return self.tokens(utt)

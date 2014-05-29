@@ -41,11 +41,11 @@ class Report(object):
         >>> speech('session=10')
 
     '''
-    utterances = Utterances()
-    normalize = Normalizer()
     letter = re.compile(r'\w')
 
-    def __init__(self, lowercase=True, dataset=None):
+    def __init__(self, lowercase=True, lemmatize=True, dataset=None):
+        self.normalize = Normalizer(lemmas=lemmatize)
+        self.utterances = Utterances(dataset)
         self.lowercase = lowercase
         self.dataset = dataset
         self.toks = dd(int)

@@ -97,6 +97,15 @@ class GestureForm(GestureMixin):
     sep = r'\s*[\+\-\/\.]\s*'                   # separator
 
 
+class LRB(GestureMixin):
+    '''
+    Utility for working with the gesture-form column values.
+
+    '''
+    sep = r'\s*[\+\-\/\.\,]\s*'                 # separator
+    code = r'LF?|RF?|WB?|B|H'                   # valid codes
+
+
 class GestureType(GestureMixin):
     '''
     Utility for working with the gesture-type column values.
