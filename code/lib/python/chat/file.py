@@ -104,14 +104,12 @@ class Writer(object):
         P, C = '', ''               # Parent and Child tiers
         tiers = "*{0}:\t{1}\n%id:\t{2}\n%row:\t{3}\n"   # tier format
 
-        if not self.word_pt.search(p) and not self.word_pt.search(c):
-            return ''
-        if p:
+        if p and self.word_pt.search(p):
             spk = 'FAT' if 'F' in key else 'MOT'
             utt = p
             if fix: utt = self.fix(utt)
             P = tiers.format(spk, utt, uid, row)
-        if c:
+        if c and self.word_pt.search(c): 
             spk = 'CHI'
             utt = c
             if fix: utt = self.fix(utt)
