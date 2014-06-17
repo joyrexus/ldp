@@ -6,3 +6,4 @@ excel
 *.xlsx
 *.py[cod]
 .DS_Store
+node_modules
