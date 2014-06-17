@@ -19,6 +19,9 @@ parser.add_option('--sheetnames',
 
 opts, files = parser.parse_args()
 
+def sheetname_error(sheet, file):
+    sys.exit("could not open worksheet " + sheet + " in " + file)
+
 if opts.sheetnames:
     '''Print names of worksheets in file(s)'''
     if len(files) == 0:
@@ -29,6 +32,8 @@ if opts.sheetnames:
                 wb = xlrd.open_workbook(file)
                 print "\n".join(wb.sheet_names())
             except:
+                print sys.exc_info()[0]
+                print
                 sys.exit('bailed on ' + file)
 else:
     import re
@@ -44,6 +49,12 @@ else:
     rho_a_pt = re.compile(u"Γ", re.UNICODE)
     theta_e_pt = re.compile(u"Θ", re.UNICODE)
     unknown_pt = re.compile(u"╟", re.UNICODE)
+
+    '''
+    def sheetname
+                sys.exit("could not open worksheet " + sheetname
+                                                     + " in " + file)
+    '''
 
     def asciify(string):
         '''Replace any non-ascii chars with appropriate chars.'''
@@ -63,6 +74,16 @@ else:
             string = unknown_pt.sub("", string)
             return string.encode('utf-8', 'replace')
 
+    class SheetNameError(Exception):
+        def __init__(self, sheet, file):
+            self.sheet = sheet
+            self.file = file
+        def __str__(self):
+            msg = "could not open worksheet " + self.sheet + \
+                                              + " in " + self.file
+            return msg
+
+
     if len(files) == 0:
         sys.exit('Need to specify input file(s)')
     else:
@@ -70,11 +91,23 @@ else:
             try:
                 wb = xlrd.open_workbook(file)
             except:
+                print sys.exc_info()[0]
+                print
                 sys.exit('bailed on ' + file)
+            sheetname = opts.sheet
+            if opts.sheet == 'FILENAME':
+                sheets = wb.sheet_names()
+                if file in sheets:
+                    sheetname = file
+                else:
+                    sheetname = file.rstrip('.xls')
+                    if not (sheetname in sheets):
+                        sheetname_error(sheetname, file)
             try:
-                sheet = wb.sheet_by_name(opts.sheet)
+                sheet = wb.sheet_by_name(sheetname)
             except:
-                sys.exit("could not open worksheet " + opts.sheet + " in " + file)
+                sheetname_error(sheetname, file)
+
             for row in range(sheet.nrows):
                 values = [asciify(i) for i in sheet.row_values(row)]
                 try:
