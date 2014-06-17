@@ -1,0 +1,10 @@
+{
+  "name": "marko",
+  "version": "0.0.1",
+  "main": "index.coffee.md",
+  "bin": { "marko": "./bin/marko" },
+  "dependencies": {
+    "marked": "0.2.7",
+    "optimist": "0.3.5"
+  }
+}

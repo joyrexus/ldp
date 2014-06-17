@@ -1,0 +1,17 @@
+{spawn} = require 'child_process'
+fs = require 'fs'
+ 
+task "build", "watch and build the source", ->
+  compiler = spawn 'coffee', ['-cw', '.']
+  compiler.stdout.on 'data', (data) -> console.log data.toString().trim()
+  compiler.stderr.on 'data', (data) -> console.error data.toString().trim()
+ 
+# Render literate source as a GH-highlight-able 
+# code-fenced README (a tweak of journo's Cakefile)
+task "readme", "render index as README", ->
+  source = fs.readFileSync('index.coffee.md').toString()
+  indented = /\n\n    ([\s\S]*?)\n\n(?!    )/mg
+  asFenced = (match, code) ->
+    dedented = code.replace(/^    /mg, '')
+    "\n\n```coffeescript\n#{dedented}\n```\n"
+  fs.writeFileSync 'README.md', source.replace(indented, asFenced)

@@ -1,0 +1,6 @@
+<!-- SAMPLE COFFEESCRIPT TEMPLATE -->
+<div class="#{ data.foo }">
+    <div class="#{ data.bar }"></div>
+    <div class="#{ data.baz }"></div>
+    #{ {foo, baz} = data; foo + '-' + baz }
+</div>

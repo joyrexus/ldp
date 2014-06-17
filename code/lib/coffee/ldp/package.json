@@ -1,0 +1,3 @@
+{ "name": "ldp",
+  "dependencies": { "coffee-script": "~1.2.0" },
+  "main": "./main.coffee" }
