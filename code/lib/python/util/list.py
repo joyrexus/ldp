@@ -1,6 +1,10 @@
 '''Basic list and queueing utilities.'''
 
-from util.page import Pager
+def stretch(list, upto, alt=''):
+    if len(list) < upto:
+        return [list[i] if len(list) > i else alt for i in range(upto)]
+    else:
+        return list
 
 def parts(L, n):
     '''
@@ -70,6 +74,8 @@ def move(source, target, *indices):
     '''
     target.extend(popm(source, *indices))
 
+
+from util.page import Pager
 
 class Queue(list):
     '''

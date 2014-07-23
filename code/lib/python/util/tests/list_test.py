@@ -2,6 +2,14 @@
 
 from util.list import *
 
+def test_stretch():
+    '''Testing stretch()'''
+    result = stretch(['a', 'b', 'c'], upto=6, alt='x')
+    assert result == ['a', 'b', 'c', 'x', 'x', 'x']
+
+    list = ['a', 'b', 'c']
+    result = stretch(list, upto=3)
+
 def test_chunk():
     '''Testing chunk()'''
     L = 'a b c d'.split(" ")
