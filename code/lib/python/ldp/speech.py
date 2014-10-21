@@ -94,6 +94,8 @@ class Report(object):
                     self.toks[id] += 1
                     self.words[id][word] += 1
 
+        return self
+
     def result(self, subj, sess, spkr, returnArray=False):
         '''
         Return a dict of results for the specified 
