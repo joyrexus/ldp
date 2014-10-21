@@ -1,4 +1,4 @@
-SOURCE_DIR=$(today)
+SOURCE_DIR=$(date "+%Y-%m-%d")
 
 cd $SOURCE_DIR/excel
 
