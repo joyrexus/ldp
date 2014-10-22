@@ -34,12 +34,12 @@ We extract the `transcript` workseet from each transcript in order to update the
 * Use `dump_sheets.sh` to dump the `info` and `transcript` worksheets of
   each transcript file in the `excel` directory.
    
-* Use `trans2tsv` (in `$LDP/code/trunk/bin`) to generate a batch
-  TSV file called `utterances.tsv` with data from each transcript 
-  worksheet.
+* Use `trans2tsv` (in `$LDP/code/trunk/bin`) to generate a batch TSV file called `utterances.tsv` with data from each transcript worksheet.
 
-     $ SOURCE_DIR=$(date "+%Y-%m-%d")  
-     $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
+```
+$ SOURCE_DIR=$(date "+%Y-%m-%d")  
+$ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
+```
 
 * Use `import.py` to import canonical transcript data into sqlite db.
 
