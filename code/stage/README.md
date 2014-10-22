@@ -24,7 +24,7 @@ We extract the `transcript` workseet from each transcript in order to update the
 (Note: This is all rather hackish. Much could be streamlined if we had strong guarantees regarding transcript formatting.  As it is, the transcribers often unintentionally introduce formatting errors which foil any possibility of a monolithic updating/conversion process.  This possibility should be revisited, though, if stronger transcript formatting validation can be incorporated into the transript submission process.)
 
 
-## Steps
+## Converting `transcript` worksheets
 
 * Run the initialization script (`init.sh`) to set up a dated directory 
   structure and temporary database (`MM-DD-YY/data.db`).
@@ -41,31 +41,50 @@ $ SOURCE_DIR=$(date "+%Y-%m-%d")
 $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
 ```
 
-* Use `import.py` to import canonical transcript data into sqlite db.
+* Use `import.py` to import canonical transcript data into sqlite db
+  (`import.py $SOURCE_DIR`).
 
-* Use `copy.py` to copy *p_utts* and *c_utts* column values to 
-  *p_utts_orig* and *c_utts_orig*.
+* Use `copy.py` to copy **p_utts** and **c_utts** column values to 
+  **p_utts_orig** and **c_utts_orig** (`copy.py $SOURCE_DIR`).
 
-* Use `fix.py` to fix case on first word of each utterance.
+* Use `fix.py` to fix case on first word of each utterance (`fix.py $SOURCE_DIR`).
 
-* Use `export.py` to  export utterances table as TSV file.
+* Use `export.py` to export utterances table as TSV file (`export.py
+  $SOURCE_DIR/utterances.revised.tsv`).
 
-* Add new TSV file to LDP Dataset and update transcripts table.
+* Use `tsv2sql` to convert revised/exported utterances to SQL insert statements
+  (`tsv2sql --mode insert --table utterances $SOURCE_DIR/utterances.revised.tsv > $SOURCE_DIR/insert.sql`)
+
+* Apply insert statements to the working copy of the LDP database (`sqlite3 $LDP_DB < $SOURCE_DIR/insert.sql`).
+
+> `$LDP_DB` should reference the path to your working copy of the LDP 
+> sqlite database (e.g., `~/Documents/Work/LDP/data/ldp.db`).
+
+... or ...
 
 Alternatively, use the following command to create a sql insert file:
 
-    sqlite3 temp.db 'select * from utterances' | 
+    sqlite3 $SOURCE_DIR/temp.db 'select * from utterances' | 
       sed 1d | 
-      tsv2sql --mode insert --table utterances - > insert.sql
+      tsv2sql --mode insert --table utterances - > $SOURCE_DIR/insert.sql
 
 This file can then be used to update the LDP Dataset:
 
-    sqlite3 $LDP_DB < insert.sql 
+    sqlite3 $LDP_DB < $SOURCE_DIR/insert.sql 
 
-Or copy the contents over in a single pipeline without intermediary file:
+... or ...
 
-    sql temp.db 'select * from utterances' | 
+Copy the contents over in a single pipeline without intermediary file:
+
+    sql $SOURCE_DIR/temp.db 'select * from utterances' | 
       sed 1d | 
       tsv2sql --mode insert --table utterances - | 
       sqlite3 $LDP_DB
     
+
+## Converting `info` worksheets
+
+DESCRIBE STEPS ALONG SAME LINES
+
+* update `transcripts` table
+
