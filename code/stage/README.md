@@ -38,8 +38,8 @@ We extract the `transcript` workseet from each transcript in order to update the
   TSV file called `utterances.tsv` with data from each transcript 
   worksheet.
 
-    $ SOURCE_DIR=$(date "+%Y-%m-%d")  
-    $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
+     $ SOURCE_DIR=$(date "+%Y-%m-%d")  
+     $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
 
 * Use `import.py` to import canonical transcript data into sqlite db.
 
