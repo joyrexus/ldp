@@ -80,7 +80,7 @@ Copy the contents over in a single pipeline without intermediary file:
       sed 1d | 
       tsv2sql --mode insert --table utterances - | 
       sqlite3 $LDP_DB
-    
+
 
 ## Converting `info` worksheets
 
@@ -88,3 +88,19 @@ DESCRIBE STEPS ALONG SAME LINES
 
 * update `transcripts` table
 
+
+## Updating the LDP Master/Reference Database
+
+The latest version of the LDP database is always hosted on [`joyrexus.spc.uchicago.edu`](http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/), so any batch inserts are typically applied to the local working copy of the LDP database on that host
+(viz., `/Users/jvoigt/Documents/Work/LDP/data/trunk/ldp.db`).  Use the
+[`Makefile`](https://github.com/joyrexus/ldp/blob/master/data/Makefile#L38-L41) within the same directory to update the hosted reference version
+(`http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/`):
+
+    ssh joyrexus.spc.uchicago.edu
+    cd /Users/jvoigt/Documents/Work/LDP/data/trunk/
+    make dump
+    
+Users with pre-existing working copies of the LDP database can then use the
+Makefile's `make new` directive to get the latest instance.
+
+Alternatively, [this build script](https://github.com/joyrexus/ldp/blob/master/data/build.sh) can be used to build a new copy.
