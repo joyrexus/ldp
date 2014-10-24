@@ -52,8 +52,12 @@ class Report(object):
         self.utts = dd(int)
         self.words = dd(lambda: dd(int))
         self.trans = dd(int)
+        self.lexicon = dd(set)
 
-    def __call__(self, conditions=None, limit='', project='', subjects=[]):
+
+    def __call__(self, conditions=None, limit='', project='', 
+                                                  subjects=[],
+                                                  lexicon=False):
         '''
         Call object directly to run a query and print a report.
         
@@ -65,12 +69,21 @@ class Report(object):
         self.query(conditions, limit, project, subjects)
         self.report()
 
-    def query(self, conditions=None, limit='', project='', subjects=[]):
+
+    def query(self, conditions=None, limit='', project='', subjects=[],
+                                                           lexicon=False):
         '''
         Query the dataset of utterances with given conditions.
 
         `conditions` - "where" clause of a SQL statement
         `limit` - limit the number of utterances to query
+        `project` - query all subjects in specified project (2 or 3)
+        `subjects` - query each subject in specified list
+        `lexicon` - track lexicon of words used by speaker at (subj, sess)
+
+        Note that tracking of words ends up being very costly,
+        both in terms of memory and processing time!  Use this only
+        with a constrained query (e.g., for a particular subject).
 
             >>> speech = Report()
             >>> speech.query('subject=125 and session=11', limit=100)
@@ -93,8 +106,11 @@ class Report(object):
                 for word in self.normalize(utt):
                     self.toks[id] += 1
                     self.words[id][word] += 1
+                    if lexicon:
+                        self.lexicon[id].add(word)      # expensive!
 
         return self
+
 
     def result(self, subj, sess, spkr, returnArray=False):
         '''
@@ -122,6 +138,7 @@ class Report(object):
                         word_types=TYP, 
                         mlu=MLU)
 
+
     def report(self, header=True):
         '''
         Print a report showing the number of utterances, word
@@ -145,6 +162,125 @@ class Report(object):
                 TYP = len(self.words[id])
                 MLU = TOK/UTT if UTT else '-'
                 pprint(subj, sess, spkr, UTT, TOK, TYP, MLU)
+
+
+
+class SubjectReport(object):
+    '''
+    Calculate child and parent speech counts for a given subject
+    over a range of sessions.
+
+    SubjectReports are specifically designed to produce speech reports
+    for a given subject supplemented with cumulative word type counts
+    calculated for each speaker over a range of sessions.
+
+    Due to the memory and processing costs invovled in calculating
+    cumulative word types over a range of sessions, we want to restrict
+    such calculations to a particular subject.
+
+    '''
+    def __init__(self, subject, min_session=1, 
+                                max_session=12, 
+                                lowercase=True, 
+                                lemmatize=True, 
+                                dataset=None):
+        self.subject = subject
+        self.min_session = min_session
+        self.max_session = max_session
+        self.sessions = range(min_session, max_session + 1)
+        self.reporter = Report(lowercase, lemmatize, dataset)
+
+
+    def query(self, limit=''):
+        '''
+        Query the dataset of utterances for our subject
+        over the specified (or default) range of sessions.
+
+        `limit` - limit the number of utterances to query
+
+        '''
+        conditions = 'subject={} and session >= {} and session <= {}'.format(
+                self.subject,
+                self.min_session,
+                self.max_session
+                )
+        self.reporter.query(conditions, limit, lexicon=True)
+
+
+    def result(self, session, speaker):
+        '''
+        Return a dict of results for the specified speaker at session.
+
+        `sess` - session ID (1 to 12)
+        `spkr` - speaker ID ("P for parent or "C" for child)
+
+        '''
+        return self.reporter.result(self.subject, session, speaker)
+
+
+    def results(self):
+        '''
+        Return a dictionary of speech counts where the keys
+        are tuples (subj, sess, spkr) that have been queried.
+
+        The speech counts include MLU, number of utterances, word
+        tokens, word types, and cumulative word types for each 
+        (subj, sess, spkr).
+
+        Cumulative word types reflects the number of unique word types
+        used by a particular subject/speaker upto the specified session.
+
+        Note that the dataset must be queried before results can be 
+        calculated/returned. 
+
+        '''
+        lexicon = self.reporter.lexicon
+        transcripts = sorted(self.reporter.trans)
+        word_types = dd(set)
+        results = dict()
+
+        for subj, sess in transcripts:
+            for spkr in ['P', 'C']:
+                id = (subj, sess, spkr)
+                word_types[spkr].update(lexicon[id])
+                result = self.result(sess, spkr)
+                result['word_types_cumulative'] = len(word_types[spkr])
+                results[id] = result
+
+        return results
+
+
+    def report(self, header=True):
+        '''
+        Print a report showing the MLU, number of utterances, word
+        tokens, word types, and cumulative word types for each 
+        (subj, sess, spkr).
+
+        Cumulative word types reflects the number of unique word types
+        used by a particular subject/speaker upto the specified session.
+
+        Note that the report will only contain results after first querying
+        the dataset.
+
+        '''
+        def pprint(*args):
+            print "\t".join(str(x) for x in args)
+
+        if header:
+            pprint(*'subj sess spkr MLU UTT WTOKENS WTYPES CWTYPES'.split(" "))
+
+        results = self.results()
+
+        for id in sorted(results.keys()):
+            (subj, sess, spkr) = id
+            r = results[id]
+            pprint(subj, sess, spkr, 
+                    r['mlu'], 
+                    r['utterances'],
+                    r['word_tokens'],
+                    r['word_types'],
+                    r['word_types_cumulative'])
+
 
 
 class TranscriptReport(object):
@@ -206,11 +342,15 @@ class TranscriptReport(object):
                     mlu=MLU)
 
 
+
 if __name__ == '__main__':
 
-    speech = Report()
-    speech.query('subject=125 and session=11')
 
-    trans = TranscriptReport(125, 11) 
-    assert trans.child == speech.result(125, 11, "C")
-    assert trans.parent == speech.result(125, 11, "P")
+    subject = SubjectReport(125, min_session=10, max_session=11) 
+    subject.query() 
+    results = subject.results()
+    A = results[(125, 10, 'P')]
+    B = results[(125, 11, 'P')]
+    assert A['word_types_cumulative'] == 326
+    assert B['word_types_cumulative'] == 457
+
