@@ -10,6 +10,7 @@ Marko
       breaks: false
       pedantic: false
       sanitize: false
+      langPrefix: ''
 
     top = '''
           <!DOCTYPE html>
