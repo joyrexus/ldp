@@ -84,7 +84,12 @@ Copy the contents over in a single pipeline without intermediary file:
 
 ## Converting `info` worksheets
 
-DESCRIBE STEPS ALONG SAME LINES
+* use the dumped **info** worksheets to extract out the spontaneous speech times.  It's easy enough to grep for `^Spontaneous`:
+
+```bash
+for i in *tsv; do echo "$i\t" >> minutes.tsv; grep "^Spon" $i >> minutes.tsv;
+done;
+```
 
 * update `transcripts` table
 
