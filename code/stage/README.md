@@ -83,14 +83,27 @@ Copy the contents over in a single pipeline without intermediary file:
 
 ## Converting `info` worksheets
 
-* use the dumped **info** worksheets to extract out the spontaneous speech times.  It's easy enough to grep for `^Spontaneous`:
+Info worksheets contain valuable information, such as the overall duration of the
+spontaneous speech session.  We'd like to have this information available in
+the LDP dataset's `transcripts` table.
+
+For any information extracted, we ultimately want to create a file containing a set of SQL update statements for either the LDP dataset's `visits` or `transcripts` table.  
+
+Note that the [`tsv2sql`](https://github.com/joyrexus/ldp/blob/master/code/bin/tsv2sql) utility can be generate a sql update file from a TSV file containing the [unique ID](https://github.com/joyrexus/ldp/blob/master/code/bin/uid) of the visit to be updated in the first column and any values to be updated in the remaining columns.  For example:
+
+    tsv2sql --mode update --table transcripts update.tsv > update.sql
+
+Anyway, we initiate this process by extracting the spontaneous speech time for each dumped **info** worksheet. It's easy enough to grep for `^Spontaneous`:
 
 ```bash
 for i in *tsv; do echo "$i\t" >> minutes.tsv; grep "^Spon" $i >> minutes.tsv;
 done;
 ```
 
-* update `transcripts` table
+Once `minutes.tsv` has been generated, we have to convert the filenames to
+unique IDs.  See [this `insert_id.py` script](https://github.com/rcc-uchicago/ldp/blob/master/requests/ece/2014-11-10/update/insert_id.py) for an example of how to perform such a conversion.
+
+See [this example](https://github.com/rcc-uchicago/ldp/tree/master/requests/ece/2014-11-10/update) and [this issue](https://github.com/rcc-uchicago/ldp/tree/master/requests/kristi/2015-01-07/apply-updates) for further details on converting extracted info and applying to the LDP dataset master.
 
 
 ## Updating the LDP Master/Reference Database
