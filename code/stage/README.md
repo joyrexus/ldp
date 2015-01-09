@@ -49,8 +49,7 @@ $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
 
 * Use `fix.py` to fix case on first word of each utterance (`fix.py $SOURCE_DIR`).
 
-* Use `export.py` to export utterances table as TSV file (`export.py
-  $SOURCE_DIR/utterances.revised.tsv`).
+* Use `export.py` to export utterances table as TSV file (`export.py $SOURCE_DIR > $SOURCE_DIR/utterances.revised.tsv`).
 
 * Use `tsv2sql` to convert revised/exported utterances to SQL insert statements
   (`tsv2sql --mode insert --table utterances $SOURCE_DIR/utterances.revised.tsv > $SOURCE_DIR/insert.sql`)

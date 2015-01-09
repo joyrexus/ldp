@@ -59,5 +59,5 @@ if __name__ == '__main__':
     # args = sys.argv[1:]
     # print pk(*args)
     assert pk(subject=22, session=33, row=44) == 10223300044
-    print pk(subject=22, session="03", row=44)
+    assert pk(subject=22, session="33", row=44) == 10223300044
 

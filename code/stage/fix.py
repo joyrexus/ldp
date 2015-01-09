@@ -11,7 +11,7 @@ import nlp.words
 from datastore.sqlite import sqlite
 
 # set testing to False to commit changes
-testing = True
+testing = False
 
 TARGET_DIR = sys.argv[1]
 db = sqlite(TARGET_DIR + '/data.db')
