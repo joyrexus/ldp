@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 
-__author__ = "Dilshod Temirkhodjaev <tdilshod@gmail.com>"
-
 import csv, datetime, zipfile, sys, os
 import xml.parsers.expat
 from xml.dom import minidom
 from optparse import OptionParser
 
-# see also ruby-roo lib at: http://github.com/hmcgowan/roo
 FORMATS = {
   'general' : 'float',
   '0' : 'float',
