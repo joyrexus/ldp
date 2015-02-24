@@ -39,7 +39,10 @@ class GestureMixin(object):
         >>> gs.values("E.b", subcodes=False) == ['E']
 
         '''
-        v = v.replace(' ', '')
+        try:
+            v = v.replace(' ', '')
+        except AttributeError, e:
+            print("Attribute error for value {}: {}".format(v, e))
         if not subcodes:
             v = self.SUBCODE.sub('', v)
         if expand and self.expandable(v):
@@ -258,3 +261,5 @@ if __name__ == '__main__':
     assert gt('DS;DP.nl (x2);E (x3)', subcodes=False) == 'DS DP DP E E E'.split()
     assert gt(u'') == []
     assert gt('DS;DP.nl;E (x3)', subcodes=False) == 'DS DP E E E'.split()
+    assert gt.valid_values('DS;DP.nl (x2);Q;E (x3)') == \
+           ['DS', 'DP.nl', 'DP.nl', 'E', 'E', 'E']
