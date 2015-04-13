@@ -70,7 +70,8 @@ def test_default():
     assert d.path == os.environ['LDP_DB']
     c = ['id', 'protocol', 'alias', 'grade', 'season', 'desc'] 
     assert d.columns('sessions') == c
-    t = ['subjects', 'sessions', 'visits', 'transcripts', 'utterances', 'log']
+    t = ['subjects', 'sessions', 'visits', 'transcripts', 
+         'utterances', 'log', 'measures']
     assert d.tables == t
 
 def test_total():

@@ -63,7 +63,7 @@ $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
 
 Alternatively, use the following command to create a sql insert file:
 
-    sqlite3 $SOURCE_DIR/temp.db 'select * from utterances' | 
+    sqlite3 $SOURCE_DIR/data.db 'select * from utterances' | 
       sed 1d | 
       tsv2sql --mode insert --table utterances - > $SOURCE_DIR/insert.sql
 
@@ -75,7 +75,7 @@ This file can then be used to update the LDP Dataset:
 
 Copy the contents over in a single pipeline without intermediary file:
 
-    sql $SOURCE_DIR/temp.db 'select * from utterances' | 
+    sql $SOURCE_DIR/data.db 'select * from utterances' | 
       sed 1d | 
       tsv2sql --mode insert --table utterances - | 
       sqlite3 $LDP_DB

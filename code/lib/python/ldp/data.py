@@ -178,7 +178,7 @@ class Utterances(Dataset):
     def select(self, columns='*', where='', limit='', project='', subjects=[]):
         '''Select columns from table name of subclass.'''
         constraint = self.subj_constraint(project, subjects) 
-        where = " and ".join(x for x in (where, constraint) if x)
+        where = " and ".join("("+x+")" for x in (where, constraint) if x)
         return super(Utterances, self).select(columns, where, limit)
 
     def match(self, pattern, columns='p_utts, c_utts', where='', limit=''):
@@ -205,6 +205,11 @@ class Utterances(Dataset):
 
 if __name__ == '__main__':
 
+    utts = Utterances()
+    utts.show('subject, session, row, p_mor', 'session < 2 or session=4', limit=5,
+              project=2)
+
+    '''
     subject = Subject()
     print subject(22)
     print subject.project(22)
@@ -214,7 +219,6 @@ if __name__ == '__main__':
     utts.show('subject, session, row, p_mor', 'session < 2', limit=5,
               subjects=[24, 33])
 
-    '''
     utts = Utterances()
     for u in utts.context(10290900403):
         print u
