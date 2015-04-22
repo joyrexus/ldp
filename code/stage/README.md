@@ -54,6 +54,8 @@ $ trans2tsv $SOURCE_DIR/sheets/transcript/* > $SOURCE_DIR/utterances.tsv
 * Use `tsv2sql` to convert revised/exported utterances to SQL insert statements
   (`tsv2sql --mode insert --table utterances $SOURCE_DIR/utterances.revised.tsv > $SOURCE_DIR/insert.sql`)
 
+* Check to see if rows from the exported utterances table contain any `None` values.  If so, replace them with null strings: `%s/'None'/''/`.
+
 * Apply insert statements to the working copy of the LDP database (`sqlite3 $LDP_DB < $SOURCE_DIR/insert.sql`).
 
 > `$LDP_DB` should reference the path to your working copy of the LDP 
