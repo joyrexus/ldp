@@ -230,7 +230,16 @@ class sqlite(object):
             print insert_st
             print data
         else:
-            self.cur.executemany(insert_st, data.rows)
+            try:
+                self.cur.executemany(insert_st, data.rows)
+            except sqlite3.IntegrityError as err:
+                print insert_st
+                print err
+                for row in data.rows:
+                    print row
+                    self.insert(table, **row) ## try inserting row by row
+                                              ##  to find problematic row
+                raise SystemExit
 
     def update(self, table, pk='id', preview=False, **kw):
         '''Update row in table with keyword column/value pairs.'''
