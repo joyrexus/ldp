@@ -110,10 +110,7 @@ See [this example](https://github.com/rcc-uchicago/ldp/tree/master/requests/ece/
 
 ## Updating the LDP Master/Reference Database
 
-The latest version of the LDP database is always hosted on [`joyrexus.spc.uchicago.edu`](http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/), so any batch inserts are typically applied to the local working copy of the LDP database on that host
-(viz., `/Users/jvoigt/Documents/Work/LDP/data/trunk/ldp.db`).  Use the
-[`Makefile`](https://github.com/joyrexus/ldp/blob/master/data/Makefile#L38-L41) within the same directory to update the hosted reference version
-(`http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/`):
+The latest version of the LDP database is always hosted on [`joyrexus.spc.uchicago.edu`](http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/), so any batch inserts are typically applied to the local working copy of the LDP database on that host (viz., `/Users/jvoigt/Documents/Work/LDP/data/trunk/ldp.db`).  Use the [`Makefile`](https://github.com/joyrexus/ldp/blob/master/data/Makefile#L38-L41) within the same directory to update the hosted reference version (`http://joyrexus.spc.uchicago.edu/ldp/data/db/latest/`):
 
     ssh joyrexus.spc.uchicago.edu
     cd /Users/jvoigt/Documents/Work/LDP/data/trunk/
