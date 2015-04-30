@@ -151,14 +151,14 @@ class Reader(object):
 if __name__ == '__main__':
 
     r = Reader('tests/tsv/init.tsv')
-    # print r.rows
+    # print [x for x in r.rows]
     # print r.column('name')
+    '''
     for v in r.values('name', 'age'):
         print v
     '''
-    print r
-    for row in r: print row
+    # print r
+    # for row in r: print row
     print r.insert_sql(table='sample')
     print r.batch_insert_sql(table='sample')
     print r.batch_update_sql(table='sample')
-    '''
